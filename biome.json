@@ -25,6 +25,12 @@
 			},
 			"a11y": {
 				"useButtonType": "off"
+			},
+			"suspicious": {
+				"noShadowRestrictedNames": "off"
+			},
+			"correctness": {
+				"useExhaustiveDependencies": "off"
 			}
 		}
 	},
