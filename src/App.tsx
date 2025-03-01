@@ -4,12 +4,12 @@ import { useEffect, useState } from 'react';
 import { useShallow } from 'zustand/shallow';
 import BusLineSelector from './components/BusLineSelector';
 import Map from './components/Map';
-import useStore from './store/useStore';
+import appStore from './store/appStore';
 
 // https://visgl.github.io/react-google-maps/
 
 const App = () => {
-	const { fetchData, busLineId } = useStore(
+	const { fetchData, busLineId } = appStore(
 		useShallow((state) => ({
 			fetchData: state.fetchData,
 			busLineId: state.selectedBusLineId,

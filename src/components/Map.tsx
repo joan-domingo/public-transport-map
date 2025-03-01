@@ -1,7 +1,8 @@
 import { Map as GoogleMap } from '@vis.gl/react-google-maps';
 import { useEffect, useState } from 'react';
 import { useShallow } from 'zustand/shallow';
-import useStore from '../store/useStore';
+import appStore from '../store/appStore';
+import type BusStop from '../types/busStop';
 import { MarkerWithInfowindow } from './MarkerWithInfoWindow';
 
 interface Props {
@@ -9,11 +10,22 @@ interface Props {
 }
 
 const Map = ({ busLineId }: Props) => {
-	const { loadBusStops, busLineStops } = useStore(
+	const {
+		loadBusStops,
+		busLineStops,
+		loadBusStopTimeTable,
+		clearSelectedBusStopTimetable,
+	} = appStore(
 		useShallow((state) => ({
 			loadBusStops: state.loadBusStops,
 			busLineStops: state.busLineStops,
+			loadBusStopTimeTable: state.loadBusStopTimeTable,
+			clearSelectedBusStopTimetable: state.clearSelectedBusStopTimetable,
 		})),
+	);
+
+	const [openedBusStopMarker, setOpenedBusStopMarker] = useState<null | number>(
+		null,
 	);
 
 	const position = { lat: 53.54992, lng: 10.00678 };
@@ -55,6 +67,17 @@ const Map = ({ busLineId }: Props) => {
 		loadBusStops(busLineId);
 	}, [busLineId]);
 
+	const handleOnMarkerClick = async (stop: BusStop) => {
+		const {
+			ID_PARADA,
+			ID_LINEA,
+			Parada: { ID_ZONA },
+		} = stop;
+		clearSelectedBusStopTimetable();
+		setOpenedBusStopMarker(ID_PARADA);
+		await loadBusStopTimeTable(ID_PARADA, ID_LINEA, ID_ZONA);
+	};
+
 	return (
 		<GoogleMap
 			style={{ width: '100vw', height: '100vh' }}
@@ -70,9 +93,9 @@ const Map = ({ busLineId }: Props) => {
 				<MarkerWithInfowindow
 					key={stop.ID_PARADA}
 					position={{ lat: stop.Parada.LATITUD, lng: stop.Parada.LONGITUD }}
-					stopId={stop.ID_PARADA}
-					lineId={stop.ID_LINEA}
-					zoneId={stop.Parada.ID_ZONA}
+					onClick={() => handleOnMarkerClick(stop)}
+					visible={openedBusStopMarker === stop.ID_PARADA}
+					onCloseClick={() => setOpenedBusStopMarker(null)}
 				/>
 			))}
 			{/* <AdvancedMarker position={userLocation} /> */}

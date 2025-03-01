@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import useStore from '../store/useStore';
+import appStore from '../store/appStore';
 
 const GreenButton = styled.button`
     background-color: green;
@@ -47,7 +47,7 @@ const busLines: BusLine[] = [
 ];
 
 const BusLineSelector = () => {
-	const setBusLine = useStore((state) => state.setBusLineId);
+	const setBusLine = appStore((state) => state.setBusLineId);
 	const handleButtonClick = (busLineId: string) => {
 		setBusLine(busLineId);
 	};

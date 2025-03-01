@@ -1,4 +1,4 @@
-export interface BusStop {
+interface BusStop {
 	Parada: {
 		DESC_PARADA: string;
 		COD_PARADA: number;
@@ -13,3 +13,5 @@ export interface BusStop {
 	SECUENCIA: number;
 	ID_PARADA: number;
 }
+
+export default BusStop;

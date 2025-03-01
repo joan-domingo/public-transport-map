@@ -1,4 +1,3 @@
-/// <reference types="vitest" />
 import react from '@vitejs/plugin-react-swc';
 import { defineConfig } from 'vite';
 
@@ -13,9 +12,5 @@ export default defineConfig({
 				secure: true,
 			},
 		},
-	},
-	test: {
-		globals: true,
-		setupFiles: ['./tests-setup.ts'],
 	},
 });

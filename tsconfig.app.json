@@ -20,7 +20,7 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
 
-		"types": ["vitest/globals", "vitest-dom/extend-expect"]
+		"types": ["bun-types"]
 	},
-	"include": ["src"]
+	"include": ["src", "matchers.d.ts"]
 }
