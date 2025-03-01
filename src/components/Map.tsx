@@ -70,6 +70,9 @@ const Map = ({ busLineId }: Props) => {
 				<MarkerWithInfowindow
 					key={stop.ID_PARADA}
 					position={{ lat: stop.Parada.LATITUD, lng: stop.Parada.LONGITUD }}
+					stopId={stop.ID_PARADA}
+					lineId={stop.ID_LINEA}
+					zoneId={stop.Parada.ID_ZONA}
 				/>
 			))}
 			{/* <AdvancedMarker position={userLocation} /> */}

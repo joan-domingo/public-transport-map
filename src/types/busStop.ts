@@ -5,6 +5,7 @@ export interface BusStop {
 		ID_PARADA: number;
 		LATITUD: number;
 		LONGITUD: number;
+		ID_ZONA: number;
 	};
 	ID_GRUPO: number;
 	ID_LINEA: number;
