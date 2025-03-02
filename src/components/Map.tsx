@@ -7,9 +7,10 @@ import { MarkerWithInfowindow } from './MarkerWithInfoWindow';
 
 interface Props {
 	busLineId: string;
+	userLocation: { lat: number; lng: number };
 }
 
-const Map = ({ busLineId }: Props) => {
+const Map = ({ busLineId, userLocation }: Props) => {
 	const {
 		loadBusStops,
 		busLineStops,
@@ -27,40 +28,6 @@ const Map = ({ busLineId }: Props) => {
 	const [openedBusStopMarker, setOpenedBusStopMarker] = useState<null | number>(
 		null,
 	);
-
-	const [userLocation, setUserLocation] = useState<
-		| {
-				lat: number;
-				lng: number;
-		  }
-		| undefined
-	>(undefined);
-
-	// define the function that finds the users geolocation
-	const getUserLocation = () => {
-		// if geolocation is supported by the users browser
-		if (navigator.geolocation) {
-			// get the current users location
-			navigator.geolocation.getCurrentPosition(
-				(position) => {
-					// save the geolocation coordinates in two variables
-					const { latitude, longitude } = position.coords;
-					// update the value of userlocation variable
-					setUserLocation({ lat: latitude, lng: longitude });
-				},
-				// if there was an error getting the users location
-				(error) => {
-					console.error('Error getting user location:', error);
-				},
-			);
-		}
-		// if geolocation is not supported by the users browser
-		else {
-			console.error('Geolocation is not supported by this browser.');
-		}
-	};
-
-	useEffect(() => getUserLocation(), []);
 
 	useEffect(() => {
 		loadBusStops(busLineId);
@@ -80,13 +47,12 @@ const Map = ({ busLineId }: Props) => {
 	return (
 		<GoogleMap
 			style={{ width: '100vw', height: '100vh' }}
-			defaultCenter={userLocation} //{ lat: 41.390205, lng: 2.154007 }
-			// center={userLocation}
+			defaultCenter={userLocation || { lat: 41.4912314, lng: 2.1403111 }}
 			defaultZoom={15}
 			// zoom={18}
 			gestureHandling={'greedy'}
-			disableDefaultUI={true}
-			mapId="DEMO_MAP_ID"
+			disableDefaultUI={false}
+			mapId="public-transport-map"
 		>
 			{busLineStops.map((stop) => (
 				<MarkerWithInfowindow
