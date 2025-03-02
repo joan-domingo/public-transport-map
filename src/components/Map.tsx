@@ -28,7 +28,6 @@ const Map = ({ busLineId }: Props) => {
 		null,
 	);
 
-	const position = { lat: 53.54992, lng: 10.00678 };
 	const [userLocation, setUserLocation] = useState<
 		| {
 				lat: number;
@@ -81,9 +80,9 @@ const Map = ({ busLineId }: Props) => {
 	return (
 		<GoogleMap
 			style={{ width: '100vw', height: '100vh' }}
-			defaultCenter={userLocation || { lat: 41.390205, lng: 2.154007 }}
+			defaultCenter={userLocation} //{ lat: 41.390205, lng: 2.154007 }
 			// center={userLocation}
-			defaultZoom={18}
+			defaultZoom={15}
 			// zoom={18}
 			gestureHandling={'greedy'}
 			disableDefaultUI={true}
@@ -98,7 +97,6 @@ const Map = ({ busLineId }: Props) => {
 					onCloseClick={() => setOpenedBusStopMarker(null)}
 				/>
 			))}
-			{/* <AdvancedMarker position={userLocation} /> */}
 		</GoogleMap>
 	);
 };

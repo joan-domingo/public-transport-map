@@ -12,6 +12,7 @@ export interface AppStore {
 	selectedBusLineId: string | undefined;
 	busLineStops: BusStop[];
 	selectedStopTimetable: CustomBusLineTimetable[];
+	selectedStopTimetableIsLoading: boolean;
 	setBusLineId: (busLineId: string) => void;
 	loadBusStops: (busLineId: string) => Promise<void>;
 	loadBusStopTimeTable: (
@@ -21,6 +22,7 @@ export interface AppStore {
 	) => Promise<void>;
 	dataToCustomData: (data: BusLineStopTimetable[]) => CustomBusLineTimetable[];
 	clearSelectedBusStopTimetable: () => void;
+	setSelectedStopTimetableIsLoading: (isLoading: boolean) => void;
 }
 
 const appStore = create<AppStore>()(
@@ -38,6 +40,7 @@ const appStore = create<AppStore>()(
 				set({ busLineStops: data }, false, 'setBusLineStops');
 			},
 			loadBusStopTimeTable: async (stopId, lineId, zoneId) => {
+				get().setSelectedStopTimetableIsLoading(true);
 				const data = await ApiClient.fetchBusStopTimetable(
 					stopId,
 					lineId,
@@ -53,6 +56,7 @@ const appStore = create<AppStore>()(
 					false,
 					'setSelectedStopTimetable',
 				);
+				get().setSelectedStopTimetableIsLoading(false);
 			},
 			dataToCustomData: (data) => {
 				return data.map((busLineStopTimetable) => {
@@ -93,6 +97,13 @@ const appStore = create<AppStore>()(
 					{ selectedStopTimetable: [] },
 					false,
 					'clearSelectedBusStopTimetable',
+				);
+			},
+			setSelectedStopTimetableIsLoading: (isLoading: boolean) => {
+				set(
+					{ selectedStopTimetableIsLoading: isLoading },
+					false,
+					'setSelectedStopTimetableIsLoading',
 				);
 			},
 		}),
