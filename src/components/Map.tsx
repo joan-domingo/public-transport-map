@@ -7,7 +7,7 @@ import { MarkerWithInfowindow } from './MarkerWithInfoWindow';
 
 interface Props {
 	busLineId: string;
-	userLocation: { lat: number; lng: number };
+	userLocation: { lat: number; lng: number } | undefined;
 }
 
 const Map = ({ busLineId, userLocation }: Props) => {

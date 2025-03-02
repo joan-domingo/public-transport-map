@@ -22,6 +22,7 @@ const App = () => {
 		| undefined
 		| null
 	>(undefined);
+	console.log('userLocation:', userLocation);
 
 	const getUserLocation = () => {
 		// if geolocation is supported by the users browser
@@ -29,6 +30,7 @@ const App = () => {
 			// get the current users location
 			navigator.geolocation.getCurrentPosition(
 				(position) => {
+					console.log('getCurrentPosition:', position);
 					// save the geolocation coordinates in two variables
 					const { latitude, longitude } = position.coords;
 					// update the value of userlocation variable
