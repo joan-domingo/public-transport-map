@@ -13,6 +13,7 @@ const InfoWindowHeader = styled.div`
 	align-items: center;
 	font-size: 1rem;
 	font-weight: bold;
+	color: black;
 `;
 
 const InfoContainer = styled.div`
@@ -20,6 +21,7 @@ const InfoContainer = styled.div`
 	flex-direction: column;
 	position: relative;
 	flex: 1;
+	color: black;
 `;
 
 const InfoContainerHeader = styled.h4`
@@ -58,7 +60,7 @@ export const MarkerWithInfowindow = ({
 					onCloseClick={onCloseClick}
 					headerContent={<InfoWindowHeader>PROPERS AUTOBUSOS</InfoWindowHeader>}
 				>
-					{isLoading && <div>Carregant...</div>}
+					{isLoading && <InfoContainer>Carregant...</InfoContainer>}
 					{selectedStopTimetable.map((stop) => {
 						return (
 							<InfoContainer key={stop.lineId}>
