@@ -26,6 +26,7 @@ const InfoContainer = styled.div`
 
 const InfoContainerHeader = styled.h4`
 	margin: 8px 0 2px 0;
+	color: #636363;
 `;
 
 interface Props {
@@ -41,10 +42,11 @@ export const MarkerWithInfowindow = ({
 	visible,
 	onCloseClick,
 }: Props) => {
-	const { selectedStopTimetable, isLoading } = appStore(
+	const { selectedStopTimetable, isLoading, isLoaded } = appStore(
 		useShallow((state) => ({
 			selectedStopTimetable: state.selectedStopTimetable,
 			isLoading: state.selectedStopTimetableIsLoading,
+			isLoaded: state.selectedStopTimetableIsLoaded,
 		})),
 	);
 	const [markerRef, marker] = useAdvancedMarkerRef();
@@ -61,21 +63,28 @@ export const MarkerWithInfowindow = ({
 					headerContent={<InfoWindowHeader>PROPERS AUTOBUSOS</InfoWindowHeader>}
 				>
 					{isLoading && <InfoContainer>Carregant...</InfoContainer>}
-					{selectedStopTimetable.map((stop) => {
-						return (
-							<InfoContainer key={stop.lineId}>
-								<InfoContainerHeader>{stop.lineName}</InfoContainerHeader>
-								{stop.nextBuses.map((bus) => {
-									return (
-										<div key={bus.name}>
-											<div>Direcció: {bus.name}</div>
-											<div>{bus.minutesLeft}</div>
-										</div>
-									);
-								})}
-							</InfoContainer>
-						);
-					})}
+					{isLoaded && !selectedStopTimetable && (
+						<InfoContainer>No hi ha informació disponible</InfoContainer>
+					)}
+					{isLoaded &&
+						selectedStopTimetable &&
+						selectedStopTimetable.map((stop) => {
+							return (
+								<InfoContainer key={stop.lineId}>
+									<InfoContainerHeader>{stop.lineName}</InfoContainerHeader>
+									{stop.nextBuses.map((bus) => {
+										return (
+											<div key={bus.name} style={{ display: 'flex' }}>
+												<div style={{ fontWeight: 'bold', marginRight: '8px' }}>
+													{bus.minutesLeft}
+												</div>
+												<div>- Direcció {bus.name}</div>
+											</div>
+										);
+									})}
+								</InfoContainer>
+							);
+						})}
 				</InfoWindow>
 			)}
 		</>

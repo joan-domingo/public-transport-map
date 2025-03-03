@@ -13,6 +13,7 @@ export interface AppStore {
 	busLineStops: BusStop[];
 	selectedStopTimetable: CustomBusLineTimetable[];
 	selectedStopTimetableIsLoading: boolean;
+	selectedStopTimetableIsLoaded: boolean;
 	setBusLineId: (busLineId: string) => void;
 	loadBusStops: (busLineId: string) => Promise<void>;
 	loadBusStopTimeTable: (
@@ -23,6 +24,7 @@ export interface AppStore {
 	dataToCustomData: (data: BusLineStopTimetable[]) => CustomBusLineTimetable[];
 	clearSelectedBusStopTimetable: () => void;
 	setSelectedStopTimetableIsLoading: (isLoading: boolean) => void;
+	setSelectedStopTimetableIsLoaded: (isLoaded: boolean) => void;
 }
 
 const appStore = create<AppStore>()(
@@ -40,23 +42,34 @@ const appStore = create<AppStore>()(
 				set({ busLineStops: data }, false, 'setBusLineStops');
 			},
 			loadBusStopTimeTable: async (stopId, lineId, zoneId) => {
-				get().setSelectedStopTimetableIsLoading(true);
-				const data = await ApiClient.fetchBusStopTimetable(
-					stopId,
-					lineId,
-					zoneId,
-				);
-
-				const filteredData = get()
-					.dataToCustomData(data)
-					.filter((busLine) => busLine.nextBuses.length > 0);
-
 				set(
-					{ selectedStopTimetable: filteredData },
+					{ selectedStopTimetable: undefined },
 					false,
 					'setSelectedStopTimetable',
 				);
-				get().setSelectedStopTimetableIsLoading(false);
+				get().setSelectedStopTimetableIsLoading(true);
+				get().setSelectedStopTimetableIsLoaded(false);
+				try {
+					const data = await ApiClient.fetchBusStopTimetable(
+						stopId,
+						lineId,
+						zoneId,
+					);
+
+					const filteredData = get()
+						.dataToCustomData(data)
+						.filter((busLine) => busLine.nextBuses.length > 0);
+
+					set(
+						{ selectedStopTimetable: filteredData },
+						false,
+						'setSelectedStopTimetable',
+					);
+				} catch (error) {
+				} finally {
+					get().setSelectedStopTimetableIsLoading(false);
+					get().setSelectedStopTimetableIsLoaded(true);
+				}
 			},
 			dataToCustomData: (data) => {
 				return data.map((busLineStopTimetable) => {
@@ -79,8 +92,8 @@ const appStore = create<AppStore>()(
 							const journeyNextBus = journeyNextBuses[i];
 							nextBuses.push({
 								name: journeyDestination,
-								real: journeyNextBus.real === 'S',
-								minutesLeft: journeyNextBus.minutos,
+								real: journeyNextBus.real && journeyNextBus.real === 'S',
+								minutesLeft: `${journeyNextBus.minutos.split('.')[0]} seg`,
 							});
 						}
 					}
@@ -104,6 +117,13 @@ const appStore = create<AppStore>()(
 					{ selectedStopTimetableIsLoading: isLoading },
 					false,
 					'setSelectedStopTimetableIsLoading',
+				);
+			},
+			setSelectedStopTimetableIsLoaded: (isLoaded: boolean) => {
+				set(
+					{ selectedStopTimetableIsLoaded: isLoaded },
+					false,
+					'setSelectedStopTimetableIsLoaded',
 				);
 			},
 		}),

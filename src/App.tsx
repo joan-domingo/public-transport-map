@@ -14,21 +14,16 @@ const App = () => {
 			busLineId: state.selectedBusLineId,
 		})),
 	);
-	const [userLocation, setUserLocation] = useState<
-		| {
-				lat: number;
-				lng: number;
-		  }
-		| undefined
-	>(undefined);
-	console.log('userLocation:', userLocation);
+	const [userLocation, setUserLocation] = useState<{
+		lat: number;
+		lng: number;
+	}>({ lat: 41.4912314, lng: 2.1403111 });
 
 	const watchPosition = () => {
 		if (navigator.geolocation) {
 			// get the current users location
 			navigator.geolocation.watchPosition(
 				(position) => {
-					console.log('watch position:', position);
 					const { latitude, longitude } = position.coords;
 					setUserLocation({ lat: latitude, lng: longitude });
 				},

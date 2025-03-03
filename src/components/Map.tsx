@@ -7,7 +7,7 @@ import { MarkerWithInfowindow } from './MarkerWithInfoWindow';
 
 interface Props {
 	busLineId: string;
-	userLocation: { lat: number; lng: number } | undefined;
+	userLocation: { lat: number; lng: number };
 }
 
 const Map = ({ busLineId, userLocation }: Props) => {
@@ -28,23 +28,11 @@ const Map = ({ busLineId, userLocation }: Props) => {
 	const [openedBusStopMarker, setOpenedBusStopMarker] = useState<null | number>(
 		null,
 	);
-
-	const [center, setCenter] = useState<
-		{ lat: number; lng: number } | undefined
-	>({ lat: 41.4912314, lng: 2.1403111 }); // Default: Cerdanyola
 	const [isDragging, setIsDragging] = useState(false);
 
 	useEffect(() => {
 		loadBusStops(busLineId);
 	}, [busLineId]);
-
-	useEffect(() => {
-		if (isDragging) {
-			setCenter(undefined);
-		} else {
-			setCenter(userLocation);
-		}
-	}, [isDragging, userLocation]);
 
 	const handleOnMarkerClick = async (stop: BusStop) => {
 		const {
@@ -57,22 +45,17 @@ const Map = ({ busLineId, userLocation }: Props) => {
 		await loadBusStopTimeTable(ID_PARADA, ID_LINEA, ID_ZONA);
 	};
 
-	const handleOnDrag = () => {
-		setIsDragging(true);
-	};
-
-	console.log('center:', center);
-
 	return (
 		<>
 			<GoogleMap
 				style={{ width: '100vw', height: '100vh' }}
-				center={center}
-				defaultZoom={14}
+				defaultCenter={userLocation}
+				center={isDragging ? undefined : userLocation}
+				defaultZoom={15}
 				gestureHandling={'greedy'}
 				disableDefaultUI={false}
 				mapId="public-transport-map"
-				onDrag={handleOnDrag}
+				onDragstart={() => setIsDragging(true)}
 			>
 				{busLineStops.map((stop) => (
 					<MarkerWithInfowindow
@@ -95,8 +78,8 @@ const Map = ({ busLineId, userLocation }: Props) => {
 								position: 'absolute',
 								top: 0,
 								left: 0,
-								background: 'rgb(50, 47, 213)',
-								border: '2px solid rgba(199, 199, 226, 0.8)',
+								background: 'rgb(51, 48, 241)',
+								border: '2px solid white',
 								borderRadius: '50%',
 								transform: 'translate(-50%, -50%)',
 							}}
@@ -107,12 +90,6 @@ const Map = ({ busLineId, userLocation }: Props) => {
 			<button
 				onClick={() => {
 					setIsDragging(false);
-					navigator.geolocation.getCurrentPosition((position) => {
-						setCenter({
-							lat: position.coords.latitude,
-							lng: position.coords.longitude,
-						});
-					});
 				}}
 				style={{
 					position: 'absolute',
@@ -122,9 +99,10 @@ const Map = ({ busLineId, userLocation }: Props) => {
 					background: 'white',
 					border: 'none',
 					cursor: 'pointer',
+					color: 'black',
 				}}
 			>
-				Recenter
+				Centrar Mapa
 			</button>
 		</>
 	);
