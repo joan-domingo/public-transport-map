@@ -63,9 +63,10 @@ export const MarkerWithInfowindow = ({
 					headerContent={<InfoWindowHeader>PROPERS AUTOBUSOS</InfoWindowHeader>}
 				>
 					{isLoading && <InfoContainer>Carregant...</InfoContainer>}
-					{isLoaded && !selectedStopTimetable && (
-						<InfoContainer>No hi ha informació disponible</InfoContainer>
-					)}
+					{isLoaded &&
+						(!selectedStopTimetable || selectedStopTimetable.length === 0) && (
+							<InfoContainer>No hi ha informació disponible</InfoContainer>
+						)}
 					{isLoaded &&
 						selectedStopTimetable &&
 						selectedStopTimetable.map((stop) => {
