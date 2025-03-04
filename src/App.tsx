@@ -48,11 +48,13 @@ const App = () => {
 			language="ca"
 			onLoad={watchPosition}
 		>
-			{!busLineId ? (
-				<BusLineSelector />
-			) : (
-				<Map busLineId={busLineId} userLocation={userLocation} />
-			)}
+			<div style={{ display: 'flex', width: '100%', height: '100%' }}>
+				{!busLineId ? (
+					<BusLineSelector />
+				) : (
+					<Map busLineId={busLineId} userLocation={userLocation} />
+				)}
+			</div>
 		</APIProvider>
 	);
 };

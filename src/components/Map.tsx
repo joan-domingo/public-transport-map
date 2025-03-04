@@ -46,9 +46,9 @@ const Map = ({ busLineId, userLocation }: Props) => {
 	};
 
 	return (
-		<>
+		<div style={{ display: 'flex', flex: '1' }}>
 			<GoogleMap
-				style={{ width: '100vw', height: '100vh' }}
+				style={{ width: '100%', height: '100%' }}
 				defaultCenter={userLocation}
 				center={isDragging ? undefined : userLocation}
 				defaultZoom={15}
@@ -104,7 +104,7 @@ const Map = ({ busLineId, userLocation }: Props) => {
 			>
 				Centrar Mapa
 			</button>
-		</>
+		</div>
 	);
 };
 
