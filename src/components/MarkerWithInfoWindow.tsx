@@ -75,7 +75,10 @@ export const MarkerWithInfowindow = ({
 									<InfoContainerHeader>{stop.lineName}</InfoContainerHeader>
 									{stop.nextBuses.map((bus) => {
 										return (
-											<div key={bus.name} style={{ display: 'flex' }}>
+											<div
+												key={`${bus.minutesLeft}-${bus.name}`}
+												style={{ display: 'flex' }}
+											>
 												<div style={{ fontWeight: 'bold', marginRight: '8px' }}>
 													{bus.minutesLeft}
 												</div>
