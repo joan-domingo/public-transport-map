@@ -88,13 +88,16 @@ const appStore = create<AppStore>()(
 						const journeyNextBuses = journeyNextBusesByDestination[i];
 
 						if (Array.isArray(journeyNextBuses)) {
-							for (let i = 0, len = journeyNextBuses.length; i < len; i++) {}
-							const journeyNextBus = journeyNextBuses[i];
-							nextBuses.push({
-								name: journeyDestination,
-								real: journeyNextBus.real && journeyNextBus.real === 'S',
-								minutesLeft: `${journeyNextBus.minutos.split('.')[0]} seg`,
-							});
+							for (let i = 0, len = journeyNextBuses.length; i < len; i++) {
+								const journeyNextBus = journeyNextBuses[i];
+								if (journeyNextBus) {
+									nextBuses.push({
+										name: journeyDestination,
+										real: journeyNextBus.real && journeyNextBus.real === 'S',
+										minutesLeft: `${journeyNextBus.minutos.split('.')[0]} seg`,
+									});
+								}
+							}
 						}
 					}
 
