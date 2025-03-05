@@ -12,6 +12,7 @@ const GreenButton = styled.button`
     &:hover {
         background-color: darkgreen;
     }
+    font-size: 28px;
 `;
 
 const GridContainer = styled.div`

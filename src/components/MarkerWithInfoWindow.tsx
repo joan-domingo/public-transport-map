@@ -65,10 +65,10 @@ export const MarkerWithInfowindow = ({
 					onCloseClick={onCloseClick}
 					headerContent={<InfoWindowHeader>PROPERS AUTOBUSOS</InfoWindowHeader>}
 				>
-					{isLoading && <InfoContainer index={0}>Carregant...</InfoContainer>}
+					{isLoading && <InfoContainer index={1}>Carregant...</InfoContainer>}
 					{isLoaded &&
 						(!selectedStopTimetable || selectedStopTimetable.length === 0) && (
-							<InfoContainer index={0}>
+							<InfoContainer index={1}>
 								No hi ha informació disponible
 							</InfoContainer>
 						)}
