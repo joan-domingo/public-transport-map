@@ -1,5 +1,5 @@
 import { describe, expect, spyOn, test } from 'bun:test';
-import { act, renderHook } from '@testing-library/react';
+import { act, renderHook, waitFor } from '@testing-library/react';
 import { create } from 'zustand';
 import ApiClient from '../apiClient';
 import type BusLineStopTimetable from '../types/busStopTimetable';
@@ -116,7 +116,97 @@ describe('useStore', () => {
 		},
 	];
 
-	test('filters out non-real time data', () => {
+	const expectedCustomData = [
+		{
+			lineId: 12,
+			lineName: 'A4 - A4-SANT  CUGAT DEL VALLÈS - BARCELONA',
+			nextBuses: [
+				{
+					minutesLeft: '14 min 19 seg',
+					name: 'Barcelona',
+					real: true,
+				},
+			],
+			selected: false,
+		},
+		{
+			lineId: 15,
+			lineName: 'B2 - B2-SABADELL - RIPOLLET',
+			nextBuses: [
+				{
+					minutesLeft: '06 min 48 seg',
+					name: 'Ripollet pel Taulí',
+					real: true,
+				},
+				{
+					minutesLeft: '38 min 10 seg',
+					name: 'Ripollet',
+					real: true,
+				},
+			],
+			selected: false,
+		},
+		{
+			lineId: 33,
+			lineName: 'UC1 - SU1-SERVEI URBA CERDANYOLA DEL VALLES 1',
+			nextBuses: [
+				{
+					minutesLeft: '21 min 10 seg',
+					name: 'Lluís Companys',
+					real: true,
+				},
+			],
+			selected: false,
+		},
+		{
+			lineId: 167,
+			lineName: 'UC3 - SU3-SERVEI URBA CERDANYOLA DEL VALLES 3',
+			nextBuses: [
+				{
+					minutesLeft: '09 min 12 seg',
+					name: 'RENFE',
+					real: true,
+				},
+			],
+			selected: false,
+		},
+		{
+			lineId: 184,
+			lineName: 'B7 - B7-CERDANYOLA - S.CUGAT - RUBÍ',
+			nextBuses: [
+				{
+					minutesLeft: '19 min 16 seg',
+					name: 'Rubí',
+					real: true,
+				},
+			],
+			selected: false,
+		},
+		{
+			lineId: 299,
+			lineName: 'e3 - E3-BARCELONA - CERDANYOLA - UAB',
+			nextBuses: [
+				{
+					minutesLeft: '01 min 51 seg',
+					name: 'Barcelona',
+					real: true,
+				},
+				{
+					minutesLeft: '20 min 47 seg',
+					name: 'Barcelona',
+					real: true,
+				},
+				{
+					minutesLeft: '31 min 07 seg',
+					name: 'Barcelona',
+					real: true,
+				},
+			],
+			selected: true,
+		},
+	];
+
+	test('filters out non-real time data', async () => {
 		spyOn(ApiClient, 'fetchBusStopTimetable').mockResolvedValue(mockApiData);
 		const { result } = renderHook(() => create<AppStore>(appStore));
 
@@ -124,14 +214,13 @@ describe('useStore', () => {
 			result.current.getState().loadBusStopTimeTable(1, 2, 3);
 		});
 
-		expect(result.current.getState().selectedStopTimetable).toEqual([
-			{
-				lineId: 299,
-				lineName: 'e3 - E3-BARCELONA - CERDANYOLA - UAB',
-				nextBuses: [],
-			},
-		]);
-		expect(ApiClient.fetchBusStopTimetable).toHaveBeenCalledWith(1, 2, 3);
+		await waitFor(() =>
+			expect(ApiClient.fetchBusStopTimetable).toHaveBeenCalledWith(1, 2, 3),
+		);
+
+		expect(result.current.getState().selectedStopTimetable).toEqual(
+			expectedCustomData,
+		);
 	});
 
 	test('data to custom data', () => {
@@ -141,89 +230,7 @@ describe('useStore', () => {
 			const customData = result.current
 				.getState()
 				.dataToCustomData(mockApiData);
-			expect(customData).toEqual([
-				{
-					lineId: 12,
-					lineName: 'A4 - A4-SANT  CUGAT DEL VALLÈS - BARCELONA',
-					nextBuses: [
-						{
-							minutesLeft: '14 min 19 seg',
-							name: 'Barcelona',
-							real: true,
-						},
-					],
-				},
-				{
-					lineId: 15,
-					lineName: 'B2 - B2-SABADELL - RIPOLLET',
-					nextBuses: [
-						{
-							minutesLeft: '06 min 48 seg',
-							name: 'Ripollet pel Taulí',
-							real: true,
-						},
-						{
-							minutesLeft: '38 min 10 seg',
-							name: 'Ripollet',
-							real: true,
-						},
-					],
-				},
-				{
-					lineId: 33,
-					lineName: 'UC1 - SU1-SERVEI URBA CERDANYOLA DEL VALLES 1',
-					nextBuses: [
-						{
-							minutesLeft: '21 min 10 seg',
-							name: 'Lluís Companys',
-							real: true,
-						},
-					],
-				},
-				{
-					lineId: 167,
-					lineName: 'UC3 - SU3-SERVEI URBA CERDANYOLA DEL VALLES 3',
-					nextBuses: [
-						{
-							minutesLeft: '09 min 12 seg',
-							name: 'RENFE',
-							real: true,
-						},
-					],
-				},
-				{
-					lineId: 184,
-					lineName: 'B7 - B7-CERDANYOLA - S.CUGAT - RUBÍ',
-					nextBuses: [
-						{
-							minutesLeft: '19 min 16 seg',
-							name: 'Rubí',
-							real: true,
-						},
-					],
-				},
-				{
-					lineId: 299,
-					lineName: 'e3 - E3-BARCELONA - CERDANYOLA - UAB',
-					nextBuses: [
-						{
-							minutesLeft: '01 min 51 seg',
-							name: 'Barcelona',
-							real: true,
-						},
-						{
-							minutesLeft: '20 min 47 seg',
-							name: 'Barcelona',
-							real: true,
-						},
-						{
-							minutesLeft: '31 min 07 seg',
-							name: 'Barcelona',
-							real: true,
-						},
-					],
-				},
-			]);
+			expect(customData).toEqual(expectedCustomData);
 		});
 	});
 });

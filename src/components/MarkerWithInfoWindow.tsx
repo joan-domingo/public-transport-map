@@ -16,12 +16,15 @@ const InfoWindowHeader = styled.div`
 	color: black;
 `;
 
-const InfoContainer = styled.div`
+const InfoContainer = styled.div<{ selected?: boolean; index: number }>`
     display: flex;
 	flex-direction: column;
 	position: relative;
 	flex: 1;
 	color: black;
+	background-color: ${(props) => props?.index % 2 === 0 && '#edebeb'};
+	background-color: ${(props) => props.selected && '#e5ffe3'};
+
 `;
 
 const InfoContainerHeader = styled.h4`
@@ -62,16 +65,22 @@ export const MarkerWithInfowindow = ({
 					onCloseClick={onCloseClick}
 					headerContent={<InfoWindowHeader>PROPERS AUTOBUSOS</InfoWindowHeader>}
 				>
-					{isLoading && <InfoContainer>Carregant...</InfoContainer>}
+					{isLoading && <InfoContainer index={0}>Carregant...</InfoContainer>}
 					{isLoaded &&
 						(!selectedStopTimetable || selectedStopTimetable.length === 0) && (
-							<InfoContainer>No hi ha informació disponible</InfoContainer>
+							<InfoContainer index={0}>
+								No hi ha informació disponible
+							</InfoContainer>
 						)}
 					{isLoaded &&
 						selectedStopTimetable &&
-						selectedStopTimetable.map((stop) => {
+						selectedStopTimetable.map((stop, index) => {
 							return (
-								<InfoContainer key={stop.lineId}>
+								<InfoContainer
+									key={stop.lineId}
+									selected={stop.selected}
+									index={index}
+								>
 									<InfoContainerHeader>{stop.lineName}</InfoContainerHeader>
 									{stop.nextBuses.map((bus) => {
 										return (

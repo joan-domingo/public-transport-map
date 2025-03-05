@@ -8,4 +8,5 @@ export interface CustomBusLineTimetable {
 	lineId: number;
 	lineName: string;
 	nextBuses: CustomBusLineJourney[];
+	selected: boolean;
 }

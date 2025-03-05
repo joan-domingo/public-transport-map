@@ -58,7 +58,16 @@ const appStore = create<AppStore>()(
 
 					const filteredData = get()
 						.dataToCustomData(data)
-						.filter((busLine) => busLine.nextBuses.length > 0);
+						.filter((busLine) => busLine.nextBuses.length > 0)
+						.sort((a, b) => {
+							if (a.selected) {
+								return -1;
+							}
+							if (b.selected) {
+								return 1;
+							}
+							return 0;
+						});
 
 					set(
 						{ selectedStopTimetable: filteredData },
@@ -73,7 +82,7 @@ const appStore = create<AppStore>()(
 			},
 			dataToCustomData: (data) => {
 				return data.map((busLineStopTimetable) => {
-					const { idLinea, desc_linea } = busLineStopTimetable;
+					const { idLinea, desc_linea, selected } = busLineStopTimetable;
 
 					const journeyNextBusesByDestination = Object.values(
 						busLineStopTimetable.trayectos,
@@ -105,6 +114,7 @@ const appStore = create<AppStore>()(
 						lineId: idLinea,
 						lineName: desc_linea,
 						nextBuses,
+						selected: selected === 1,
 					};
 				});
 			},
