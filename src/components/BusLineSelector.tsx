@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import appStore from '../store/appStore';
+import type BusLine from '../types/busLine';
 
 const GreenButton = styled.button`
     background-color: green;
@@ -32,32 +32,17 @@ const ButtonWrapper = styled.div`
     align-items: center;
 `;
 
-interface BusLine {
-	id: string;
-	name: string;
+interface Props {
+	busLines: BusLine[];
+	onSelectLine: (busLineId: string) => void;
 }
 
-const busLines: BusLine[] = [
-	// { id: 'e1', name: 'e1' },
-	// { id: 'e2.1', name: 'e2.1' },
-	// { id: 'e2.2', name: 'e2.2' },
-	{ id: 'b2', name: 'B2' },
-	{ id: 'e3', name: 'e3' },
-	// { id: 'e11.1', name: 'e11.1' },
-	// { id: 'e11.2', name: 'e11.2' },
-];
-
-const BusLineSelector = () => {
-	const setBusLine = appStore((state) => state.setBusLineId);
-	const handleButtonClick = (busLineId: string) => {
-		setBusLine(busLineId);
-	};
-
+const BusLineSelector = ({ busLines, onSelectLine }: Props) => {
 	return (
 		<GridContainer>
 			{busLines.map((busLine) => (
 				<ButtonWrapper key={busLine.id}>
-					<GreenButton onClick={() => handleButtonClick(busLine.id)}>
+					<GreenButton onClick={() => onSelectLine(busLine.id)}>
 						{busLine.name}
 					</GreenButton>
 				</ButtonWrapper>

@@ -10,6 +10,7 @@ interface Props {
 	userLocation: { lat: number; lng: number };
 }
 
+// https://visgl.github.io/react-google-maps/
 const Map = ({ busLineId, userLocation }: Props) => {
 	const {
 		loadBusStops,
