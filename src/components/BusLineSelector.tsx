@@ -81,7 +81,7 @@ const BusLineSelector = ({ busLines, onSelectLine }: Props) => {
 		<GridContainer>
 			<Header>
 				<img
-					src="/public/busIcon.svg"
+					src="/busIcon.svg"
 					alt="Icona QuanTriga.com"
 					style={{
 						width: '48px',
