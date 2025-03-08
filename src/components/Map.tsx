@@ -32,8 +32,19 @@ const Map = ({ busLineId, userLocation }: Props) => {
 	const [isDragging, setIsDragging] = useState(false);
 
 	useEffect(() => {
+		const handleVisibilityChange = () => {
+			console.log('visibilitychange', document.visibilityState);
+			if (document.visibilityState === 'visible') {
+				loadBusStops(busLineId);
+			}
+		};
+
 		loadBusStops(busLineId);
-	}, [busLineId]);
+		document.addEventListener('visibilitychange', handleVisibilityChange);
+		return () => {
+			document.removeEventListener('visibilitychange', handleVisibilityChange);
+		};
+	}, []);
 
 	const handleOnMarkerClick = async (stop: BusStop) => {
 		const {
@@ -54,7 +65,7 @@ const Map = ({ busLineId, userLocation }: Props) => {
 				center={isDragging ? undefined : userLocation}
 				defaultZoom={15}
 				gestureHandling={'greedy'}
-				disableDefaultUI={false}
+				disableDefaultUI={true}
 				mapId="public-transport-map"
 				onDragstart={() => setIsDragging(true)}
 			>
@@ -95,7 +106,7 @@ const Map = ({ busLineId, userLocation }: Props) => {
 				style={{
 					position: 'absolute',
 					bottom: '10px',
-					left: '10px',
+					right: '10px',
 					padding: '10px',
 					background: 'white',
 					border: 'none',
@@ -105,6 +116,20 @@ const Map = ({ busLineId, userLocation }: Props) => {
 			>
 				Centrar Mapa
 			</button>
+			<a href="https://quantriga.com" aria-label="Torna a la pàgina principal">
+				<img
+					src="/public/busIcon.svg"
+					alt="Icona QuanTriga.com"
+					style={{
+						width: '48px',
+						height: '48px',
+						position: 'absolute',
+						top: 0,
+						left: 0,
+						padding: '24px',
+					}}
+				/>
+			</a>
 		</div>
 	);
 };
