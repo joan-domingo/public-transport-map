@@ -118,7 +118,7 @@ const Map = ({ busLineId, userLocation }: Props) => {
 			</button>
 			<a href="https://quantriga.com" aria-label="Torna a la pàgina principal">
 				<img
-					src="/public/busIcon.svg"
+					src="/busIcon.svg"
 					alt="Icona QuanTriga.com"
 					style={{
 						width: '48px',
