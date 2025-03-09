@@ -8,10 +8,10 @@ import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
 
 const InfoWindowHeader = styled.div`
+	padding-bottom: 8px;
+	padding-right: 4px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	font-weight: bold;
 	color: black;
 `;
@@ -37,6 +37,7 @@ interface Props {
 	onClick: () => void;
 	onCloseClick: () => void;
 	visible: boolean;
+	stopName: string;
 }
 
 export const MarkerWithInfowindow = ({
@@ -44,6 +45,7 @@ export const MarkerWithInfowindow = ({
 	onClick,
 	visible,
 	onCloseClick,
+	stopName,
 }: Props) => {
 	const { selectedStopTimetable, isLoading, isLoaded } = appStore(
 		useShallow((state) => ({
@@ -63,7 +65,9 @@ export const MarkerWithInfowindow = ({
 					shouldFocus
 					minWidth={320}
 					onCloseClick={onCloseClick}
-					headerContent={<InfoWindowHeader>PROPERS AUTOBUSOS</InfoWindowHeader>}
+					headerContent={
+						<InfoWindowHeader>Propers Busos - {stopName}</InfoWindowHeader>
+					}
 				>
 					{isLoading && <InfoContainer $index={1}>Carregant...</InfoContainer>}
 					{isLoaded &&

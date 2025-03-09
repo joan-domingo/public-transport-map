@@ -12,10 +12,10 @@ const GreenButton = styled.button`
     color: white;             /* Color del text (les inicials) */
     font-weight: bold;        /* Font en negreta */
     font-size: 40px;          /* Mida de la font per les inicials */
+    border: solid 4px #088b9f;
     &:hover {
         background-color: white;
         color: #088b9f;
-        border: solid 4px #088b9f;
     }
 `;
 

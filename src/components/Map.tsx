@@ -1,9 +1,25 @@
 import { AdvancedMarker, Map as GoogleMap } from '@vis.gl/react-google-maps';
 import { useEffect, useState } from 'react';
+import styled from 'styled-components';
 import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
 import type BusStop from '../types/busStop';
 import { MarkerWithInfowindow } from './MarkerWithInfoWindow';
+
+const RecenterButton = styled.button`
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: white;
+	border: 2px solid #aaa;
+	cursor: pointer;
+	display: flex;
+	align-itmes: center;
+	justify-content: center;
+	margin: 36px 24px;
+	padding: 12px;
+	border-radius: 50%;
+`;
 
 interface Props {
 	busLineId: string;
@@ -72,6 +88,7 @@ const Map = ({ busLineId, userLocation }: Props) => {
 				{busLineStops.map((stop) => (
 					<MarkerWithInfowindow
 						key={stop.ID_PARADA}
+						stopName={stop.Parada.DESC_PARADA}
 						position={{ lat: stop.Parada.LATITUD, lng: stop.Parada.LONGITUD }}
 						onClick={() => handleOnMarkerClick(stop)}
 						visible={openedBusStopMarker === stop.ID_PARADA}
@@ -99,23 +116,24 @@ const Map = ({ busLineId, userLocation }: Props) => {
 					</AdvancedMarker>
 				)}
 			</GoogleMap>
-			<button
+			<RecenterButton
 				onClick={() => {
 					setIsDragging(false);
 				}}
-				style={{
-					position: 'absolute',
-					bottom: '10px',
-					right: '10px',
-					padding: '10px',
-					background: 'white',
-					border: 'none',
-					cursor: 'pointer',
-					color: 'black',
-				}}
 			>
-				Centrar Mapa
-			</button>
+				<img
+					src="/location.svg"
+					alt="Centrar mapa"
+					style={{
+						width: '36px',
+						height: '36px',
+						...(!isDragging && {
+							filter:
+								'invert(27%) sepia(90%) saturate(7400%) hue-rotate(200deg)',
+						}),
+					}}
+				/>
+			</RecenterButton>
 			<a href="https://quantriga.com" aria-label="Torna a la pàgina principal">
 				<img
 					src="/busIcon.svg"
