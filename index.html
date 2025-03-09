@@ -2,13 +2,20 @@
 <html lang="ca">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8F7T65ZT1G"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      const gtagDev = undefined
+      const gtagProd = 'G-8F7T65ZT1G'
+      const gtagID = /localhost/.test(window.location.hostname) ? gtagDev : gtagProd
+      if (gtagID) {
+        const googleTagManager = document.createElement('script');
+        googleTagManager.setAttribute('src', `https://www.googletagmanager.com/gtag/js?id=${gtagID}`);
+        document.head.appendChild(googleTagManager);
 
-      gtag('config', 'G-8F7T65ZT1G');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments) }
+        gtag('js', new Date());
+        gtag('config', gtagID);
+      }
     </script>
     <meta charset="UTF-8" />
       <link rel="icon" type="image/png" href="/busIcon.svg" />
