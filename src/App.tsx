@@ -1,14 +1,49 @@
 import './App.css';
+import { APIProvider } from '@vis.gl/react-google-maps';
+import { useState } from 'react';
 import { Route, Routes } from 'react-router';
 import BusLineStops from './views/BusLineStops';
 import Home from './views/Home';
 
 const App = () => {
+	const [userLocation, setUserLocation] = useState<{
+		lat: number;
+		lng: number;
+	}>({ lat: 41.4912314, lng: 2.1403111 });
+
+	const watchPosition = () => {
+		if (navigator.geolocation) {
+			// get the current users location
+			navigator.geolocation.watchPosition(
+				(position) => {
+					const { latitude, longitude } = position.coords;
+					setUserLocation({ lat: latitude, lng: longitude });
+				},
+				(error) => {
+					console.error('Error getting user location:', error);
+				},
+			);
+		}
+		// if geolocation is not supported by the users browser
+		else {
+			console.error('Geolocation is not supported by this browser.');
+		}
+	};
+
 	return (
-		<Routes>
-			<Route index element={<Home />} />
-			<Route path="/:busLineId" element={<BusLineStops />} />
-		</Routes>
+		<APIProvider
+			apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}
+			language="ca"
+			onLoad={watchPosition}
+		>
+			<Routes>
+				<Route index element={<Home />} />
+				<Route
+					path="/:busLineId"
+					element={<BusLineStops currentLocation={userLocation} />}
+				/>
+			</Routes>
+		</APIProvider>
 	);
 };
 
