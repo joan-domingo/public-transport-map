@@ -57,6 +57,12 @@ const MainContent = styled.main`
     height: 100%;
 `;
 
+const ButtonGridContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+`;
+
 const GridContainer = styled.div`
     height: 100%;
     width: 100%;
@@ -95,13 +101,15 @@ const BusLineSelector = ({ busLines, onSelectLine }: Props) => {
 				Consulta en temps real l'arribada dels propers busos
 			</Description>
 			<MainContent>
-				{busLines.map((busLine) => (
-					<ButtonWrapper key={busLine.id}>
-						<GreenButton onClick={() => onSelectLine(busLine.id)}>
-							{busLine.name}
-						</GreenButton>
-					</ButtonWrapper>
-				))}
+				<ButtonGridContainer>
+					{busLines.map((busLine) => (
+						<ButtonWrapper key={busLine.id}>
+							<GreenButton onClick={() => onSelectLine(busLine.id)}>
+								{busLine.name}
+							</GreenButton>
+						</ButtonWrapper>
+					))}
+				</ButtonGridContainer>
 			</MainContent>
 			<Footer>
 				Dades proporcionades per
