@@ -49,7 +49,6 @@ const Map = ({ busLineId, userLocation }: Props) => {
 
 	useEffect(() => {
 		const handleVisibilityChange = () => {
-			console.log('visibilitychange', document.visibilityState);
 			if (document.visibilityState === 'visible') {
 				loadBusStops(busLineId);
 			}
