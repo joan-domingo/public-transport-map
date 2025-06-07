@@ -6,6 +6,7 @@ import {
 import styled from 'styled-components';
 import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
+import type BusStop from '../types/busStop';
 
 const InfoWindowHeader = styled.div`
 	padding-bottom: 8px;
@@ -32,20 +33,62 @@ const InfoContainerHeader = styled.h4`
 	color: #636363;
 `;
 
+const BusLinesWrapper = styled.div`
+	display: flex;
+	flex-direction: row;
+	background-color:rgba(0, 0, 0, 0.7);
+	padding: 2px;
+	gap: 2px;
+	border-radius: 8px;
+`;
+
+const BusLineIcon = styled.div<{ color: string }>`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	background-color: ${(props) => props.color};
+	color: white;
+	font-size: 18px;
+	border-radius: 8px;
+`;
+
+const ArrowDown = styled.div`
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 12px solid rgba(0, 0, 0, 0.7);
+`;
+
 interface Props {
-	position: { lat: number; lng: number };
 	onClick: () => void;
 	onCloseClick: () => void;
 	visible: boolean;
-	stopName: string;
+	stop: BusStop;
 }
 
+const busLineColor: Record<string, string> = {
+	648: '#F70000',
+	a4: '#F70008',
+	b2: '#F70023',
+	b7: '#F7000C',
+	e3: '#0A8BAA',
+	su1: '#107E00',
+	su2: '#F7000C',
+	su3: '#9A008D',
+};
+
 export const MarkerWithInfowindow = ({
-	position,
+	stop,
 	onClick,
 	visible,
 	onCloseClick,
-	stopName,
 }: Props) => {
 	const { selectedStopTimetable, isLoading, isLoaded } = appStore(
 		useShallow((state) => ({
@@ -58,7 +101,22 @@ export const MarkerWithInfowindow = ({
 
 	return (
 		<>
-			<AdvancedMarker ref={markerRef} onClick={onClick} position={position} />
+			<AdvancedMarker
+				ref={markerRef}
+				onClick={onClick}
+				position={{ lat: stop.lat, lng: stop.lon }}
+			>
+				<>
+					<BusLinesWrapper>
+						{stop.buses.map((bus) => (
+							<BusLineIcon key={bus} color={busLineColor[bus]}>
+								{bus.toUpperCase()}
+							</BusLineIcon>
+						))}
+					</BusLinesWrapper>
+					<ArrowDown/>
+				</>
+			</AdvancedMarker>
 			{visible && (
 				<InfoWindow
 					anchor={marker}
@@ -66,7 +124,7 @@ export const MarkerWithInfowindow = ({
 					minWidth={320}
 					onCloseClick={onCloseClick}
 					headerContent={
-						<InfoWindowHeader>Propers Busos - {stopName}</InfoWindowHeader>
+						<InfoWindowHeader>Propers Busos - {stop.name}</InfoWindowHeader>
 					}
 				>
 					{isLoading && <InfoContainer $index={1}>Carregant...</InfoContainer>}

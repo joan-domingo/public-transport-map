@@ -3,6 +3,7 @@ import BusLineSelector from '../components/BusLineSelector';
 import type BusLine from '../types/busLine';
 
 const busLines: BusLine[] = [
+	{ id: 'all', name: 'ALL' },
 	{ id: '648', name: '648' },
 	{ id: 'a4', name: 'A4' },
 	{ id: 'b2', name: 'B2' },

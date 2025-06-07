@@ -7,7 +7,8 @@
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"preview": "vite preview",
-		"check": "biome format --write ./src"
+		"check": "biome format --write ./src",
+		"downloadData": "bun scripts/downloadData.ts"
 	},
 	"dependencies": {
 		"@vis.gl/react-google-maps": "^1.5.1",
@@ -28,7 +29,7 @@
 		"@types/react": "^19.0.10",
 		"@types/react-dom": "^19.0.4",
 		"@vitejs/plugin-react-swc": "^3.5.0",
-		"bun-types": "^1.2.4",
+		"bun-types": "^1.2.15",
 		"globals": "^15.9.0",
 		"happy-dom": "^17.1.8",
 		"jest": "^29.7.0",

@@ -49,7 +49,6 @@ const Map = ({ busLineId, userLocation }: Props) => {
 
 	useEffect(() => {
 		const handleVisibilityChange = () => {
-			console.log('visibilitychange', document.visibilityState);
 			if (document.visibilityState === 'visible') {
 				loadBusStops(busLineId);
 			}
@@ -63,14 +62,10 @@ const Map = ({ busLineId, userLocation }: Props) => {
 	}, []);
 
 	const handleOnMarkerClick = async (stop: BusStop) => {
-		const {
-			ID_PARADA,
-			ID_LINEA,
-			Parada: { ID_ZONA },
-		} = stop;
+		const { id, lineId, zoneId } = stop;
 		clearSelectedBusStopTimetable();
-		setOpenedBusStopMarker(ID_PARADA);
-		await loadBusStopTimeTable(ID_PARADA, ID_LINEA, ID_ZONA);
+		setOpenedBusStopMarker(id);
+		await loadBusStopTimeTable(id, lineId, zoneId);
 	};
 
 	return (
@@ -87,11 +82,10 @@ const Map = ({ busLineId, userLocation }: Props) => {
 			>
 				{busLineStops.map((stop) => (
 					<MarkerWithInfowindow
-						key={stop.ID_PARADA}
-						stopName={stop.Parada.DESC_PARADA}
-						position={{ lat: stop.Parada.LATITUD, lng: stop.Parada.LONGITUD }}
+						key={stop.id}
+						stop={stop}
 						onClick={() => handleOnMarkerClick(stop)}
-						visible={openedBusStopMarker === stop.ID_PARADA}
+						visible={openedBusStopMarker === stop.id}
 						onCloseClick={() => setOpenedBusStopMarker(null)}
 					/>
 				))}
