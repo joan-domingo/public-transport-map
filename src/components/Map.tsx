@@ -83,8 +83,7 @@ const Map = ({ busLineId, userLocation }: Props) => {
 				{busLineStops.map((stop) => (
 					<MarkerWithInfowindow
 						key={stop.id}
-						stopName={stop.name}
-						position={{ lat: stop.lat, lng: stop.lon }}
+						stop={stop}
 						onClick={() => handleOnMarkerClick(stop)}
 						visible={openedBusStopMarker === stop.id}
 						onCloseClick={() => setOpenedBusStopMarker(null)}
