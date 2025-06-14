@@ -19,7 +19,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null
+			incidencias: null,
 		},
 		{
 			idLinea: 15,
@@ -40,7 +40,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null
+			incidencias: null,
 		},
 		{
 			idLinea: 33,
@@ -54,7 +54,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null
+			incidencias: null,
 		},
 		{
 			idLinea: 167,
@@ -68,7 +68,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null
+			incidencias: null,
 		},
 		{
 			idLinea: 184,
@@ -121,7 +121,6 @@ describe('useStore', () => {
 					real: true,
 				},
 			],
-			selected: false,
 		},
 		{
 			lineId: 15,
@@ -138,7 +137,6 @@ describe('useStore', () => {
 					real: true,
 				},
 			],
-			selected: false,
 		},
 		{
 			lineId: 33,
@@ -150,7 +148,6 @@ describe('useStore', () => {
 					real: true,
 				},
 			],
-			selected: false,
 		},
 		{
 			lineId: 167,
@@ -162,7 +159,6 @@ describe('useStore', () => {
 					real: true,
 				},
 			],
-			selected: false,
 		},
 		{
 			lineId: 184,
@@ -174,7 +170,6 @@ describe('useStore', () => {
 					real: true,
 				},
 			],
-			selected: false,
 		},
 		{
 			lineId: 299,
@@ -196,7 +191,6 @@ describe('useStore', () => {
 					real: true,
 				},
 			],
-			selected: true,
 		},
 	];
 

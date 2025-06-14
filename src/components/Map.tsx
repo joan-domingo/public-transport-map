@@ -21,13 +21,48 @@ const RecenterButton = styled.button`
 	border-radius: 50%;
 `;
 
+const Footer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.8);
+`;
+
+const Header = styled.header`
+    display: flex;
+	flex-direction: column;
+    background-color:rgba(8, 139, 159, 0.8);
+    align-items: center;
+    justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 4px;
+`;
+
+const Title = styled.h1`
+    color: white;
+	font-size: 2rem;
+	margin: 0;
+`;
+
+const Description = styled.div`
+    color: white;
+    justify-content: center;
+    align-items: center;
+`;
+
 interface Props {
-	busLineId: string;
 	userLocation: { lat: number; lng: number };
 }
 
 // https://visgl.github.io/react-google-maps/
-const Map = ({ busLineId, userLocation }: Props) => {
+const Map = ({ userLocation }: Props) => {
 	const {
 		loadBusStops,
 		busLineStops,
@@ -50,11 +85,11 @@ const Map = ({ busLineId, userLocation }: Props) => {
 	useEffect(() => {
 		const handleVisibilityChange = () => {
 			if (document.visibilityState === 'visible') {
-				loadBusStops(busLineId);
+				loadBusStops('all');
 			}
 		};
 
-		loadBusStops(busLineId);
+		loadBusStops('all');
 		document.addEventListener('visibilitychange', handleVisibilityChange);
 		return () => {
 			document.removeEventListener('visibilitychange', handleVisibilityChange);
@@ -128,20 +163,36 @@ const Map = ({ busLineId, userLocation }: Props) => {
 					}}
 				/>
 			</RecenterButton>
-			<a href="https://quantriga.com" aria-label="Torna a la pàgina principal">
-				<img
-					src="/busIcon.svg"
-					alt="Icona QuanTriga.com"
-					style={{
-						width: '48px',
-						height: '48px',
-						position: 'absolute',
-						top: 0,
-						left: 0,
-						padding: '24px',
-					}}
-				/>
-			</a>
+			<Footer>
+				Dades proporcionades per
+				<a
+					href="https://www.moventis.es/ca/temps-real"
+					target="_blank"
+					rel="noreferrer"
+					style={{ marginLeft: '4px' }}
+				>
+					Moventis
+				</a>
+			</Footer>
+			<Header>
+				<div style={{ display: 'flex', alignItems: 'center' }}>
+					<a href="https://quantriga.com">
+						<img
+							src="/busIcon.svg"
+							alt="Icona QuanTriga.com"
+							style={{
+								width: '48px',
+								height: '48px',
+								padding: '8px',
+							}}
+						/>
+					</a>
+					<Title>QuanTriga.com</Title>
+				</div>
+				<Description>
+					Consulta en temps real l'arribada dels propers busos.
+				</Description>
+			</Header>
 		</div>
 	);
 };
