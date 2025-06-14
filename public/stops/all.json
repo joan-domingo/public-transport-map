@@ -1,0 +1,2778 @@
+[
+  {
+    "id": 13676,
+    "name": "PL. DEL PI / ESTACIÓ FGC",
+    "lat": 41.500920968578,
+    "lon": 2.0902577257655,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 13141,
+    "name": "CTRA BV-1414 KM (LA VALL)",
+    "lat": 41.508410138778,
+    "lon": 2.0907759876573,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 5837,
+    "name": "TURÓ DE SANT PAU",
+    "lat": 41.508430948249,
+    "lon": 2.0934119033041,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12357,
+    "name": "CIÈNCIES DE L'EDUCACIÓ",
+    "lat": 41.505570042597,
+    "lon": 2.105350172476,
+    "buses": [
+      "648",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 13861,
+    "name": "UAB-CÍÈNCIES",
+    "lat": 41.5026,
+    "lon": 2.1099,
+    "buses": [
+      "648",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 10554,
+    "name": "SERRAGALLINERS / TARRADELLAS",
+    "lat": 41.495118312483,
+    "lon": 2.1248302425501,
+    "buses": [
+      "648",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5838,
+    "name": "SERRA DE GALLINERS-CASTELLA",
+    "lat": 41.49436,
+    "lon": 2.1262,
+    "buses": [
+      "648",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 13862,
+    "name": "AV.ROMA/AV. EUROPA",
+    "lat": 41.494238,
+    "lon": 2.129628,
+    "buses": [
+      "648",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5490,
+    "name": "CAN PALLARÈS-POLÍGON INDUSTRIAL (POLIZUR)",
+    "lat": 41.500090878436,
+    "lon": 2.1356182946208,
+    "buses": [
+      "648",
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 13143,
+    "name": "CTRA. DE BARCELONA/C. DE SANTA ROSA",
+    "lat": 41.496939096944,
+    "lon": 2.1429444439313,
+    "buses": [
+      "648",
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 1302,
+    "name": "CTRA. DE BARCELONA/PTGE. DE LA TELEFÒNICA",
+    "lat": 41.49257,
+    "lon": 2.14899,
+    "buses": [
+      "648",
+      "a4",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 13863,
+    "name": "C. DE TARRAGONA (CAP III)",
+    "lat": 41.49161,
+    "lon": 2.15138,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12819,
+    "name": "C. DE BALMES/ C. DEL MOLÍ D'EN GINESTAR",
+    "lat": 41.495882865233,
+    "lon": 2.1547950703517,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 13882,
+    "name": "C. MOLÍ D`EN RATA/C. MAGALLANES (PARC DE MORERES)",
+    "lat": 41.49991,
+    "lon": 2.15323,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 13883,
+    "name": "AV. DE MARIA TORRAS/ RBLA. DEL PUIGMAL",
+    "lat": 41.503646,
+    "lon": 2.155698,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 14105,
+    "name": "C. DE FEDERICO GARCIA LORCA / PL. PALAU AUSIT",
+    "lat": 41.5018,
+    "lon": 2.15977,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12358,
+    "name": "RBLA ST ANDREU-PAU CASALS",
+    "lat": 41.500063751428,
+    "lon": 2.162384740923,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 14106,
+    "name": "C.SARRIA DE TER/C.X (RASTRO RETO)",
+    "lat": 41.49614,
+    "lon": 2.16579,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12095,
+    "name": "PG ST JORDI-PAU CASALS",
+    "lat": 41.49402275928,
+    "lon": 2.1790310977725,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12359,
+    "name": "RBLA PAÏSOS CATALANS-PL ESPANYA",
+    "lat": 41.491076709196,
+    "lon": 2.1852737255146,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12360,
+    "name": "PL LLUÍS COMPANYS",
+    "lat": 41.482056808532,
+    "lon": 2.188596805513,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12353,
+    "name": "C. DE LA BIFURCACIÓ /C. DE LA MINA",
+    "lat": 41.4718,
+    "lon": 2.18341,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12354,
+    "name": "PL LLUÍS COMPANYS",
+    "lat": 41.482023147498,
+    "lon": 2.1889326074322,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12355,
+    "name": "RBLA PAÏSOS CATALANS-PL ESPANYA",
+    "lat": 41.491177732596,
+    "lon": 2.185547990806,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12085,
+    "name": "CTRA RIPOLLET-PAU CASALS",
+    "lat": 41.493321212844,
+    "lon": 2.1779138356923,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 13874,
+    "name": "C. DE SARRIÀ DE TER / C. X (RASTRO RETO)",
+    "lat": 41.49601,
+    "lon": 2.16607,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12356,
+    "name": "C. DE ST .ANDREU/C. DE PAU CASALS",
+    "lat": 41.4998,
+    "lon": 2.16346,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 13875,
+    "name": "C. DE FEDERICO GARCÍA LORCA/PL. DE PALAU AUSIT",
+    "lat": 41.50168,
+    "lon": 2.15973,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 13890,
+    "name": "AV. DE MARIA TORRAS/ RBLA. DEL PUIGMAL",
+    "lat": 41.50383,
+    "lon": 2.155696,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 13878,
+    "name": "C. MOLÍ D`EN RATA/C. MAGALLANES (PARC DE MORERES)",
+    "lat": 41.49989,
+    "lon": 2.153,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12250,
+    "name": "C. DE BALMES/C. DEL MOLÍ D´EN GINESTAR",
+    "lat": 41.495819203608,
+    "lon": 2.1547120348128,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 12626,
+    "name": "CTRA. DE BARCELONA / C. DE BONAVISTA",
+    "lat": 41.492473020474,
+    "lon": 2.149220853055,
+    "buses": [
+      "648",
+      "a4",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 6030,
+    "name": "CTRA. DE BARCELONA/ C. DE RAMÓN Y CAJAL",
+    "lat": 41.49755,
+    "lon": 2.14262,
+    "buses": [
+      "648",
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 419,
+    "name": "CAN PALLARÈS/POLÍGON INDUSTRIAL (POLIZUR)",
+    "lat": 41.50013501011,
+    "lon": 2.1354978952972,
+    "buses": [
+      "648",
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 10550,
+    "name": "AV.ROMA/AV.EUROPA(CEIP SALTELLS)",
+    "lat": 41.49365,
+    "lon": 2.129191,
+    "buses": [
+      "648",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5764,
+    "name": "SERRA DE GALLINERS-CASTELLA",
+    "lat": 41.4946,
+    "lon": 2.12609,
+    "buses": [
+      "648",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10551,
+    "name": "SERRAGALLINERS / LONDRES",
+    "lat": 41.496522428273,
+    "lon": 2.1223313610821,
+    "buses": [
+      "648",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5552,
+    "name": "UAB CIÈNCIES",
+    "lat": 41.502778485355,
+    "lon": 2.1100854346195,
+    "buses": [
+      "648",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 5554,
+    "name": "UAB CIÈNCIES EDUCACIÓ",
+    "lat": 41.505662249379,
+    "lon": 2.1056244949364,
+    "buses": [
+      "648",
+      "e3",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5765,
+    "name": "TURÓ DE SANT PAU",
+    "lat": 41.508575238125,
+    "lon": 2.0934338557987,
+    "buses": [
+      "648",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 13131,
+    "name": "LA VALL",
+    "lat": 41.508039080288,
+    "lon": 2.0905535084812,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 5859,
+    "name": "PL DEL PI",
+    "lat": 41.501082987479,
+    "lon": 2.0902434766726,
+    "buses": [
+      "648"
+    ],
+    "lineId": 103,
+    "zoneId": 0
+  },
+  {
+    "id": 10644,
+    "name": "C. DELS SAFAREIGS",
+    "lat": 41.466717522947,
+    "lon": 2.0786172657595,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 12373,
+    "name": "RBLA. DE RIBATALLADA / C. D´ÀNGEL GUIMERÀ",
+    "lat": 41.466666830048,
+    "lon": 2.0812884214997,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 4980,
+    "name": "RBLA. DE RIBATALLADA / C. D´ELISENDA RIBATALLADA",
+    "lat": 41.467635,
+    "lon": 2.08288,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 9101,
+    "name": "C. DE CÈSAR MARTINELL / PL. DEL MIL.LENARI",
+    "lat": 41.469820450656,
+    "lon": 2.0870760341676,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5020,
+    "name": "C. DE JOSEP PUIG I CADAFALCH / C. CÈSAR MARTINELL",
+    "lat": 41.471459959293,
+    "lon": 2.0859632201389,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5030,
+    "name": "C. DE JOSEP PUIG I CADAFALCH / C. FERRAN ROMEU",
+    "lat": 41.47175,
+    "lon": 2.0885,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 398,
+    "name": "C. DE JOSEP PUIG I CADAFALCH / AV. DE TORRE BLANCA",
+    "lat": 41.4717203363,
+    "lon": 2.0904026554045,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 399,
+    "name": "RAMBLA DEL CELLER (PARC DE LA POLLANCREDA)",
+    "lat": 41.473480689996,
+    "lon": 2.0931805033062,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 401,
+    "name": "CTRA. CERDANYOLA / AV. DE LES ROQUETES (CAN MAGI)",
+    "lat": 41.47643,
+    "lon": 2.096015,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 403,
+    "name": "CTRA. BP-1413 (SINCROTRÓ)",
+    "lat": 41.483845321876,
+    "lon": 2.1101169604574,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 404,
+    "name": "C. DELS BOTERS (MOSSOS D´ESQUADRA)",
+    "lat": 41.486873704939,
+    "lon": 2.1244500747606,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 405,
+    "name": "PL. D´EUROPA (P. TECNOLÒGIC-CARPA)",
+    "lat": 41.485060475952,
+    "lon": 2.1285051676851,
+    "buses": [
+      "a4",
+      "b7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 12316,
+    "name": "AV. DE LA  FLOR DE MAIG / C. DE SANTA ROSA",
+    "lat": 41.485585807133,
+    "lon": 2.1327925144229,
+    "buses": [
+      "a4",
+      "b7",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5130,
+    "name": "AV. DE  PRIMAVERA / C. DEL MONT",
+    "lat": 41.486839553768,
+    "lon": 2.139016748147,
+    "buses": [
+      "a4",
+      "a7",
+      "b7",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 123,
+    "name": "PL. DE MARCONI",
+    "lat": 41.488470866365,
+    "lon": 2.1425218122065,
+    "buses": [
+      "a4",
+      "a7",
+      "b2",
+      "b7",
+      "e3",
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 122,
+    "name": "C. DE LLUÍS COMPANYS (AJUNTAMENT)",
+    "lat": 41.490170586108,
+    "lon": 2.141200813541,
+    "buses": [
+      "a4",
+      "a7",
+      "b2",
+      "b7",
+      "e3",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 124,
+    "name": "AV. DE LA PRIMAVERA ( LES FONTETES)",
+    "lat": 41.49128722707,
+    "lon": 2.1460138508529,
+    "buses": [
+      "a4",
+      "a7",
+      "b2",
+      "b4",
+      "b7",
+      "e3",
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 126,
+    "name": "CTRA. N-150 (POL. TERRA NOSTRA)",
+    "lat": 41.488236447694,
+    "lon": 2.1549064414497,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 127,
+    "name": "CTRA. N-150 (POLÍGON FERRERIA)",
+    "lat": 41.485356498088,
+    "lon": 2.158920738165,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 128,
+    "name": "CTRA. N-150 / C. POBLET (STA. MARIA)",
+    "lat": 41.482145951006,
+    "lon": 2.1633222264732,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 131,
+    "name": "CTRA. N-150 / CTRA. DEL CEMENTIRI",
+    "lat": 41.47398,
+    "lon": 2.16627,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 135,
+    "name": "CTRA. N-150 (CAN CUIÀS)",
+    "lat": 41.46824,
+    "lon": 2.16922,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 136,
+    "name": "CTRA. N-150 / CTRA. C-17 (BIFURCACIÓ)",
+    "lat": 41.46631655951,
+    "lon": 2.177835928855,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5250,
+    "name": "CTRA. C-17 (TORRE DE BARÓ)",
+    "lat": 41.460757667105,
+    "lon": 2.1814384796495,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 113,
+    "name": "AV. MERIDIANA / C. DE S'AGARÓ",
+    "lat": 41.448175284552,
+    "lon": 2.1879296878774,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 114,
+    "name": "AV. MERIDIANA / AV. DE RIO DE JANEIRO",
+    "lat": 41.442676964682,
+    "lon": 2.18611884579,
+    "buses": [
+      "a4",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 4864,
+    "name": "ESTACIÓ D´AUTOBUSOS DE FABRA I PUIG",
+    "lat": 41.431423375023,
+    "lon": 2.1831116797843,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 1850,
+    "name": "AV. MERIDIANA/PL. DE MN. CLAPÉS",
+    "lat": 41.442282535516,
+    "lon": 2.1863871279302,
+    "buses": [
+      "a4",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 1870,
+    "name": "AV. MERIDIANA / CTRA. DE RIBES",
+    "lat": 41.449767292248,
+    "lon": 2.188879565693,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5240,
+    "name": "CTRA. N-150 / CTRA. C-17 (BIFURCACIÓ)",
+    "lat": 41.466213120673,
+    "lon": 2.1772265099386,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5235,
+    "name": "CTRA N-150 (CAN CUIÀS)",
+    "lat": 41.46838,
+    "lon": 2.16919,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5230,
+    "name": "CTRA. N-150 / CTRA. DEL CEMENTIRI",
+    "lat": 41.47404,
+    "lon": 2.16643,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5220,
+    "name": "CTRA. N-150 / C. POBLET (STA. MARIA)",
+    "lat": 41.482789452226,
+    "lon": 2.1626311991668,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5210,
+    "name": "CTRA. N-150 (POLÍGON FERRERIA)",
+    "lat": 41.48541989396,
+    "lon": 2.1589678324528,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5200,
+    "name": "CTRA. N-150 (POL. TERRA NOSTRA)",
+    "lat": 41.488567927373,
+    "lon": 2.1546625511378,
+    "buses": [
+      "a4"
+    ],
+    "lineId": 12,
+    "zoneId": 0
+  },
+  {
+    "id": 5195,
+    "name": "AV. CATALUNYA (RODALIES)",
+    "lat": 41.49275,
+    "lon": 2.14731,
+    "buses": [
+      "a4",
+      "b2",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 5180,
+    "name": "AV. DE PRIMAVERA (LES FONTETES)",
+    "lat": 41.491331181417,
+    "lon": 2.1458575387737,
+    "buses": [
+      "a4",
+      "a7",
+      "b2",
+      "b4",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 12317,
+    "name": "PLAÇA DE SANT RAMON",
+    "lat": 41.488946,
+    "lon": 2.136578,
+    "buses": [
+      "a4",
+      "a7",
+      "b7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 12625,
+    "name": "C. D´ANSELM CLAVÉ / C. DE ST. RAMON",
+    "lat": 41.488609,
+    "lon": 2.133889,
+    "buses": [
+      "a4",
+      "a7",
+      "b7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 5120,
+    "name": "C. DE ST. RAMON / C. DEL CASTELL",
+    "lat": 41.488934,
+    "lon": 2.131334,
+    "buses": [
+      "a4",
+      "b7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 5110,
+    "name": "C. DE ST. RAMON (PARC TECNOLÒGIC)",
+    "lat": 41.487708,
+    "lon": 2.127637,
+    "buses": [
+      "a4",
+      "b7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 5119,
+    "name": "C. DELS BOTERS (HOTEL)",
+    "lat": 41.487222055218,
+    "lon": 2.1252479684161,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5117,
+    "name": "CTRA. BP-1413 (SINCROTRÓ)",
+    "lat": 41.484248642209,
+    "lon": 2.1110217933761,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5115,
+    "name": "CTRA. DE CERDANYOLA (CLUB DE TENNIS SET BALL)",
+    "lat": 41.479181206776,
+    "lon": 2.0999161615669,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5100,
+    "name": "CTRA. CERDANYOLA / AV. DE LES ROQUETES (CAN MAGI)",
+    "lat": 41.476581,
+    "lon": 2.095937,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5060,
+    "name": "RAMBLA DEL CELLER / PLAÇA DE LA PELLERIA",
+    "lat": 41.47393,
+    "lon": 2.09329,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5040,
+    "name": "RBLA. DEL CELLER / PG. TORRE BLANCA",
+    "lat": 41.471965787743,
+    "lon": 2.0895489253387,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5085,
+    "name": "RBLA. DEL CELLER / C. DE SANT MEDIR",
+    "lat": 41.471736967159,
+    "lon": 2.0856838808775,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 9135,
+    "name": "PL. DELS QUATRE CANTONS",
+    "lat": 41.471053184876,
+    "lon": 2.0823881500071,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5090,
+    "name": "AV. DE LLUÍS COMPANYS,19",
+    "lat": 41.471170009615,
+    "lon": 2.078973374513,
+    "buses": [
+      "a4",
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5850,
+    "name": "LESSEPS / RIERA DE CASSOLES",
+    "lat": 41.40616,
+    "lon": 2.1498,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 12103,
+    "name": "PALAU D´ESPORTS DE LA VALL D´HEBRON",
+    "lat": 41.42792,
+    "lon": 2.14416,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5740,
+    "name": "CTRA. D'HORTA/PG. DE VALLDAURA",
+    "lat": 41.43727,
+    "lon": 2.15355,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5745,
+    "name": "FORAT DEL VENT",
+    "lat": 41.44719016408,
+    "lon": 2.1403671945804,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5750,
+    "name": "COLÒNIA SARDÀ",
+    "lat": 41.460053110431,
+    "lon": 2.1225239239008,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5755,
+    "name": "CTRA. D´HORTA (CENTRE DE FORMACIÓ FLOR DE MAIG)",
+    "lat": 41.466937063136,
+    "lon": 2.1228030489196,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5762,
+    "name": "CAN COLL",
+    "lat": 41.473795790037,
+    "lon": 2.1283180082079,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5754,
+    "name": "AV FLOR DE MAIG-VALLDAURA",
+    "lat": 41.47755218108,
+    "lon": 2.1297711557607,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5752,
+    "name": "AV FLOR DE MAIG-PROVENÇA",
+    "lat": 41.47884640624,
+    "lon": 2.131097744546,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5760,
+    "name": "AV. DE LA FLOR DE MAIG/PL. OLIVÉ",
+    "lat": 41.48187,
+    "lon": 2.13266,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5770,
+    "name": "AV FLOR DE MAIG-ST. JERONI",
+    "lat": 41.484509972947,
+    "lon": 2.1325588960797,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 12105,
+    "name": "AV FLOR DE MAIG",
+    "lat": 41.488957258471,
+    "lon": 2.1319569271833,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 429,
+    "name": "AV. DE LA FLOR DE MAIG/C. DE ST. JERONI",
+    "lat": 41.484526450272,
+    "lon": 2.1324686160085,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 431,
+    "name": "AV. DE LA  FLOR DE MAIG/PL. OLIVÉ",
+    "lat": 41.481781925763,
+    "lon": 2.1324240078778,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 432,
+    "name": "AV. DE LA  FLOR DE MAIG/C. DE PROVENÇA",
+    "lat": 41.478925853014,
+    "lon": 2.1311326166666,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 433,
+    "name": "AV. DE LA  FLOR DE MAIG/C. DE VALLDAURA",
+    "lat": 41.477563748779,
+    "lon": 2.1296776282984,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 434,
+    "name": "CTRA. D´HORTA (CAN COLL)",
+    "lat": 41.473814191375,
+    "lon": 2.1281588804763,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 414,
+    "name": "COLÒNIA SARDÀ",
+    "lat": 41.459980602088,
+    "lon": 2.1224650321169,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 415,
+    "name": "FORAT DEL VENT",
+    "lat": 41.447126671154,
+    "lon": 2.1403081752624,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 416,
+    "name": "CTRA. D'HORTA/RONDA DE DALT",
+    "lat": 41.43958,
+    "lon": 2.15435,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 12104,
+    "name": "PG. VALL D'HEBRON/GRANJA VELLA",
+    "lat": 41.42779,
+    "lon": 2.1434,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 4475,
+    "name": "AV. DE FRANCESC MACIÀ/AV. DELS PARAIRES",
+    "lat": 41.554543846677,
+    "lon": 2.0974444011437,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4470,
+    "name": "RDA. DE ZAMENHOF/PL. DE CATALUNYA",
+    "lat": 41.550261965627,
+    "lon": 2.0993025373171,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4460,
+    "name": "RDA. DE ZAMENHOF/C. DE COROMINAS",
+    "lat": 41.550914533241,
+    "lon": 2.1021232616208,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 7000,
+    "name": "C. DE VILLARRÚBIAS (DONES DEL TÈXTIL)",
+    "lat": 41.552472196304,
+    "lon": 2.1078333535539,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 21817,
+    "name": "C. DE VILARRÚBIAS / C. DE BOFÍ (VILARRÚBIAS)",
+    "lat": 41.5534,
+    "lon": 2.11138,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 7640,
+    "name": "PARC TAULÍ",
+    "lat": 41.556502844016,
+    "lon": 2.1095646773701,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 441,
+    "name": "PL. DE CLARA CAMPOAMOR (ESTACIÓ D´AUTOBUSOS)",
+    "lat": 41.54666782363,
+    "lon": 2.1155147066867,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 99,
+    "name": "AV. DE BARBERÀ/C. DE TETUAN",
+    "lat": 41.53825,
+    "lon": 2.11302,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 101,
+    "name": "AV. DE BARBERÀ/PL. DE BARCELONA",
+    "lat": 41.532645818076,
+    "lon": 2.115813640167,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 103,
+    "name": "CTRA. BARCELONA/GUERRILLER A. (CREU DE BARBERÀ)",
+    "lat": 41.527415459666,
+    "lon": 2.1185338258066,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 104,
+    "name": "CTRA. DE BARCELONA/C. DE NÀPOLS",
+    "lat": 41.524035633892,
+    "lon": 2.1217918534558,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 105,
+    "name": "CTRA. DE BARCELONA/C. DELS MARQUESOS DE BARBERÀ",
+    "lat": 41.520228398214,
+    "lon": 2.124527958855,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 106,
+    "name": "CTRA. DE BARCELONA/C. DE L´ESCULTOR LLIMONA",
+    "lat": 41.51704,
+    "lon": 2.12603,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 107,
+    "name": "CTRA. DE BARCELONA/C. DE GIRONA",
+    "lat": 41.511273483867,
+    "lon": 2.1302448275852,
+    "buses": [
+      "b2",
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 418,
+    "name": "CTRA DE BARCELONA-CARDENER",
+    "lat": 41.501063689171,
+    "lon": 2.1392237460203,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 5320,
+    "name": "C. DE STA. ANNA 69 (COL.LEGI XARAU)",
+    "lat": 41.496377,
+    "lon": 2.138469,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 5358,
+    "name": "FRANCOLÍ/PIRINEUS",
+    "lat": 41.493739092972,
+    "lon": 2.1354032455682,
+    "buses": [
+      "b2",
+      "e3",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5300,
+    "name": "ST. CASIMIR/C. DEL CAMP",
+    "lat": 41.491823331798,
+    "lon": 2.1345781611336,
+    "buses": [
+      "b2",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 5310,
+    "name": "STA. MARCEL.LINA (ESGLÉSIA)",
+    "lat": 41.49181,
+    "lon": 2.13874,
+    "buses": [
+      "b2",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 12352,
+    "name": "C. DE SARRIA DE TER/C.X(RASTRO RETO)",
+    "lat": 41.49601,
+    "lon": 2.16607,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 5160,
+    "name": "ST. ISCLE/M. DE DÉU DEL PILAR (AJUNTAMENT)",
+    "lat": 41.4903,
+    "lon": 2.14238,
+    "buses": [
+      "b2",
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 5315,
+    "name": "PG CORDELLES-FRANCOLÍ",
+    "lat": 41.494683502299,
+    "lon": 2.1364209869143,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 19930,
+    "name": "PG CORDELLES / CARRER DE LA CLOTA",
+    "lat": 41.496696,
+    "lon": 2.133755,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 5500,
+    "name": "CTRA. DE BARCELONA/C. DE LA URALITA",
+    "lat": 41.500814736148,
+    "lon": 2.1396583723032,
+    "buses": [
+      "b2",
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 5510,
+    "name": "CTRA. DE BARCELONA/C. MARIE CURIE",
+    "lat": 41.511879812473,
+    "lon": 2.1298921930046,
+    "buses": [
+      "b2",
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4880,
+    "name": "CTRA. DE BARCELONA/C. DE ST. PERE",
+    "lat": 41.516756601318,
+    "lon": 2.1263723946006,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4890,
+    "name": "CTRA. DE BARCELONA/C. DE MONTURIOL (BENZINERA)",
+    "lat": 41.521997997903,
+    "lon": 2.1238928576984,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4900,
+    "name": "CTRA. DE BARCELONA/C. D´AUSIAS MARCH",
+    "lat": 41.52423404829,
+    "lon": 2.1218251275031,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4910,
+    "name": "CTRA. BARCELONA/GUERRILLER A. (CREU DE BARBERÀ)",
+    "lat": 41.527721307833,
+    "lon": 2.1184817288825,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4920,
+    "name": "AV. DE BARBERÀ/PL. DE BARCELONA",
+    "lat": 41.53310412693,
+    "lon": 2.1156755381304,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4930,
+    "name": "GRAN VIA / AV. DE BARBERÀ (BAIXADOR)",
+    "lat": 41.539471329753,
+    "lon": 2.1132150757567,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 2926,
+    "name": "PL. DE CLARA CAMPOAMOR (ESTACIÓ D´AUTOBUSOS)",
+    "lat": 41.546697885047,
+    "lon": 2.1159099614304,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 4720,
+    "name": "PL. TAULÍ",
+    "lat": 41.553386387523,
+    "lon": 2.1107346113595,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 445,
+    "name": "C. DE VILLARRÚBIAS (DONES DEL TÈXTIL)",
+    "lat": 41.552431425102,
+    "lon": 2.1072223788581,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 5350,
+    "name": "PL CREU ALTA",
+    "lat": 41.555820698369,
+    "lon": 2.101767564347,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 12247,
+    "name": "AV FRANCESC MACIÀ-CLEMENTINA ARDERIU",
+    "lat": 41.554590477711,
+    "lon": 2.0976476042367,
+    "buses": [
+      "b2"
+    ],
+    "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 12566,
+    "name": "C. DELS INFANTS/C. PORTO",
+    "lat": 41.510237827341,
+    "lon": 2.1125836130873,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 12107,
+    "name": "AV. BURGOS/C. BÈTICA",
+    "lat": 41.508463382201,
+    "lon": 2.1149205214011,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 116,
+    "name": "AV. COSTA BRAVA/AV. COSTA AZUL",
+    "lat": 41.507128537326,
+    "lon": 2.1193842200241,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 117,
+    "name": "C. URGELL/RDA. DE CATALUNYA",
+    "lat": 41.51115,
+    "lon": 2.1225,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 118,
+    "name": "DR. MORAGAS/RDA. DE L´EST",
+    "lat": 41.513388841794,
+    "lon": 2.1253151818852,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 13145,
+    "name": "CRTA. DE BARCELONA/C. DEL CARDONER (LA FARIGOLA)",
+    "lat": 41.50021417209,
+    "lon": 2.1400497217576,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 428,
+    "name": "CTRA. DE BARCELONA/C. DE SANT QUINTÍ",
+    "lat": 41.493997155996,
+    "lon": 2.1470444871642,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 6040,
+    "name": "CTRA. DE BARCELONA /C. DE TIANA",
+    "lat": 41.4949,
+    "lon": 2.14609,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4870,
+    "name": "DR. MORAGAS/RDA. DE L´EST",
+    "lat": 41.513468440878,
+    "lon": 2.1251223710379,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4860,
+    "name": "C. URGELL/RDA. DE CATALUNYA",
+    "lat": 41.511101742856,
+    "lon": 2.1222207738065,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4850,
+    "name": "AV. COSTA BRAVA,7",
+    "lat": 41.507106486665,
+    "lon": 2.1188572877415,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 5931,
+    "name": "AV. MEDITERRANI, 30",
+    "lat": 41.506149495086,
+    "lon": 2.1127113371523,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 5400,
+    "name": "C. BÈTICA (CAP)",
+    "lat": 41.507905861601,
+    "lon": 2.1115370194165,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 115,
+    "name": "AV. BURGOS (AJUNTAMENT)",
+    "lat": 41.508990791367,
+    "lon": 2.1143980742787,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 9170,
+    "name": "AV. DE CATALUNYA/C. DE SANT JOAQUIM",
+    "lat": 41.49296492735,
+    "lon": 2.1449437094708,
+    "buses": [
+      "b7",
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 9171,
+    "name": "PL. D´ENRIC GRANADOS",
+    "lat": 41.492951287044,
+    "lon": 2.1425100090489,
+    "buses": [
+      "b7",
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 2370,
+    "name": "AV. DE RIUS I TAULET/ C. DEL MONTSENY",
+    "lat": 41.473321276161,
+    "lon": 2.0787872296326,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 2390,
+    "name": "AV. DE RIUS I TAULET/C. DE GRANOLLERS",
+    "lat": 41.477972073283,
+    "lon": 2.0702056260634,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 2400,
+    "name": "CTRA. DE RUBÍ/C. D´AMPOSTA",
+    "lat": 41.47961,
+    "lon": 2.06263,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 2410,
+    "name": "CTRA. DE RUBÍ (CENTRE COMERCIAL)",
+    "lat": 41.48125,
+    "lon": 2.05338,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 10651,
+    "name": "C. D´EDISON/C. DEL BERGUEDÀ",
+    "lat": 41.485704458313,
+    "lon": 2.0400049564198,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 2420,
+    "name": "C. D´EDISON/C. DE MARCONI (CAP ANTÓN DE BORJA)",
+    "lat": 41.484767192614,
+    "lon": 2.0367127606844,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 149,
+    "name": "AV. DE CAN CABANYES",
+    "lat": 41.48556,
+    "lon": 2.03199,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 391,
+    "name": "C. D´EDISON/C. DE MARCONI (CAP ANTÓN DE BORJA)",
+    "lat": 41.484731468732,
+    "lon": 2.036749224921,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 12285,
+    "name": "C. D´EDISON/C. DEL BERGUEDÀ",
+    "lat": 41.485514628087,
+    "lon": 2.0399239090496,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 392,
+    "name": "CTRA. DE RUBÍ (CENTRE COMERCIAL)",
+    "lat": 41.480899906574,
+    "lon": 2.0536944763063,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 393,
+    "name": "CTRA. DE RUBÍ, KM14,5 / C. DE PRAT DE LA RIBA",
+    "lat": 41.47911,
+    "lon": 2.06411,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 394,
+    "name": "AV. DE RIUS I TAULET/CTRA. DE GRANOLLERS",
+    "lat": 41.477881816655,
+    "lon": 2.0701829618943,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 395,
+    "name": "AV. DE RIUS I TAULET/C. DEL MONTSENY",
+    "lat": 41.473828016121,
+    "lon": 2.0779536846154,
+    "buses": [
+      "b7"
+    ],
+    "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 13870,
+    "name": "AV. MERIDIANA / C. DE FELIP II (SAGRERA)",
+    "lat": 41.41975,
+    "lon": 2.187139,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 12512,
+    "name": "AV. MERIDIANA (ESTACIÓ DE FABRA I PUIG)",
+    "lat": 41.430665202053,
+    "lon": 2.1828937835919,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 5290,
+    "name": "ST. CASIMIR (MERCAT SERRAPERERA)",
+    "lat": 41.494146075581,
+    "lon": 2.1332294277108,
+    "buses": [
+      "e3",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5280,
+    "name": "AV D'ESPANYA/AV. DE ROMA",
+    "lat": 41.49506,
+    "lon": 2.13031,
+    "buses": [
+      "e3",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5270,
+    "name": "PL. UNIVERSAL",
+    "lat": 41.497224458515,
+    "lon": 2.1258082680642,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 5260,
+    "name": "ARGENTINA/LONDRES",
+    "lat": 41.498949079667,
+    "lon": 2.1228137813559,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 4820,
+    "name": "RDA. DE SERRAPERERA/RENAIXEMENT",
+    "lat": 41.498299141798,
+    "lon": 2.1202706196925,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 3980,
+    "name": "UAB LLETRES I PSICOLOGIA",
+    "lat": 41.503988965609,
+    "lon": 2.1082116583499,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 13871,
+    "name": "UAB ESCOLA DE POSTGRAU (FGC)",
+    "lat": 41.50217,
+    "lon": 2.1027,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 12971,
+    "name": "AV. DE CAN DOMÈNECH (VILA CENTRE)",
+    "lat": 41.50033,
+    "lon": 2.09944,
+    "buses": [
+      "e3",
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 5690,
+    "name": "UAB VILA NORD",
+    "lat": 41.500206892495,
+    "lon": 2.0967974971365,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 435,
+    "name": "RDA. DE SERRAPERERA/RENAIXEMENT",
+    "lat": 41.498587621267,
+    "lon": 2.1203026584419,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 436,
+    "name": "ARGENTINA/LONDRES",
+    "lat": 41.498877211222,
+    "lon": 2.1228387132011,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 437,
+    "name": "PL UNIVERSAL",
+    "lat": 41.497143309786,
+    "lon": 2.1257973786281,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 438,
+    "name": "AV. D'ESPANYA/AV. DE ROMA",
+    "lat": 41.49550740249,
+    "lon": 2.1286227881314,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 439,
+    "name": "ST. CASIMIR (MERCAT SERRAPERERA)",
+    "lat": 41.494029262809,
+    "lon": 2.133266925411,
+    "buses": [
+      "e3",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 25298,
+    "name": "CAN DRAGÓ",
+    "lat": 41.432002,
+    "lon": 2.182617,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 12966,
+    "name": "AV. MERIDIANA/C. DE FELIP II (SAGRERA)",
+    "lat": 41.419722,
+    "lon": 2.18675,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 21660,
+    "name": "UAB ESCOLA DE POSTGRAU (FGC)",
+    "lat": 41.502095,
+    "lon": 2.10275,
+    "buses": [
+      "e3"
+    ],
+    "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 13183,
+    "name": "AV. DE LA CIÈNCIA/C. CREU CASAS (SENER)",
+    "lat": 41.491085,
+    "lon": 2.11015,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 14346,
+    "name": "AV. DE CAN DOMÈNECH (EUREKA)",
+    "lat": 41.49711,
+    "lon": 2.10793,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 5670,
+    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
+    "lat": 41.499447046223,
+    "lon": 2.1042690949911,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 3831,
+    "name": "ESTACIÓ BELLATERRA FGC",
+    "lat": 41.500629917259,
+    "lon": 2.0910405851484,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13182,
+    "name": "AV. DE LA CIÈNCIA/BP-1413 (PARC ALBA)",
+    "lat": 41.485865903007,
+    "lon": 2.1146049185305,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 21810,
+    "name": "C. DE LA LLUM (SINCROTRÓ)",
+    "lat": 41.48581,
+    "lon": 2.110118,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 21811,
+    "name": "C. CREU CASAS (NATURE BISSÉ)",
+    "lat": 41.489813,
+    "lon": 2.107081,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13180,
+    "name": "RODALIES CERDANYOLA UNIVERSITAT",
+    "lat": 41.497210207285,
+    "lon": 2.1156967481778,
+    "buses": [
+      "pa",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 13189,
+    "name": "C. DE LA VILA (HOTEL CAMPUS)",
+    "lat": 41.499248,
+    "lon": 2.096445,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13190,
+    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
+    "lat": 41.498892267183,
+    "lon": 2.1047650954683,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 14345,
+    "name": "AV. DE CAN DOMÈNECH (EUREKA)",
+    "lat": 41.49696,
+    "lon": 2.10776,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13181,
+    "name": "AV. DE LA CIÈNCIA/C. CREU CASAS (SENER)",
+    "lat": 41.49093,
+    "lon": 2.10991,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 9168,
+    "name": "PG.D´HORTA (CAP CANALETES)",
+    "lat": 41.484645596633,
+    "lon": 2.1438479680792,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 9169,
+    "name": "PG. D´HORTA (PARC TURONET)",
+    "lat": 41.487193843563,
+    "lon": 2.1442468206982,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 12994,
+    "name": "INSTITUCIÓ MONTSERRAT MONTERO",
+    "lat": 41.469848457523,
+    "lon": 2.1254576149288,
+    "buses": [
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 9174,
+    "name": "DOÑA AMELIA-PG.AVELLANERS",
+    "lat": 41.480354941569,
+    "lon": 2.1308768000322,
+    "buses": [
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 9175,
+    "name": "TECNOLOGIC - CARPA",
+    "lat": 41.485998053814,
+    "lon": 2.1280340973851,
+    "buses": [
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 9176,
+    "name": "TECNOLOGIC - HOTEL",
+    "lat": 41.487594789943,
+    "lon": 2.1276376102683,
+    "buses": [
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 9178,
+    "name": "SANT RAMON - CODONYERS",
+    "lat": 41.489213148357,
+    "lon": 2.1323735728092,
+    "buses": [
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 9179,
+    "name": "ESCOLES",
+    "lat": 41.489733122074,
+    "lon": 2.1372180770925,
+    "buses": [
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 13675,
+    "name": "ALTIMIRA/SANT ISCLE (AJUNTAMENT)",
+    "lat": 41.490463799998,
+    "lon": 2.1413099183222,
+    "buses": [
+      "su1",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 9182,
+    "name": "AV. PRIMAVERA/PINEDA",
+    "lat": 41.490132364109,
+    "lon": 2.1457098226097,
+    "buses": [
+      "su1",
+      "su2",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10559,
+    "name": "RONDA CERDANYOLA/TURÓ",
+    "lat": 41.488634826764,
+    "lon": 2.1519494028294,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 9184,
+    "name": "AV.FERRAN VII / PL. COLOM",
+    "lat": 41.486518511446,
+    "lon": 2.1520015336653,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10560,
+    "name": "NUMÁNCIA/ AV. LESSEPS",
+    "lat": 41.485094154444,
+    "lon": 2.1506069105402,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 9185,
+    "name": "POMPEU FABRA / CANALETES",
+    "lat": 41.483801489154,
+    "lon": 2.1517414215864,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 9166,
+    "name": "AV. CANALETES/C. DE LA COSTA",
+    "lat": 41.483507003502,
+    "lon": 2.1485604060365,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10561,
+    "name": "AV. CANALETAS / PG. D`HORTA",
+    "lat": 41.482932238564,
+    "lon": 2.1440995416049,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5961,
+    "name": "AV.GUIERA / ST. EDUARD",
+    "lat": 41.483323439693,
+    "lon": 2.1409917778303,
+    "buses": [
+      "su1",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 5756,
+    "name": "CAN CERDA",
+    "lat": 41.459240460084,
+    "lon": 2.123444880483,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5758,
+    "name": "VALENCIA/CATALUNYA",
+    "lat": 41.480144222302,
+    "lon": 2.1350330048686,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5831,
+    "name": "PIN I SOLER",
+    "lat": 41.50691306792,
+    "lon": 2.0871302960907,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5832,
+    "name": "PL. MARE DE DEU DE MONSERRAT",
+    "lat": 41.506262133887,
+    "lon": 2.0800458859145,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5833,
+    "name": "VALLMITJANA/RAMON FUSTER",
+    "lat": 41.50448288612,
+    "lon": 2.0828269380939,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5834,
+    "name": "CAMI ANTIC DE SANT CUGAT/MESTRE NICOLAU",
+    "lat": 41.501271693744,
+    "lon": 2.0799967083331,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5835,
+    "name": "CAMI ANTIC DE SANT CUGAT/TERRANOVA",
+    "lat": 41.498081930891,
+    "lon": 2.0809763600012,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 10750,
+    "name": "LLEÓ XIII (EL GALLINER)",
+    "lat": 41.493412553715,
+    "lon": 2.0941484731846,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5836,
+    "name": "PL.GRECO",
+    "lat": 41.495995175635,
+    "lon": 2.0892723796584,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 10548,
+    "name": "SANTA ANNA / SANT FRANCESÇ",
+    "lat": 41.493998082434,
+    "lon": 2.1423243084327,
+    "buses": [
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10549,
+    "name": "SANTA ANNA / SANT VICENÇ",
+    "lat": 41.495476336266,
+    "lon": 2.1400524933783,
+    "buses": [
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10555,
+    "name": "GALÍCIA / CF BÒBILA",
+    "lat": 41.49187892165,
+    "lon": 2.1276291822489,
+    "buses": [
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10556,
+    "name": "PL. CONSTITUCIÓ",
+    "lat": 41.493005067586,
+    "lon": 2.1348140101427,
+    "buses": [
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 10558,
+    "name": "STA. ANNA / CAMÈLIES",
+    "lat": 41.4950212159,
+    "lon": 2.140621587819,
+    "buses": [
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  }
+]

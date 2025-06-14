@@ -2,8 +2,7 @@ import './App.css';
 import { APIProvider } from '@vis.gl/react-google-maps';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router';
-import BusLineStops from './views/BusLineStops';
-import Home from './views/Home';
+import BusStopsMap from './views/BusStopsMap';
 
 const App = () => {
 	const [userLocation, setUserLocation] = useState<{
@@ -37,11 +36,7 @@ const App = () => {
 			onLoad={watchPosition}
 		>
 			<Routes>
-				<Route index element={<Home />} />
-				<Route
-					path="/:busLineId"
-					element={<BusLineStops currentLocation={userLocation} />}
-				/>
+				<Route index element={<BusStopsMap currentLocation={userLocation} />} />
 			</Routes>
 		</APIProvider>
 	);
