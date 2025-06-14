@@ -11,6 +11,7 @@ const LoadingContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	padding: 8px;
+	color: black;
 `;
 
 const InfoContainer = styled.div<{ $index: number }>`
