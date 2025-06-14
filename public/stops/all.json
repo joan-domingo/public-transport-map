@@ -647,6 +647,7 @@
     "lon": 2.139016748147,
     "buses": [
       "a4",
+      "a7",
       "b7",
       "su2"
     ],
@@ -660,6 +661,7 @@
     "lon": 2.1425218122065,
     "buses": [
       "a4",
+      "a7",
       "b2",
       "b7",
       "e3",
@@ -676,6 +678,7 @@
     "lon": 2.141200813541,
     "buses": [
       "a4",
+      "a7",
       "b2",
       "b7",
       "e3",
@@ -691,6 +694,7 @@
     "lon": 2.1460138508529,
     "buses": [
       "a4",
+      "a7",
       "b2",
       "b7",
       "e3",
@@ -920,6 +924,7 @@
     "lon": 2.1458575387737,
     "buses": [
       "a4",
+      "a7",
       "b2",
       "e3"
     ],
@@ -933,6 +938,7 @@
     "lon": 2.136578,
     "buses": [
       "a4",
+      "a7",
       "b7",
       "su1"
     ],
@@ -946,6 +952,7 @@
     "lon": 2.133889,
     "buses": [
       "a4",
+      "a7",
       "b7",
       "su1"
     ],
@@ -1084,6 +1091,254 @@
       "b7"
     ],
     "lineId": 184,
+    "zoneId": 0
+  },
+  {
+    "id": 5850,
+    "name": "LESSEPS / RIERA DE CASSOLES",
+    "lat": 41.40616,
+    "lon": 2.1498,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 12103,
+    "name": "PALAU D´ESPORTS DE LA VALL D´HEBRON",
+    "lat": 41.42792,
+    "lon": 2.14416,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5740,
+    "name": "CTRA. D'HORTA/PG. DE VALLDAURA",
+    "lat": 41.43727,
+    "lon": 2.15355,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5745,
+    "name": "FORAT DEL VENT",
+    "lat": 41.44719016408,
+    "lon": 2.1403671945804,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5750,
+    "name": "COLÒNIA SARDÀ",
+    "lat": 41.460053110431,
+    "lon": 2.1225239239008,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 5755,
+    "name": "CTRA. D´HORTA (CENTRE DE FORMACIÓ FLOR DE MAIG)",
+    "lat": 41.466937063136,
+    "lon": 2.1228030489196,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5762,
+    "name": "CAN COLL",
+    "lat": 41.473795790037,
+    "lon": 2.1283180082079,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5754,
+    "name": "AV FLOR DE MAIG-VALLDAURA",
+    "lat": 41.47755218108,
+    "lon": 2.1297711557607,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5752,
+    "name": "AV FLOR DE MAIG-PROVENÇA",
+    "lat": 41.47884640624,
+    "lon": 2.131097744546,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5760,
+    "name": "AV. DE LA FLOR DE MAIG/PL. OLIVÉ",
+    "lat": 41.48187,
+    "lon": 2.13266,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 5770,
+    "name": "AV FLOR DE MAIG-ST. JERONI",
+    "lat": 41.484509972947,
+    "lon": 2.1325588960797,
+    "buses": [
+      "a7",
+      "su1",
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 12105,
+    "name": "AV FLOR DE MAIG",
+    "lat": 41.488957258471,
+    "lon": 2.1319569271833,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 429,
+    "name": "AV. DE LA FLOR DE MAIG/C. DE ST. JERONI",
+    "lat": 41.484526450272,
+    "lon": 2.1324686160085,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 431,
+    "name": "AV. DE LA  FLOR DE MAIG/PL. OLIVÉ",
+    "lat": 41.481781925763,
+    "lon": 2.1324240078778,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 432,
+    "name": "AV. DE LA  FLOR DE MAIG/C. DE PROVENÇA",
+    "lat": 41.478925853014,
+    "lon": 2.1311326166666,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 433,
+    "name": "AV. DE LA  FLOR DE MAIG/C. DE VALLDAURA",
+    "lat": 41.477563748779,
+    "lon": 2.1296776282984,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 434,
+    "name": "CTRA. D´HORTA (CAN COLL)",
+    "lat": 41.473814191375,
+    "lon": 2.1281588804763,
+    "buses": [
+      "a7",
+      "su1"
+    ],
+    "lineId": 33,
+    "zoneId": 0
+  },
+  {
+    "id": 414,
+    "name": "COLÒNIA SARDÀ",
+    "lat": 41.459980602088,
+    "lon": 2.1224650321169,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 415,
+    "name": "FORAT DEL VENT",
+    "lat": 41.447126671154,
+    "lon": 2.1403081752624,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 416,
+    "name": "CTRA. D'HORTA/RONDA DE DALT",
+    "lat": 41.43958,
+    "lon": 2.15435,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
+    "zoneId": 0
+  },
+  {
+    "id": 12104,
+    "name": "PG. VALL D'HEBRON/GRANJA VELLA",
+    "lat": 41.42779,
+    "lon": 2.1434,
+    "buses": [
+      "a7"
+    ],
+    "lineId": 21,
     "zoneId": 0
   },
   {
@@ -1766,9 +2021,10 @@
     "lat": 41.50033,
     "lon": 2.09944,
     "buses": [
-      "e3"
+      "e3",
+      "pa"
     ],
-    "lineId": 299,
+    "lineId": 307,
     "zoneId": 0
   },
   {
@@ -1872,6 +2128,139 @@
     "zoneId": 0
   },
   {
+    "id": 13183,
+    "name": "AV. DE LA CIÈNCIA/C. CREU CASAS (SENER)",
+    "lat": 41.491085,
+    "lon": 2.11015,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 14346,
+    "name": "AV. DE CAN DOMÈNECH (EUREKA)",
+    "lat": 41.49711,
+    "lon": 2.10793,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 5670,
+    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
+    "lat": 41.499447046223,
+    "lon": 2.1042690949911,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 3831,
+    "name": "ESTACIÓ BELLATERRA FGC",
+    "lat": 41.500629917259,
+    "lon": 2.0910405851484,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13182,
+    "name": "AV. DE LA CIÈNCIA/BP-1413 (PARC ALBA)",
+    "lat": 41.485865903007,
+    "lon": 2.1146049185305,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 21810,
+    "name": "C. DE LA LLUM (SINCROTRÓ)",
+    "lat": 41.48581,
+    "lon": 2.110118,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 21811,
+    "name": "C. CREU CASAS (NATURE BISSÉ)",
+    "lat": 41.489813,
+    "lon": 2.107081,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13180,
+    "name": "RODALIES CERDANYOLA UNIVERSITAT",
+    "lat": 41.497210207285,
+    "lon": 2.1156967481778,
+    "buses": [
+      "pa",
+      "su3"
+    ],
+    "lineId": 167,
+    "zoneId": 0
+  },
+  {
+    "id": 13189,
+    "name": "C. DE LA VILA (HOTEL CAMPUS)",
+    "lat": 41.499248,
+    "lon": 2.096445,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13190,
+    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
+    "lat": 41.498892267183,
+    "lon": 2.1047650954683,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 14345,
+    "name": "AV. DE CAN DOMÈNECH (EUREKA)",
+    "lat": 41.49696,
+    "lon": 2.10776,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 13181,
+    "name": "AV. DE LA CIÈNCIA/C. CREU CASAS (SENER)",
+    "lat": 41.49093,
+    "lon": 2.10991,
+    "buses": [
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
     "id": 9168,
     "name": "PG.D´HORTA (CAP CANALETES)",
     "lat": 41.484645596633,
@@ -1896,61 +2285,6 @@
     "zoneId": 0
   },
   {
-    "id": 429,
-    "name": "AV. DE LA FLOR DE MAIG/C. DE ST. JERONI",
-    "lat": 41.484526450272,
-    "lon": 2.1324686160085,
-    "buses": [
-      "su1"
-    ],
-    "lineId": 33,
-    "zoneId": 0
-  },
-  {
-    "id": 431,
-    "name": "AV. DE LA  FLOR DE MAIG/PL. OLIVÉ",
-    "lat": 41.481781925763,
-    "lon": 2.1324240078778,
-    "buses": [
-      "su1"
-    ],
-    "lineId": 33,
-    "zoneId": 0
-  },
-  {
-    "id": 432,
-    "name": "AV. DE LA  FLOR DE MAIG/C. DE PROVENÇA",
-    "lat": 41.478925853014,
-    "lon": 2.1311326166666,
-    "buses": [
-      "su1"
-    ],
-    "lineId": 33,
-    "zoneId": 0
-  },
-  {
-    "id": 433,
-    "name": "AV. DE LA  FLOR DE MAIG/C. DE VALLDAURA",
-    "lat": 41.477563748779,
-    "lon": 2.1296776282984,
-    "buses": [
-      "su1"
-    ],
-    "lineId": 33,
-    "zoneId": 0
-  },
-  {
-    "id": 434,
-    "name": "CTRA. D´HORTA (CAN COLL)",
-    "lat": 41.473814191375,
-    "lon": 2.1281588804763,
-    "buses": [
-      "su1"
-    ],
-    "lineId": 33,
-    "zoneId": 0
-  },
-  {
     "id": 12994,
     "name": "INSTITUCIÓ MONTSERRAT MONTERO",
     "lat": 41.469848457523,
@@ -1962,54 +2296,6 @@
     "zoneId": 0
   },
   {
-    "id": 5755,
-    "name": "CTRA. D´HORTA (CENTRE DE FORMACIÓ FLOR DE MAIG)",
-    "lat": 41.466937063136,
-    "lon": 2.1228030489196,
-    "buses": [
-      "su1",
-      "su2"
-    ],
-    "lineId": 34,
-    "zoneId": 0
-  },
-  {
-    "id": 5762,
-    "name": "CAN COLL",
-    "lat": 41.473795790037,
-    "lon": 2.1283180082079,
-    "buses": [
-      "su1",
-      "su2"
-    ],
-    "lineId": 34,
-    "zoneId": 0
-  },
-  {
-    "id": 5754,
-    "name": "AV FLOR DE MAIG-VALLDAURA",
-    "lat": 41.47755218108,
-    "lon": 2.1297711557607,
-    "buses": [
-      "su1",
-      "su2"
-    ],
-    "lineId": 34,
-    "zoneId": 0
-  },
-  {
-    "id": 5752,
-    "name": "AV FLOR DE MAIG-PROVENÇA",
-    "lat": 41.47884640624,
-    "lon": 2.131097744546,
-    "buses": [
-      "su1",
-      "su2"
-    ],
-    "lineId": 34,
-    "zoneId": 0
-  },
-  {
     "id": 9174,
     "name": "DOÑA AMELIA-PG.AVELLANERS",
     "lat": 41.480354941569,
@@ -2018,30 +2304,6 @@
       "su1"
     ],
     "lineId": 33,
-    "zoneId": 0
-  },
-  {
-    "id": 5760,
-    "name": "AV. DE LA FLOR DE MAIG/PL. OLIVÉ",
-    "lat": 41.48187,
-    "lon": 2.13266,
-    "buses": [
-      "su1",
-      "su2"
-    ],
-    "lineId": 34,
-    "zoneId": 0
-  },
-  {
-    "id": 5770,
-    "name": "AV FLOR DE MAIG-ST. JERONI",
-    "lat": 41.484509972947,
-    "lon": 2.1325588960797,
-    "buses": [
-      "su1",
-      "su2"
-    ],
-    "lineId": 34,
     "zoneId": 0
   },
   {
@@ -2313,17 +2575,6 @@
     "name": "SANTA ANNA / SANT VICENÇ",
     "lat": 41.495476336266,
     "lon": 2.1400524933783,
-    "buses": [
-      "su3"
-    ],
-    "lineId": 167,
-    "zoneId": 0
-  },
-  {
-    "id": 13180,
-    "name": "RODALIES CERDANYOLA UNIVERSITAT",
-    "lat": 41.497210207285,
-    "lon": 2.1156967481778,
     "buses": [
       "su3"
     ],

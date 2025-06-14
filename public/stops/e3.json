@@ -21,11 +21,11 @@
     },
     "ID_GRUPO": 1,
     "ID_LINEA": 299,
-    "ID_TRAYECTO": 1,
-    "SECUENCIA": 170,
+    "ID_TRAYECTO": 102,
+    "SECUENCIA": 10,
     "ID_PARADA": 13870,
-    "NKM_ORIGEN": 18.928,
-    "SUBE_BAJA": 3
+    "NKM_ORIGEN": 0,
+    "SUBE_BAJA": 2
   },
   {
     "Parada": {
