@@ -110,9 +110,10 @@
     "lat": 41.496939096944,
     "lon": 2.1429444439313,
     "buses": [
-      "648"
+      "648",
+      "b4"
     ],
-    "lineId": 103,
+    "lineId": 22,
     "zoneId": 0
   },
   {
@@ -367,9 +368,10 @@
     "lat": 41.49755,
     "lon": 2.14262,
     "buses": [
-      "648"
+      "648",
+      "b4"
     ],
-    "lineId": 103,
+    "lineId": 22,
     "zoneId": 0
   },
   {
@@ -696,6 +698,7 @@
       "a4",
       "a7",
       "b2",
+      "b4",
       "b7",
       "e3",
       "su1",
@@ -926,6 +929,7 @@
       "a4",
       "a7",
       "b2",
+      "b4",
       "e3"
     ],
     "lineId": 299,
@@ -1490,9 +1494,10 @@
     "lat": 41.511273483867,
     "lon": 2.1302448275852,
     "buses": [
-      "b2"
+      "b2",
+      "b4"
     ],
-    "lineId": 15,
+    "lineId": 22,
     "zoneId": 0
   },
   {
@@ -1606,9 +1611,10 @@
     "lat": 41.500814736148,
     "lon": 2.1396583723032,
     "buses": [
-      "b2"
+      "b2",
+      "b4"
     ],
-    "lineId": 15,
+    "lineId": 22,
     "zoneId": 0
   },
   {
@@ -1617,9 +1623,10 @@
     "lat": 41.511879812473,
     "lon": 2.1298921930046,
     "buses": [
-      "b2"
+      "b2",
+      "b4"
     ],
-    "lineId": 15,
+    "lineId": 22,
     "zoneId": 0
   },
   {
@@ -1741,6 +1748,160 @@
       "b2"
     ],
     "lineId": 15,
+    "zoneId": 0
+  },
+  {
+    "id": 12566,
+    "name": "C. DELS INFANTS/C. PORTO",
+    "lat": 41.510237827341,
+    "lon": 2.1125836130873,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 12107,
+    "name": "AV. BURGOS/C. BÈTICA",
+    "lat": 41.508463382201,
+    "lon": 2.1149205214011,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 116,
+    "name": "AV. COSTA BRAVA/AV. COSTA AZUL",
+    "lat": 41.507128537326,
+    "lon": 2.1193842200241,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 117,
+    "name": "C. URGELL/RDA. DE CATALUNYA",
+    "lat": 41.51115,
+    "lon": 2.1225,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 118,
+    "name": "DR. MORAGAS/RDA. DE L´EST",
+    "lat": 41.513388841794,
+    "lon": 2.1253151818852,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 13145,
+    "name": "CRTA. DE BARCELONA/C. DEL CARDONER (LA FARIGOLA)",
+    "lat": 41.50021417209,
+    "lon": 2.1400497217576,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 428,
+    "name": "CTRA. DE BARCELONA/C. DE SANT QUINTÍ",
+    "lat": 41.493997155996,
+    "lon": 2.1470444871642,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 6040,
+    "name": "CTRA. DE BARCELONA /C. DE TIANA",
+    "lat": 41.4949,
+    "lon": 2.14609,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4870,
+    "name": "DR. MORAGAS/RDA. DE L´EST",
+    "lat": 41.513468440878,
+    "lon": 2.1251223710379,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4860,
+    "name": "C. URGELL/RDA. DE CATALUNYA",
+    "lat": 41.511101742856,
+    "lon": 2.1222207738065,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4850,
+    "name": "AV. COSTA BRAVA,7",
+    "lat": 41.507106486665,
+    "lon": 2.1188572877415,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 5931,
+    "name": "AV. MEDITERRANI, 30",
+    "lat": 41.506149495086,
+    "lon": 2.1127113371523,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 5400,
+    "name": "C. BÈTICA (CAP)",
+    "lat": 41.507905861601,
+    "lon": 2.1115370194165,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 115,
+    "name": "AV. BURGOS (AJUNTAMENT)",
+    "lat": 41.508990791367,
+    "lon": 2.1143980742787,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
     "zoneId": 0
   },
   {
