@@ -19,6 +19,7 @@ const InfoContainer = styled.div<{ $index: number }>`
 	flex: 1;
 	background-color: ${(props) => props.$index % 2 === 0 && 'rgb(244, 244, 244)'};
 	padding: 4px;
+	color: black;
 `;
 
 const InfoContainerHeader = styled.div<{ $lineId: number }>`
