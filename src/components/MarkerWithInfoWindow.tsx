@@ -7,30 +7,15 @@ import styled from 'styled-components';
 import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
 import type BusStop from '../types/busStop';
+import { busLineNameColor } from '../utils/lineColor';
+import MarkerTimetable from './MarkerTimetable';
 
 const InfoWindowHeader = styled.div`
 	padding-bottom: 8px;
 	padding-right: 4px;
 	display: flex;
 	font-size: 0.8rem;
-	font-weight: bold;
 	color: black;
-`;
-
-const InfoContainer = styled.div<{ selected?: boolean; $index: number }>`
-    display: flex;
-	flex-direction: column;
-	position: relative;
-	flex: 1;
-	color: black;
-	background-color: ${(props) => props.$index % 2 === 0 && '#edebeb'};
-	background-color: ${(props) => props.selected && '#e5ffe3'};
-
-`;
-
-const InfoContainerHeader = styled.h4`
-	margin: 8px 0 2px 0;
-	color: #636363;
 `;
 
 const BusLinesWrapper = styled.div`
@@ -73,17 +58,6 @@ interface Props {
 	stop: BusStop;
 }
 
-const busLineColor: Record<string, string> = {
-	648: '#F70000',
-	a4: '#F70008',
-	b2: '#F70023',
-	b7: '#F7000C',
-	e3: '#0A8BAA',
-	su1: '#107E00',
-	su2: '#F7000C',
-	su3: '#9A008D',
-};
-
 export const MarkerWithInfowindow = ({
 	stop,
 	onClick,
@@ -98,23 +72,24 @@ export const MarkerWithInfowindow = ({
 		})),
 	);
 	const [markerRef, marker] = useAdvancedMarkerRef();
-
 	return (
 		<>
 			<AdvancedMarker
 				ref={markerRef}
-				onClick={onClick}
+				onClick={() => !visible && onClick()}
 				position={{ lat: stop.lat, lng: stop.lon }}
+				zIndex={visible ? 1 : 0}
+				style={{ transition: 'width 0.5s ease' }}
 			>
 				<>
 					<BusLinesWrapper>
 						{stop.buses.map((bus) => (
-							<BusLineIcon key={bus} color={busLineColor[bus]}>
+							<BusLineIcon key={bus} color={busLineNameColor[bus]}>
 								{bus.toUpperCase()}
 							</BusLineIcon>
 						))}
 					</BusLinesWrapper>
-					<ArrowDown/>
+					<ArrowDown />
 				</>
 			</AdvancedMarker>
 			{visible && (
@@ -123,43 +98,14 @@ export const MarkerWithInfowindow = ({
 					shouldFocus
 					minWidth={320}
 					onCloseClick={onCloseClick}
-					headerContent={
-						<InfoWindowHeader>Propers Busos - {stop.name}</InfoWindowHeader>
-					}
+					headerContent={<InfoWindowHeader>{stop.name}</InfoWindowHeader>}
 				>
-					{isLoading && <InfoContainer $index={1}>Carregant...</InfoContainer>}
-					{isLoaded &&
-						(!selectedStopTimetable || selectedStopTimetable.length === 0) && (
-							<InfoContainer $index={1}>
-								No hi ha informació disponible
-							</InfoContainer>
-						)}
-					{isLoaded &&
-						selectedStopTimetable &&
-						selectedStopTimetable.map((stop, index) => {
-							return (
-								<InfoContainer
-									key={stop.lineId}
-									selected={stop.selected}
-									$index={index}
-								>
-									<InfoContainerHeader>{stop.lineName}</InfoContainerHeader>
-									{stop.nextBuses.map((bus) => {
-										return (
-											<div
-												key={`${bus.minutesLeft}-${bus.name}`}
-												style={{ display: 'flex' }}
-											>
-												<div style={{ fontWeight: 'bold', marginRight: '8px' }}>
-													{bus.minutesLeft}
-												</div>
-												<div>- Direcció {bus.name}</div>
-											</div>
-										);
-									})}
-								</InfoContainer>
-							);
-						})}
+					<MarkerTimetable
+						selectedStopTimetable={selectedStopTimetable}
+						isLoading={isLoading}
+						isLoaded={isLoaded}
+						visible={visible}
+					/>
 				</InfoWindow>
 			)}
 		</>

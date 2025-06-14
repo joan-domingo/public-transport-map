@@ -19,8 +19,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null,
-			selected: 0,
+			incidencias: null
 		},
 		{
 			idLinea: 15,
@@ -41,8 +40,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null,
-			selected: 0,
+			incidencias: null
 		},
 		{
 			idLinea: 33,
@@ -56,8 +54,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null,
-			selected: 0,
+			incidencias: null
 		},
 		{
 			idLinea: 167,
@@ -71,8 +68,7 @@ describe('useStore', () => {
 					},
 				],
 			},
-			incidencias: null,
-			selected: 0,
+			incidencias: null
 		},
 		{
 			idLinea: 184,
@@ -87,7 +83,6 @@ describe('useStore', () => {
 				],
 			},
 			incidencias: null,
-			selected: 0,
 		},
 		{
 			idLinea: 299,
@@ -112,7 +107,6 @@ describe('useStore', () => {
 				],
 			},
 			incidencias: null,
-			selected: 1,
 		},
 	];
 
