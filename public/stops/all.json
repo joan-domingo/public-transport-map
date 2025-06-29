@@ -51,9 +51,10 @@
     "lon": 2.1099,
     "buses": [
       "648",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -124,9 +125,10 @@
     "buses": [
       "648",
       "a4",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -432,9 +434,10 @@
     "lon": 2.1100854346195,
     "buses": [
       "648",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -491,9 +494,10 @@
     "lon": 2.0786172657595,
     "buses": [
       "a4",
-      "b7"
+      "b7",
+      "n62"
     ],
-    "lineId": 184,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -503,9 +507,10 @@
     "lon": 2.0812884214997,
     "buses": [
       "a4",
-      "b7"
+      "b7",
+      "n62"
     ],
-    "lineId": 184,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -515,9 +520,10 @@
     "lon": 2.08288,
     "buses": [
       "a4",
-      "b7"
+      "b7",
+      "n62"
     ],
-    "lineId": 184,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -527,9 +533,10 @@
     "lon": 2.0870760341676,
     "buses": [
       "a4",
-      "b7"
+      "b7",
+      "n62"
     ],
-    "lineId": 184,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -667,6 +674,7 @@
       "b2",
       "b7",
       "e3",
+      "n62",
       "su1",
       "su3"
     ],
@@ -684,6 +692,7 @@
       "b2",
       "b7",
       "e3",
+      "n62",
       "su1"
     ],
     "lineId": 33,
@@ -701,6 +710,7 @@
       "b4",
       "b7",
       "e3",
+      "n62",
       "su1",
       "su3"
     ],
@@ -802,9 +812,10 @@
     "lon": 2.18611884579,
     "buses": [
       "a4",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -825,9 +836,10 @@
     "lon": 2.1863871279302,
     "buses": [
       "a4",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -915,9 +927,10 @@
     "buses": [
       "a4",
       "b2",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -930,9 +943,10 @@
       "a7",
       "b2",
       "b4",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -1068,9 +1082,10 @@
     "lon": 2.0856838808775,
     "buses": [
       "a4",
-      "b7"
+      "b7",
+      "n62"
     ],
-    "lineId": 184,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -1080,9 +1095,10 @@
     "lon": 2.0823881500071,
     "buses": [
       "a4",
-      "b7"
+      "b7",
+      "n62"
     ],
-    "lineId": 184,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -1092,9 +1108,10 @@
     "lon": 2.078973374513,
     "buses": [
       "a4",
-      "b7"
+      "b7",
+      "n62"
     ],
-    "lineId": 184,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -1530,6 +1547,7 @@
     "buses": [
       "b2",
       "e3",
+      "n62",
       "su2",
       "su3"
     ],
@@ -1543,9 +1561,10 @@
     "lon": 2.1345781611336,
     "buses": [
       "b2",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -1555,9 +1574,10 @@
     "lon": 2.13874,
     "buses": [
       "b2",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -1578,9 +1598,10 @@
     "lon": 2.14238,
     "buses": [
       "b2",
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2079,9 +2100,10 @@
     "lat": 41.41975,
     "lon": 2.187139,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2090,9 +2112,10 @@
     "lat": 41.430665202053,
     "lon": 2.1828937835919,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2102,6 +2125,7 @@
     "lon": 2.1332294277108,
     "buses": [
       "e3",
+      "n62",
       "su2",
       "su3"
     ],
@@ -2115,6 +2139,7 @@
     "lon": 2.13031,
     "buses": [
       "e3",
+      "n62",
       "su2",
       "su3"
     ],
@@ -2127,9 +2152,10 @@
     "lat": 41.497224458515,
     "lon": 2.1258082680642,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2138,9 +2164,10 @@
     "lat": 41.498949079667,
     "lon": 2.1228137813559,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2149,9 +2176,10 @@
     "lat": 41.498299141798,
     "lon": 2.1202706196925,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2194,9 +2222,10 @@
     "lat": 41.500206892495,
     "lon": 2.0967974971365,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2205,9 +2234,10 @@
     "lat": 41.498587621267,
     "lon": 2.1203026584419,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2216,9 +2246,10 @@
     "lat": 41.498877211222,
     "lon": 2.1228387132011,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2227,9 +2258,10 @@
     "lat": 41.497143309786,
     "lon": 2.1257973786281,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2238,9 +2270,10 @@
     "lat": 41.49550740249,
     "lon": 2.1286227881314,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2250,6 +2283,7 @@
     "lon": 2.133266925411,
     "buses": [
       "e3",
+      "n62",
       "su3"
     ],
     "lineId": 167,
@@ -2261,9 +2295,10 @@
     "lat": 41.432002,
     "lon": 2.182617,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2272,9 +2307,10 @@
     "lat": 41.419722,
     "lon": 2.18675,
     "buses": [
-      "e3"
+      "e3",
+      "n62"
     ],
-    "lineId": 299,
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2286,6 +2322,228 @@
       "e3"
     ],
     "lineId": 299,
+    "zoneId": 0
+  },
+  {
+    "id": 11648,
+    "name": "PG. FRANCESC MACIÀ / CREU",
+    "lat": 41.473834241617,
+    "lon": 2.086636470969,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 8088,
+    "name": "PG. FRANCESC MACIÀ (RODALIES)",
+    "lat": 41.480156502359,
+    "lon": 2.0808703448084,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 10578,
+    "name": "AV. CLOTA / AV. GRAELLS",
+    "lat": 41.48075,
+    "lon": 2.06953,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 10579,
+    "name": "AV. CLOTA / ROC CODÓ",
+    "lat": 41.484768718207,
+    "lon": 2.0686111639522,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 5670,
+    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
+    "lat": 41.499447046223,
+    "lon": 2.1042690949911,
+    "buses": [
+      "n62",
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 3833,
+    "name": "C. BALMES / C. COT",
+    "lat": 41.494711152325,
+    "lon": 2.1571464528992,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 12841,
+    "name": "C. ST. JAUME / C. BALMES",
+    "lat": 41.49433,
+    "lon": 2.1629,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 12842,
+    "name": "C. ST. JAUME (ESCOLA EL MARTINET)",
+    "lat": 41.493708528357,
+    "lon": 2.1678935951391,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 21823,
+    "name": "C. D´ARAGÓ / C. DE LA INDEPENDÈNCIA",
+    "lat": 41.40725,
+    "lon": 2.18486,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 3793,
+    "name": "RDA ST. PERE",
+    "lat": 41.38827,
+    "lon": 2.17063,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 3220,
+    "name": "PL TETUÁN",
+    "lat": 41.395156051867,
+    "lon": 2.1763409160586,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 21822,
+    "name": "C. DEL CONSELL DE CENT / AV. DE LA MERIDIANA",
+    "lat": 41.40659,
+    "lon": 2.18651,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 12840,
+    "name": "C. ST. JAUME/ C. DE LA MERCÈ (ESCOLA EL MARTINET)",
+    "lat": 41.49386,
+    "lon": 2.16761,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 14005,
+    "name": "C. ST. JAUME / C. BALMES",
+    "lat": 41.49442,
+    "lon": 2.16293,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 3829,
+    "name": "C. BALMES / C. COT",
+    "lat": 41.494819669082,
+    "lon": 2.1572049474218,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 13190,
+    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
+    "lat": 41.498892267183,
+    "lon": 2.1047650954683,
+    "buses": [
+      "n62",
+      "pa"
+    ],
+    "lineId": 307,
+    "zoneId": 0
+  },
+  {
+    "id": 10583,
+    "name": "AV. CLOTA / ROC CODÓ",
+    "lat": 41.484857229059,
+    "lon": 2.0684182419079,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 10628,
+    "name": "AV. CLOTA (E. L´OLIVERA)",
+    "lat": 41.481561905787,
+    "lon": 2.0696991543029,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 8064,
+    "name": "PG.FRANCESC MACIÀ (RODALIES)",
+    "lat": 41.479902315223,
+    "lon": 2.0806224091687,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
+    "zoneId": 0
+  },
+  {
+    "id": 9158,
+    "name": "PG. FRANCESC MACIÀ (MONESTIR)",
+    "lat": 41.474784443593,
+    "lon": 2.0860602329483,
+    "buses": [
+      "n62"
+    ],
+    "lineId": 37,
     "zoneId": 0
   },
   {
@@ -2304,17 +2562,6 @@
     "name": "AV. DE CAN DOMÈNECH (EUREKA)",
     "lat": 41.49711,
     "lon": 2.10793,
-    "buses": [
-      "pa"
-    ],
-    "lineId": 307,
-    "zoneId": 0
-  },
-  {
-    "id": 5670,
-    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
-    "lat": 41.499447046223,
-    "lon": 2.1042690949911,
     "buses": [
       "pa"
     ],
@@ -2382,17 +2629,6 @@
     "name": "C. DE LA VILA (HOTEL CAMPUS)",
     "lat": 41.499248,
     "lon": 2.096445,
-    "buses": [
-      "pa"
-    ],
-    "lineId": 307,
-    "zoneId": 0
-  },
-  {
-    "id": 13190,
-    "name": "AV. DE CAN DOMÈNECH (MEDICINA-C.C.COMUNICACIÓ)",
-    "lat": 41.498892267183,
-    "lon": 2.1047650954683,
     "buses": [
       "pa"
     ],
