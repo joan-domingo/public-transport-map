@@ -142,6 +142,7 @@ const Map = ({ userLocation }: Props) => {
 								border: '2px solid white',
 								borderRadius: '50%',
 								transform: 'translate(-50%, -50%)',
+								zIndex: 99
 							}}
 						/>
 					</AdvancedMarker>
