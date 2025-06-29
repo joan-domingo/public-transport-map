@@ -83,11 +83,34 @@ export const MarkerWithInfowindow = ({
 			>
 				<>
 					<BusLinesWrapper>
-						{stop.buses.map((bus) => (
-							<BusLineIcon key={bus} color={busLineNameColor[bus]}>
-								{bus.toUpperCase()}
-							</BusLineIcon>
-						))}
+						{(() => {
+							const buses = stop.buses;
+							const n = buses.length;
+							const cols = Math.ceil(Math.sqrt(n));
+							const rows = Math.ceil(n / cols);
+							const grid: string[][] = [];
+							for (let r = 0; r < rows; r++) {
+								grid.push(buses.slice(r * cols, (r + 1) * cols));
+							}
+							return (
+								<div
+									style={{ display: 'flex', flexDirection: 'column', gap: 2 }}
+								>
+									{grid.map((row, rowIdx) => (
+										<div
+											key={`${row.length}-${rowIdx}`}
+											style={{ display: 'flex', flexDirection: 'row', gap: 2 }}
+										>
+											{row.map((bus) => (
+												<BusLineIcon key={bus} color={busLineNameColor[bus]}>
+													{bus.toUpperCase()}
+												</BusLineIcon>
+											))}
+										</div>
+									))}
+								</div>
+							);
+						})()}
 					</BusLinesWrapper>
 					<ArrowDown />
 				</>
