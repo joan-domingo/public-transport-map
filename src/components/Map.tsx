@@ -127,10 +127,7 @@ const Map = ({ userLocation }: Props) => {
 					/>
 				))}
 				{userLocation && (
-					<AdvancedMarker
-						position={userLocation}
-						title={'AdvancedMarker with custom html content.'}
-					>
+					<AdvancedMarker position={userLocation} title={'Ubicació actual'}>
 						<div
 							style={{
 								width: 16,
@@ -142,7 +139,7 @@ const Map = ({ userLocation }: Props) => {
 								border: '2px solid white',
 								borderRadius: '50%',
 								transform: 'translate(-50%, -50%)',
-								zIndex: 99
+								zIndex: 99,
 							}}
 						/>
 					</AdvancedMarker>

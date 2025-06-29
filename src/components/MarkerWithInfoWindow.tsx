@@ -76,7 +76,7 @@ export const MarkerWithInfowindow = ({
 		<>
 			<AdvancedMarker
 				ref={markerRef}
-				onClick={() => !visible && onClick()}
+				onClick={onClick}
 				position={{ lat: stop.lat, lng: stop.lon }}
 				zIndex={visible ? 1 : 0}
 				style={{ transition: 'width 0.5s ease' }}
