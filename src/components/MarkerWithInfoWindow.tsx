@@ -31,12 +31,12 @@ const BusLineIcon = styled.div<{ color: string }>`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 36px;
-	height: 36px;
+	width: 24px;
+	height: 24px;
 	background-color: ${(props) => props.color};
 	color: white;
-	font-size: 18px;
-	border-radius: 8px;
+	font-size: 12px;
+	border-radius: 6px;
 `;
 
 const ArrowDown = styled.div`

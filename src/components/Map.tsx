@@ -48,7 +48,7 @@ const Header = styled.header`
 
 const Title = styled.h1`
     color: white;
-	font-size: 2rem;
+	font-size: 1rem;
 	margin: 0;
 `;
 
@@ -56,6 +56,7 @@ const Description = styled.div`
     color: white;
     justify-content: center;
     align-items: center;
+	font-size: 0.8rem;
 `;
 
 interface Props {
@@ -182,9 +183,8 @@ const Map = ({ userLocation }: Props) => {
 							src="/busIcon.svg"
 							alt="Icona QuanTriga.com"
 							style={{
-								width: '48px',
-								height: '48px',
-								padding: '8px',
+								height: '32px',
+								paddingRight: '8px',
 							}}
 						/>
 					</a>
