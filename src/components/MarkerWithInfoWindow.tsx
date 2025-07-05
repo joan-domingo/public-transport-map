@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
 import type BusStop from '../types/busStop';
-import { busLineNameColor } from '../utils/lineColor';
+import busLineData from '../utils/busLineData.json';
 import MarkerTimetable from './MarkerTimetable';
 
 const InfoWindowHeader = styled.div`
@@ -102,8 +102,15 @@ export const MarkerWithInfowindow = ({
 											style={{ display: 'flex', flexDirection: 'row', gap: 2 }}
 										>
 											{row.map((bus) => (
-												<BusLineIcon key={bus} color={busLineNameColor[bus]}>
-													{bus.toUpperCase()}
+												<BusLineIcon
+													key={bus}
+													color={
+														busLineData[bus as keyof typeof busLineData].color!
+													}
+												>
+													{busLineData[bus as keyof typeof busLineData].name
+														.toUpperCase()
+														.replace('-', '')}
 												</BusLineIcon>
 											))}
 										</div>

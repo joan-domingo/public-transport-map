@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import type { CustomBusLineTimetable } from '../types/customTimetable';
-import { busLineIdColor } from '../utils/lineColor';
+import busLineData from '../utils/busLineData.json';
 
 const MarkerTimetableWrapper = styled.div`
 `;
@@ -26,7 +26,8 @@ const InfoContainer = styled.div<{ $index: number }>`
 const InfoContainerHeader = styled.div<{ $lineId: number }>`
 	font-weight: bold;
 	color: ${(props) => {
-		return busLineIdColor[props.$lineId];
+		return busLineData[props.$lineId.toString() as keyof typeof busLineData]
+			.color!;
 	}};
 	padding: 4px 0;
 `;

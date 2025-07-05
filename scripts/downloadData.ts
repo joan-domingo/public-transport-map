@@ -131,6 +131,21 @@ try {
 		JSON.stringify(busLineStopsArray, null, 2),
 	);
 	console.log('All bus lines data downloaded and prepared successfully.');
+
+	// Create a dictionary with bus line ID as the key and the bus line name and the color as values
+	// and save it to a file
+	const busLineColors: Record<string, { name: string; color: string }> = {};
+	for (const busLine of busLinesInfoList) {
+		busLineColors[busLine.ID_LINEA] = {
+			name: busLine.COD_LINEA,
+			color: busLine.COLOR,
+		};
+	}
+
+	await Bun.write(
+		'src/utils/busLineData.json',
+		JSON.stringify(busLineColors, null, 2),
+	);
 } catch (err) {
 	console.error('Error:', err);
 }
