@@ -6,7 +6,7 @@ import {
 import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
 import type BusStop from '../types/busStop';
-import { busLineNameColor } from '../utils/lineColor';
+import busLineData from '../utils/busLineData.json';
 import MarkerTimetable from './MarkerTimetable';
 
 interface Props {
@@ -63,9 +63,15 @@ export const MarkerWithInfowindow = ({
 												<div
 													key={bus}
 													className="flex items-center justify-center w-6 h-6 text-white text-xs rounded-md"
-													style={{ backgroundColor: busLineNameColor[bus] }}
+													style={{
+														backgroundColor:
+															busLineData[bus as keyof typeof busLineData]
+																.color!,
+													}}
 												>
-													{bus.toUpperCase()}
+													{busLineData[bus as keyof typeof busLineData].name
+														.toUpperCase()
+														.replace('-', '')}
 												</div>
 											))}
 										</div>
