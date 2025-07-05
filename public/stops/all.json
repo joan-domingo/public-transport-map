@@ -1772,83 +1772,6 @@
     "zoneId": 0
   },
   {
-    "id": 12566,
-    "name": "C. DELS INFANTS/C. PORTO",
-    "lat": 41.510237827341,
-    "lon": 2.1125836130873,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 12107,
-    "name": "AV. BURGOS/C. BÈTICA",
-    "lat": 41.508463382201,
-    "lon": 2.1149205214011,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 116,
-    "name": "AV. COSTA BRAVA/AV. COSTA AZUL",
-    "lat": 41.507128537326,
-    "lon": 2.1193842200241,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 117,
-    "name": "C. URGELL/RDA. DE CATALUNYA",
-    "lat": 41.51115,
-    "lon": 2.1225,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 118,
-    "name": "DR. MORAGAS/RDA. DE L´EST",
-    "lat": 41.513388841794,
-    "lon": 2.1253151818852,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 13145,
-    "name": "CRTA. DE BARCELONA/C. DEL CARDONER (LA FARIGOLA)",
-    "lat": 41.50021417209,
-    "lon": 2.1400497217576,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 428,
-    "name": "CTRA. DE BARCELONA/C. DE SANT QUINTÍ",
-    "lat": 41.493997155996,
-    "lon": 2.1470444871642,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
     "id": 6040,
     "name": "CTRA. DE BARCELONA /C. DE TIANA",
     "lat": 41.4949,
@@ -1919,6 +1842,83 @@
     "name": "AV. BURGOS (AJUNTAMENT)",
     "lat": 41.508990791367,
     "lon": 2.1143980742787,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 12566,
+    "name": "C. DELS INFANTS/C. PORTO",
+    "lat": 41.510237827341,
+    "lon": 2.1125836130873,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 12107,
+    "name": "AV. BURGOS/C. BÈTICA",
+    "lat": 41.508463382201,
+    "lon": 2.1149205214011,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 116,
+    "name": "AV. COSTA BRAVA/AV. COSTA AZUL",
+    "lat": 41.507128537326,
+    "lon": 2.1193842200241,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 117,
+    "name": "C. URGELL/RDA. DE CATALUNYA",
+    "lat": 41.51115,
+    "lon": 2.1225,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 118,
+    "name": "DR. MORAGAS/RDA. DE L´EST",
+    "lat": 41.513388841794,
+    "lon": 2.1253151818852,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 13145,
+    "name": "CRTA. DE BARCELONA/C. DEL CARDONER (LA FARIGOLA)",
+    "lat": 41.50021417209,
+    "lon": 2.1400497217576,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 428,
+    "name": "CTRA. DE BARCELONA/C. DE SANT QUINTÍ",
+    "lat": 41.493997155996,
+    "lon": 2.1470444871642,
     "buses": [
       "b4"
     ],
