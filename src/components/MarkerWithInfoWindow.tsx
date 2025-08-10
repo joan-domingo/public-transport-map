@@ -11,11 +11,27 @@ import { busLineNameColor } from '../utils/lineColor';
 import MarkerTimetable from './MarkerTimetable';
 
 const InfoWindowHeader = styled.div`
-	padding-bottom: 8px;
-	padding-right: 4px;
-	display: flex;
-	font-size: 0.8rem;
-	color: black;
+    display: flex;
+    color: black;
+	align-items: center;
+`;
+
+const InfoWindowHeaderTitle = styled.div`
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+`;
+
+const CloseButton = styled.button`
+    width: 32px;
+	height: 32px;
+    border: none;
+    background: transparent;
+    color: #000;
+    font-size: 28px;
+    cursor: pointer;
 `;
 
 const BusLinesWrapper = styled.div`
@@ -121,7 +137,14 @@ export const MarkerWithInfowindow = ({
 					shouldFocus
 					minWidth={320}
 					onCloseClick={onCloseClick}
-					headerContent={stop.name}
+					headerContent={
+						<InfoWindowHeader>
+							<InfoWindowHeaderTitle>{stop.name}</InfoWindowHeaderTitle>
+							<CloseButton aria-label="Tanca" onClick={onCloseClick}>
+								×
+							</CloseButton>
+						</InfoWindowHeader>
+					}
 				>
 					<MarkerTimetable
 						selectedStopTimetable={selectedStopTimetable}

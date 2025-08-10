@@ -47,3 +47,18 @@ h1 {
 		background-color: #f9f9f9;
 	}
 }
+
+/* Ensure Google Maps built-in close icon does not get hidden by global styles and hide it since we provide our own */
+/* On some mobile browsers global CSS may affect Google's internal images */
+.gm-ui-hover-effect img {
+    max-width: none !important;
+}
+
+/* Hide default close control because we render a custom close button in headerContent */
+.gm-ui-hover-effect {
+    display: none !important;
+}
+
+.gm-style-iw-ch {
+	padding-top: 0 !important;
+}
