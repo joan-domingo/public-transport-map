@@ -121,7 +121,7 @@ export const MarkerWithInfowindow = ({
 					shouldFocus
 					minWidth={320}
 					onCloseClick={onCloseClick}
-					headerContent={<InfoWindowHeader>{stop.name}</InfoWindowHeader>}
+					headerContent={stop.name}
 				>
 					<MarkerTimetable
 						selectedStopTimetable={selectedStopTimetable}
