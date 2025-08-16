@@ -1,50 +1,5 @@
-import styled, { keyframes } from 'styled-components';
 import type { CustomBusLineTimetable } from '../types/customTimetable';
 import { busLineIdColor } from '../utils/lineColor';
-
-const MarkerTimetableWrapper = styled.div`
-`;
-
-const LoadingContainer = styled.div`
-	display: flex;
-	flex: 1;
-	align-items: center;
-	justify-content: center;
-	padding: 8px;
-	color: black;
-`;
-
-const InfoContainer = styled.div<{ $index: number }>`
-    display: flex;
-	flex-direction: column;
-	flex: 1;
-	background-color: ${(props) => props.$index % 2 === 0 && 'rgb(244, 244, 244)'};
-	padding: 4px;
-	color: black;
-`;
-
-const InfoContainerHeader = styled.div<{ $lineId: number }>`
-	font-weight: bold;
-	color: ${(props) => {
-		return busLineIdColor[props.$lineId];
-	}};
-	padding: 4px 0;
-`;
-
-const loaderAnimation = keyframes`
-	0% { transform: rotate(0deg); }
-  	100% { transform: rotate(360deg); }
-`;
-
-const Loader = styled.div`
-	border: 4px solid #f3f3f3; /* Light grey */
-	border-top: 4px solid #888888; /* Blue */
-	border-radius: 50%;
-	width: 24px;
-	height: 24px;
-	animation: spin 2s linear infinite;
-	animation-name: ${loaderAnimation};
-`;
 
 interface Props {
 	selectedStopTimetable: CustomBusLineTimetable[];
@@ -64,32 +19,40 @@ const MarkerTimetable = ({
 	}
 
 	return (
-		<MarkerTimetableWrapper>
+		<div>
 			{isLoading && (
-				<LoadingContainer>
-					<Loader />
-				</LoadingContainer>
+				<div className="flex flex-1 items-center justify-center p-2 text-black">
+					<div className="border-4 border-gray-200 border-t-gray-600 rounded-full w-6 h-6 animate-spin" />
+				</div>
 			)}
 			{isLoaded && !selectedStopTimetable && (
-				<LoadingContainer>
+				<div className="flex flex-1 items-center justify-center p-2 text-black">
 					No s'han pogut carregar les dades. Si us plau, torna-ho a intentar més
 					tard.
-				</LoadingContainer>
+				</div>
 			)}
 			{isLoaded &&
 				selectedStopTimetable &&
 				selectedStopTimetable.length === 0 && (
-					<LoadingContainer>Cap autobús previst properament.</LoadingContainer>
+					<div className="flex flex-1 items-center justify-center p-2 text-black">
+						Cap autobús previst properament.
+					</div>
 				)}
 			{isLoaded &&
 				selectedStopTimetable &&
 				selectedStopTimetable.length > 0 &&
 				selectedStopTimetable.map((stop, index) => {
 					return (
-						<InfoContainer key={stop.lineId} $index={index}>
-							<InfoContainerHeader $lineId={stop.lineId}>
+						<div
+							key={stop.lineId}
+							className={`flex flex-col flex-1 p-1 text-black ${index % 2 === 0 ? 'bg-gray-100' : ''}`}
+						>
+							<div
+								className="font-bold py-1"
+								style={{ color: busLineIdColor[stop.lineId] }}
+							>
 								{stop.lineName}
-							</InfoContainerHeader>
+							</div>
 							{stop.nextBuses.map((bus) => {
 								return (
 									<div
@@ -103,10 +66,10 @@ const MarkerTimetable = ({
 									</div>
 								);
 							})}
-						</InfoContainer>
+						</div>
 					);
 				})}
-		</MarkerTimetableWrapper>
+		</div>
 	);
 };
 

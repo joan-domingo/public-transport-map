@@ -3,69 +3,11 @@ import {
 	InfoWindow,
 	useAdvancedMarkerRef,
 } from '@vis.gl/react-google-maps';
-import styled from 'styled-components';
 import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
 import type BusStop from '../types/busStop';
 import { busLineNameColor } from '../utils/lineColor';
 import MarkerTimetable from './MarkerTimetable';
-
-const InfoWindowHeader = styled.div`
-    display: flex;
-    color: black;
-	align-items: center;
-`;
-
-const InfoWindowHeaderTitle = styled.div`
-    flex: 1;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-`;
-
-const CloseButton = styled.button`
-    width: 32px;
-	height: 32px;
-    border: none;
-    background: transparent;
-    color: #000;
-    font-size: 28px;
-    cursor: pointer;
-`;
-
-const BusLinesWrapper = styled.div`
-	display: flex;
-	flex-direction: row;
-	background-color:rgba(0, 0, 0, 0.7);
-	padding: 2px;
-	gap: 2px;
-	border-radius: 8px;
-`;
-
-const BusLineIcon = styled.div<{ color: string }>`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 24px;
-	height: 24px;
-	background-color: ${(props) => props.color};
-	color: white;
-	font-size: 12px;
-	border-radius: 6px;
-`;
-
-const ArrowDown = styled.div`
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 0;
-	height: 0;
-	border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-top: 12px solid rgba(0, 0, 0, 0.7);
-`;
 
 interface Props {
 	onClick: () => void;
@@ -98,7 +40,7 @@ export const MarkerWithInfowindow = ({
 				style={{ transition: 'width 0.5s ease' }}
 			>
 				<>
-					<BusLinesWrapper>
+					<div className="flex flex-row bg-black/70 p-0.5 gap-0.5 rounded-lg">
 						{(() => {
 							const buses = stop.buses;
 							const n = buses.length;
@@ -118,17 +60,28 @@ export const MarkerWithInfowindow = ({
 											style={{ display: 'flex', flexDirection: 'row', gap: 2 }}
 										>
 											{row.map((bus) => (
-												<BusLineIcon key={bus} color={busLineNameColor[bus]}>
+												<div
+													key={bus}
+													className="flex items-center justify-center w-6 h-6 text-white text-xs rounded-md"
+													style={{ backgroundColor: busLineNameColor[bus] }}
+												>
 													{bus.toUpperCase()}
-												</BusLineIcon>
+												</div>
 											))}
 										</div>
 									))}
 								</div>
 							);
 						})()}
-					</BusLinesWrapper>
-					<ArrowDown />
+					</div>
+					<div
+						className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0"
+						style={{
+							borderLeft: '8px solid transparent',
+							borderRight: '8px solid transparent',
+							borderTop: '12px solid rgba(0, 0, 0, 0.7)',
+						}}
+					/>
 				</>
 			</AdvancedMarker>
 			{visible && (
@@ -138,12 +91,19 @@ export const MarkerWithInfowindow = ({
 					minWidth={320}
 					onCloseClick={onCloseClick}
 					headerContent={
-						<InfoWindowHeader>
-							<InfoWindowHeaderTitle>{stop.name}</InfoWindowHeaderTitle>
-							<CloseButton aria-label="Tanca" onClick={onCloseClick}>
+						<div className="flex text-black items-center">
+							<div className="flex-1 min-w-0 overflow-hidden text-ellipsis whitespace-nowrap">
+								{stop.name}
+							</div>
+							<button
+								className="w-8 h-8 border-none text-black text-3xl cursor-pointer flex items-center justify-center"
+								style={{ background: 'white' }}
+								aria-label="Tanca"
+								onClick={onCloseClick}
+							>
 								×
-							</CloseButton>
-						</InfoWindowHeader>
+							</button>
+						</div>
 					}
 				>
 					<MarkerTimetable

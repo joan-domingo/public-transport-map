@@ -1,63 +1,9 @@
 import { AdvancedMarker, Map as GoogleMap } from '@vis.gl/react-google-maps';
 import { useEffect, useState } from 'react';
-import styled from 'styled-components';
 import { useShallow } from 'zustand/shallow';
 import appStore from '../store/appStore';
 import type BusStop from '../types/busStop';
 import { MarkerWithInfowindow } from './MarkerWithInfoWindow';
-
-const RecenterButton = styled.button`
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	background: white;
-	border: 2px solid #aaa;
-	cursor: pointer;
-	display: flex;
-	align-itmes: center;
-	justify-content: center;
-	margin: 36px 24px;
-	padding: 12px;
-	border-radius: 50%;
-`;
-
-const Footer = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	background: rgba(255, 255, 255, 0.8);
-	color: black;
-`;
-
-const Header = styled.header`
-    display: flex;
-	flex-direction: column;
-    background-color:rgba(8, 139, 159, 0.8);
-    align-items: center;
-    justify-content: center;
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	padding: 4px;
-`;
-
-const Title = styled.h1`
-    color: white;
-	font-size: 1rem;
-	margin: 0;
-`;
-
-const Description = styled.div`
-    color: white;
-    justify-content: center;
-    align-items: center;
-	font-size: 0.8rem;
-`;
 
 interface Props {
 	userLocation: { lat: number; lng: number };
@@ -145,7 +91,8 @@ const Map = ({ userLocation }: Props) => {
 					</AdvancedMarker>
 				)}
 			</GoogleMap>
-			<RecenterButton
+			<button
+				className="absolute bottom-0 right-0 bg-white border-2 border-gray-400 cursor-pointer flex items-center justify-center m-9 mr-6 p-3 rounded-full"
 				onClick={() => {
 					setIsDragging(false);
 				}}
@@ -162,8 +109,8 @@ const Map = ({ userLocation }: Props) => {
 						}),
 					}}
 				/>
-			</RecenterButton>
-			<Footer>
+			</button>
+			<div className="flex justify-center items-center absolute bottom-0 right-0 left-0 bg-white/80 text-black">
 				Dades proporcionades per
 				<a
 					href="https://www.moventis.es/ca/temps-real"
@@ -173,8 +120,11 @@ const Map = ({ userLocation }: Props) => {
 				>
 					Moventis
 				</a>
-			</Footer>
-			<Header>
+			</div>
+			<header
+				className="flex flex-col items-center justify-center absolute top-0 right-0 left-0 p-1"
+				style={{ backgroundColor: 'rgba(8, 139, 159, 0.8)' }}
+			>
 				<div style={{ display: 'flex', alignItems: 'center' }}>
 					<a href="https://quantriga.com">
 						<img
@@ -186,12 +136,14 @@ const Map = ({ userLocation }: Props) => {
 							}}
 						/>
 					</a>
-					<Title>QuanTriga.com</Title>
+					<h1 className="text-white font-bold m-0" style={{ fontSize: '1rem' }}>
+						QuanTriga.com
+					</h1>
 				</div>
-				<Description>
+				<div className="text-white justify-center items-center text-xs mt-1">
 					Consulta en temps real l'arribada dels propers busos.
-				</Description>
-			</Header>
+				</div>
+			</header>
 		</div>
 	);
 };
