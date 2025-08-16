@@ -1,9 +1,10 @@
-import { AdvancedMarker, Map as GoogleMap } from '@vis.gl/react-google-maps';
+import { Map as GoogleMap } from '@vis.gl/react-google-maps';
 import { useEffect, useState } from 'react';
 import { useShallow } from 'zustand/shallow';
+import { useBusStopSelection } from '../hooks/useBusStopSelection';
 import appStore from '../store/appStore';
-import type BusStop from '../types/busStop';
-import { MarkerWithInfowindow } from './MarkerWithInfoWindow';
+import { BusStopMarkers } from './BusStopMarkers';
+import { UserLocationMarker } from './UserLocationMarker';
 
 interface Props {
 	userLocation: { lat: number; lng: number };
@@ -11,23 +12,14 @@ interface Props {
 
 // https://visgl.github.io/react-google-maps/
 const Map = ({ userLocation }: Props) => {
-	const {
-		loadBusStops,
-		busLineStops,
-		loadBusStopTimeTable,
-		clearSelectedBusStopTimetable,
-	} = appStore(
+	const { loadBusStops, busLineStops } = appStore(
 		useShallow((state) => ({
 			loadBusStops: state.loadBusStops,
 			busLineStops: state.busLineStops,
-			loadBusStopTimeTable: state.loadBusStopTimeTable,
-			clearSelectedBusStopTimetable: state.clearSelectedBusStopTimetable,
 		})),
 	);
 
-	const [openedBusStopMarker, setOpenedBusStopMarker] = useState<null | number>(
-		null,
-	);
+	const { selectedStopId, selectStop, clearSelection } = useBusStopSelection();
 	const [isDragging, setIsDragging] = useState(false);
 
 	useEffect(() => {
@@ -44,13 +36,6 @@ const Map = ({ userLocation }: Props) => {
 		};
 	}, []);
 
-	const handleOnMarkerClick = async (stop: BusStop) => {
-		const { id, lineId, zoneId } = stop;
-		clearSelectedBusStopTimetable();
-		setOpenedBusStopMarker(id);
-		await loadBusStopTimeTable(id, lineId, zoneId);
-	};
-
 	return (
 		<div style={{ display: 'flex', flex: '1' }}>
 			<GoogleMap
@@ -63,33 +48,13 @@ const Map = ({ userLocation }: Props) => {
 				mapId="public-transport-map"
 				onDragstart={() => setIsDragging(true)}
 			>
-				{busLineStops.map((stop) => (
-					<MarkerWithInfowindow
-						key={stop.id}
-						stop={stop}
-						onClick={() => handleOnMarkerClick(stop)}
-						visible={openedBusStopMarker === stop.id}
-						onCloseClick={() => setOpenedBusStopMarker(null)}
-					/>
-				))}
-				{userLocation && (
-					<AdvancedMarker position={userLocation} title={'Ubicació actual'}>
-						<div
-							style={{
-								width: 16,
-								height: 16,
-								position: 'absolute',
-								top: 0,
-								left: 0,
-								background: 'rgb(51, 48, 241)',
-								border: '2px solid white',
-								borderRadius: '50%',
-								transform: 'translate(-50%, -50%)',
-								zIndex: 99,
-							}}
-						/>
-					</AdvancedMarker>
-				)}
+				<BusStopMarkers
+					stops={busLineStops}
+					selectedStopId={selectedStopId}
+					onStopClick={selectStop}
+					onCloseClick={clearSelection}
+				/>
+				{userLocation && <UserLocationMarker location={userLocation} />}
 			</GoogleMap>
 			<button
 				className="absolute bottom-0 right-0 bg-white border-2 border-gray-400 cursor-pointer flex items-center justify-center m-9 mr-6 p-3 rounded-full"
