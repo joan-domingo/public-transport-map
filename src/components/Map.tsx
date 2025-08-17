@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useShallow } from 'zustand/shallow';
 import { useBusStopSelection } from '../hooks/useBusStopSelection';
 import appStore from '../store/appStore';
-import { BusStopMarkers } from './BusStopMarkers';
+import { SimpleBusStopMarkers } from './SimpleBusStopMarkers';
 import { UserLocationMarker } from './UserLocationMarker';
 
 interface Props {
@@ -48,7 +48,7 @@ const Map = ({ userLocation }: Props) => {
 				mapId="public-transport-map"
 				onDragstart={() => setIsDragging(true)}
 			>
-				<BusStopMarkers
+				<SimpleBusStopMarkers
 					stops={busLineStops}
 					selectedStopId={selectedStopId}
 					onStopClick={selectStop}
