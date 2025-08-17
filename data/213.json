@@ -8,8 +8,8 @@
     "DESC_REDUCIDA": "Mutilva",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 392,
-    "FIN_TRAYECTO": 1367,
+    "INI_TRAYECTO": 408,
+    "FIN_TRAYECTO": 1365,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -585,8 +585,8 @@
     "DESC_REDUCIDA": "Berriozar",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 399,
-    "FIN_TRAYECTO": 1360,
+    "INI_TRAYECTO": 407,
+    "FIN_TRAYECTO": 1365,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {

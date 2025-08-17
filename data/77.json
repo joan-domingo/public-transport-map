@@ -8,7 +8,7 @@
     "DESC_REDUCIDA": "LA BISBAL D'EMPORDÀ, ESTACIÓ",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 375,
+    "INI_TRAYECTO": 435,
     "FIN_TRAYECTO": 1190,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
@@ -2282,7 +2282,7 @@
     "DESC_REDUCIDA": "SANT FELIU DE GUÍXOLS",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 475,
+    "INI_TRAYECTO": 535,
     "FIN_TRAYECTO": 1110,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [

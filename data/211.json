@@ -9,7 +9,7 @@
     "PRINCIPAL": "S",
     "SENTIDO": "V",
     "INI_TRAYECTO": 390,
-    "FIN_TRAYECTO": 1370,
+    "FIN_TRAYECTO": 1380,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -473,8 +473,8 @@
     "DESC_REDUCIDA": "Urb. Zizur Mayor",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 440,
-    "FIN_TRAYECTO": 1307,
+    "INI_TRAYECTO": 390,
+    "FIN_TRAYECTO": 1317,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -938,8 +938,8 @@
     "DESC_REDUCIDA": "P. Sarasate",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 407,
-    "FIN_TRAYECTO": 1340,
+    "INI_TRAYECTO": 417,
+    "FIN_TRAYECTO": 1350,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -1431,8 +1431,8 @@
     "DESC_REDUCIDA": "Ardoi",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 400,
-    "FIN_TRAYECTO": 1367,
+    "INI_TRAYECTO": 420,
+    "FIN_TRAYECTO": 1377,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {

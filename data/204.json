@@ -8,7 +8,7 @@
     "DESC_REDUCIDA": "Buztintxuri",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 395,
+    "INI_TRAYECTO": 418,
     "FIN_TRAYECTO": 1360,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
@@ -361,8 +361,8 @@
     "DESC_REDUCIDA": "Blanca Navarra",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 398,
-    "FIN_TRAYECTO": 1370,
+    "INI_TRAYECTO": 420,
+    "FIN_TRAYECTO": 1365,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
