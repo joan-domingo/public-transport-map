@@ -50,8 +50,10 @@ const MarkerTimetable = ({
 							<div
 								className="font-bold py-1"
 								style={{
-									// color: busLineData[bus as keyof typeof busLineData].color!
-									color: 'yellow',
+									color:
+										busLineData[
+											stop.lineId.toString() as keyof typeof busLineData
+										]?.color || 'black',
 								}}
 							>
 								{stop.lineName}
