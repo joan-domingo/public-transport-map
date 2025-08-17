@@ -97,8 +97,7 @@ export const SimpleBusStopMarkers = ({
 					.map((stop) => ({
 						stop,
 						distance: Math.sqrt(
-							Math.pow(stop.lat - centerLat, 2) +
-								Math.pow(stop.lon - centerLng, 2),
+							(stop.lat - centerLat) ** 2 + (stop.lon - centerLng) ** 2,
 						),
 					}))
 					.sort((a, b) => a.distance - b.distance)
@@ -123,7 +122,7 @@ export const SimpleBusStopMarkers = ({
 		updateVisibleStops();
 
 		// Listen for map changes with debouncing for better performance
-		let timeoutId: NodeJS.Timeout;
+		let timeoutId: ReturnType<typeof setTimeout>;
 		const debouncedUpdate = () => {
 			clearTimeout(timeoutId);
 			timeoutId = setTimeout(updateVisibleStops, 150);
