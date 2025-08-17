@@ -303,6 +303,10 @@
     "name": "SL3",
     "color": "#31EA00"
   },
+  "157": {
+    "name": "SL5",
+    "color": "#0B13BB"
+  },
   "158": {
     "name": "SSDA L1",
     "color": "#21FF0B"
@@ -603,6 +607,10 @@
     "name": "B9",
     "color": "#F70004"
   },
+  "362": {
+    "name": "R9",
+    "color": "#0BA5BA"
+  },
   "375": {
     "name": "PR",
     "color": "#FF0E23"
@@ -618,10 +626,6 @@
   "385": {
     "name": "C-18",
     "color": "#E70008"
-  },
-  "386": {
-    "name": "R3",
-    "color": "#D68D00"
   },
   "388": {
     "name": "L2A",
@@ -645,11 +649,19 @@
   },
   "431": {
     "name": "L6",
-    "color": "#FFFF15"
+    "color": "#FFAC08"
   },
   "433": {
     "name": "L2 BL/URBÀ",
     "color": "#0BBB80"
+  },
+  "436": {
+    "name": "L1360",
+    "color": "#0EEBB5"
+  },
+  "438": {
+    "name": "L1361",
+    "color": "#DCB800"
   },
   "439": {
     "name": "L4 BLA-REN",
@@ -713,7 +725,7 @@
   },
   "670": {
     "name": "L69",
-    "color": "#0C31C2"
+    "color": "#F5A600"
   },
   "671": {
     "name": "L53 BLANES",
@@ -763,6 +775,10 @@
     "name": "PR1",
     "color": "#0C88D0"
   },
+  "689": {
+    "name": "PR2",
+    "color": "#ABFF84"
+  },
   "690": {
     "name": "PR3",
     "color": "#F8A0FF"
@@ -777,6 +793,10 @@
   },
   "697": {
     "name": "L77",
+    "color": null
+  },
+  "698": {
+    "name": "78",
     "color": null
   },
   "701": {

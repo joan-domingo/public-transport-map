@@ -24,7 +24,7 @@
     "ID_TRAYECTO": 1024,
     "SECUENCIA": 310,
     "ID_PARADA": 24897,
-    "NKM_ORIGEN": 12.552,
+    "NKM_ORIGEN": 13.888,
     "SUBE_BAJA": 1
   },
   {
@@ -897,6 +897,34 @@
   },
   {
     "Parada": {
+      "DESC_PARADA": "CTRA. AVIACIÓ - RONDA SUD",
+      "COD_PARADA": 7109962,
+      "ID_GRUPO": 1,
+      "ID_PARADA": 24918,
+      "ID_MUNICIPIO": 471019,
+      "MUNICIPIO": "EL PRAT DE LLOBREGAT",
+      "EXPLOTADORA": "SARBUS",
+      "ID_ZONA": 0,
+      "ZONA": null,
+      "ID_EXPLOTADORA": 1,
+      "UTMX": 424097,
+      "UTMY": 4574269,
+      "LATITUD": 41.31632676,
+      "LONGITUD": 2.09314534,
+      "ID_SUBZONA": null,
+      "SUBZONA": null,
+      "CONCESIONES": null
+    },
+    "ID_GRUPO": 1,
+    "ID_LINEA": 690,
+    "ID_TRAYECTO": 1024,
+    "SECUENCIA": 60,
+    "ID_PARADA": 24918,
+    "NKM_ORIGEN": 7.256,
+    "SUBE_BAJA": 1
+  },
+  {
+    "Parada": {
       "DESC_PARADA": "RONDA SUD - AV. REMOLAR",
       "COD_PARADA": 7109975,
       "ID_GRUPO": 1,
@@ -1401,20 +1429,48 @@
   },
   {
     "Parada": {
-      "DESC_PARADA": "ENRIC BORRÀS - IGNASI IGLÉSIAS",
-      "COD_PARADA": 7107642,
+      "DESC_PARADA": "INSTITUT ILLA DELS BANYOLS",
+      "COD_PARADA": 7003489,
       "ID_GRUPO": 1,
-      "ID_PARADA": 24871,
-      "ID_MUNICIPIO": 471019,
-      "MUNICIPIO": "EL PRAT DE LLOBREGAT",
+      "ID_PARADA": 25294,
+      "ID_MUNICIPIO": 443642,
+      "MUNICIPIO": "EL PRAT DE LLOBREGAT ",
       "EXPLOTADORA": "SARBUS",
       "ID_ZONA": 0,
       "ZONA": null,
       "ID_EXPLOTADORA": 1,
-      "UTMX": 424492,
-      "UTMY": 4575993,
-      "LATITUD": 41.33181004,
-      "LONGITUD": 2.09772575,
+      "UTMX": 424955,
+      "UTMY": 4576104,
+      "LATITUD": 41.33111,
+      "LONGITUD": 2.10208,
+      "ID_SUBZONA": null,
+      "SUBZONA": null,
+      "CONCESIONES": null
+    },
+    "ID_GRUPO": 1,
+    "ID_LINEA": 690,
+    "ID_TRAYECTO": 1024,
+    "SECUENCIA": 265,
+    "ID_PARADA": 25294,
+    "NKM_ORIGEN": 12.358,
+    "SUBE_BAJA": 1
+  },
+  {
+    "Parada": {
+      "DESC_PARADA": "LES MORERES - IGNASI IGLÉSIAS",
+      "COD_PARADA": 7003490,
+      "ID_GRUPO": 1,
+      "ID_PARADA": 25295,
+      "ID_MUNICIPIO": 443642,
+      "MUNICIPIO": "EL PRAT DE LLOBREGAT ",
+      "EXPLOTADORA": "SARBUS",
+      "ID_ZONA": 0,
+      "ZONA": null,
+      "ID_EXPLOTADORA": 1,
+      "UTMX": 424794,
+      "UTMY": 4576326,
+      "LATITUD": 41.33309,
+      "LONGITUD": 2.10013,
       "ID_SUBZONA": null,
       "SUBZONA": null,
       "CONCESIONES": null
@@ -1423,8 +1479,8 @@
     "ID_LINEA": 690,
     "ID_TRAYECTO": 1024,
     "SECUENCIA": 270,
-    "ID_PARADA": 24871,
-    "NKM_ORIGEN": 11.844,
+    "ID_PARADA": 25295,
+    "NKM_ORIGEN": 12.708,
     "SUBE_BAJA": 1
   },
   {
@@ -1452,7 +1508,7 @@
     "ID_TRAYECTO": 1024,
     "SECUENCIA": 280,
     "ID_PARADA": 24744,
-    "NKM_ORIGEN": 11.977,
+    "NKM_ORIGEN": 12.948,
     "SUBE_BAJA": 1
   },
   {
@@ -1480,7 +1536,7 @@
     "ID_TRAYECTO": 1024,
     "SECUENCIA": 290,
     "ID_PARADA": 24774,
-    "NKM_ORIGEN": 12.131,
+    "NKM_ORIGEN": 13.188,
     "SUBE_BAJA": 1
   },
   {
@@ -1508,7 +1564,7 @@
     "ID_TRAYECTO": 1024,
     "SECUENCIA": 300,
     "ID_PARADA": 24765,
-    "NKM_ORIGEN": 12.428,
+    "NKM_ORIGEN": 13.488,
     "SUBE_BAJA": 1
   }
 ]

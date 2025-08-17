@@ -13,8 +13,8 @@
       "ID_EXPLOTADORA": 3,
       "UTMX": 442443,
       "UTMY": 4593155,
-      "LATITUD": 41.486143490923,
-      "LONGITUD": 2.3098164796829,
+      "LATITUD": 41.486120384135,
+      "LONGITUD": 2.3095965385437,
       "ID_SUBZONA": null,
       "SUBZONA": null,
       "CONCESIONES": null
@@ -24,7 +24,7 @@
     "ID_TRAYECTO": 2,
     "SECUENCIA": 220,
     "ID_PARADA": 13891,
-    "NKM_ORIGEN": 7.28,
+    "NKM_ORIGEN": 7.4,
     "SUBE_BAJA": 1
   },
   {
@@ -85,7 +85,7 @@
   },
   {
     "Parada": {
-      "DESC_PARADA": "(JOAN XXIII) JOAN XXIII / FRANCESC MACIÀ",
+      "DESC_PARADA": "(JOAN XXIII) JOAN XXIII / ITÀLIA",
       "COD_PARADA": 3657,
       "ID_GRUPO": 1,
       "ID_PARADA": 13907,
@@ -97,8 +97,8 @@
       "ID_EXPLOTADORA": 3,
       "UTMX": 442712,
       "UTMY": 4592530,
-      "LATITUD": 41.48064,
-      "LONGITUD": 2.31255,
+      "LATITUD": 41.48141,
+      "LONGITUD": 2.31222,
       "ID_SUBZONA": null,
       "SUBZONA": null,
       "CONCESIONES": null
@@ -108,12 +108,12 @@
     "ID_TRAYECTO": 2,
     "SECUENCIA": 40,
     "ID_PARADA": 13907,
-    "NKM_ORIGEN": 0.705,
+    "NKM_ORIGEN": 0.614,
     "SUBE_BAJA": 1
   },
   {
     "Parada": {
-      "DESC_PARADA": "(ROGER DE FLOR) NAVARRA / ROGER DE FLOR",
+      "DESC_PARADA": "(PLAÇA NOVA) ITÀLIA / ROGER DE FLOR",
       "COD_PARADA": 3644,
       "ID_GRUPO": 1,
       "ID_PARADA": 13894,
@@ -125,8 +125,8 @@
       "ID_EXPLOTADORA": 3,
       "UTMX": 443038,
       "UTMY": 4592732,
-      "LATITUD": 41.48137,
-      "LONGITUD": 2.31731,
+      "LATITUD": 41.48245,
+      "LONGITUD": 2.31702,
       "ID_SUBZONA": null,
       "SUBZONA": null,
       "CONCESIONES": null
@@ -136,7 +136,35 @@
     "ID_TRAYECTO": 2,
     "SECUENCIA": 50,
     "ID_PARADA": 13894,
-    "NKM_ORIGEN": 1.163,
+    "NKM_ORIGEN": 1.039,
+    "SUBE_BAJA": 1
+  },
+  {
+    "Parada": {
+      "DESC_PARADA": "(PINTOR DOMÈNECH) PINTOR DOMÈNECH / FLOS I CALCAT",
+      "COD_PARADA": 9437,
+      "ID_GRUPO": 1,
+      "ID_PARADA": 25357,
+      "ID_MUNICIPIO": 447115,
+      "MUNICIPIO": "MASNOU, EL",
+      "EXPLOTADORA": "CASAS",
+      "ID_ZONA": 0,
+      "ZONA": null,
+      "ID_EXPLOTADORA": 3,
+      "UTMX": 443236,
+      "UTMY": 4592731,
+      "LATITUD": 41.48236,
+      "LONGITUD": 2.31897,
+      "ID_SUBZONA": null,
+      "SUBZONA": null,
+      "CONCESIONES": null
+    },
+    "ID_GRUPO": 1,
+    "ID_LINEA": 340,
+    "ID_TRAYECTO": 2,
+    "SECUENCIA": 60,
+    "ID_PARADA": 25357,
+    "NKM_ORIGEN": 1.344,
     "SUBE_BAJA": 1
   },
   {
@@ -162,9 +190,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 60,
+    "SECUENCIA": 70,
     "ID_PARADA": 13896,
-    "NKM_ORIGEN": 1.424,
+    "NKM_ORIGEN": 1.544,
     "SUBE_BAJA": 1
   },
   {
@@ -190,9 +218,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 70,
+    "SECUENCIA": 80,
     "ID_PARADA": 13897,
-    "NKM_ORIGEN": 1.819,
+    "NKM_ORIGEN": 1.939,
     "SUBE_BAJA": 1
   },
   {
@@ -218,9 +246,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 80,
+    "SECUENCIA": 90,
     "ID_PARADA": 13900,
-    "NKM_ORIGEN": 2.331,
+    "NKM_ORIGEN": 2.451,
     "SUBE_BAJA": 1
   },
   {
@@ -246,9 +274,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 90,
+    "SECUENCIA": 100,
     "ID_PARADA": 13901,
-    "NKM_ORIGEN": 2.491,
+    "NKM_ORIGEN": 2.611,
     "SUBE_BAJA": 1
   },
   {
@@ -274,9 +302,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 100,
+    "SECUENCIA": 110,
     "ID_PARADA": 7169,
-    "NKM_ORIGEN": 3.075,
+    "NKM_ORIGEN": 3.195,
     "SUBE_BAJA": 1
   },
   {
@@ -302,9 +330,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 110,
+    "SECUENCIA": 120,
     "ID_PARADA": 7032,
-    "NKM_ORIGEN": 3.512,
+    "NKM_ORIGEN": 3.632,
     "SUBE_BAJA": 1
   },
   {
@@ -330,9 +358,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 120,
+    "SECUENCIA": 130,
     "ID_PARADA": 7170,
-    "NKM_ORIGEN": 3.897,
+    "NKM_ORIGEN": 4.017,
     "SUBE_BAJA": 1
   },
   {
@@ -358,9 +386,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 130,
+    "SECUENCIA": 140,
     "ID_PARADA": 7171,
-    "NKM_ORIGEN": 4.332,
+    "NKM_ORIGEN": 4.452,
     "SUBE_BAJA": 1
   },
   {
@@ -386,9 +414,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 140,
+    "SECUENCIA": 150,
     "ID_PARADA": 13903,
-    "NKM_ORIGEN": 4.83,
+    "NKM_ORIGEN": 4.95,
     "SUBE_BAJA": 1
   },
   {
@@ -414,9 +442,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 150,
+    "SECUENCIA": 160,
     "ID_PARADA": 13904,
-    "NKM_ORIGEN": 5.09,
+    "NKM_ORIGEN": 5.21,
     "SUBE_BAJA": 1
   },
   {
@@ -442,9 +470,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 160,
+    "SECUENCIA": 170,
     "ID_PARADA": 13905,
-    "NKM_ORIGEN": 5.318,
+    "NKM_ORIGEN": 5.438,
     "SUBE_BAJA": 1
   },
   {
@@ -470,9 +498,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 170,
+    "SECUENCIA": 180,
     "ID_PARADA": 13906,
-    "NKM_ORIGEN": 5.519,
+    "NKM_ORIGEN": 5.639,
     "SUBE_BAJA": 1
   },
   {
@@ -498,9 +526,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 180,
+    "SECUENCIA": 190,
     "ID_PARADA": 13893,
-    "NKM_ORIGEN": 6.011,
+    "NKM_ORIGEN": 6.131,
     "SUBE_BAJA": 1
   },
   {
@@ -526,9 +554,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 190,
+    "SECUENCIA": 200,
     "ID_PARADA": 13892,
-    "NKM_ORIGEN": 6.219,
+    "NKM_ORIGEN": 6.339,
     "SUBE_BAJA": 1
   },
   {
@@ -554,9 +582,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 200,
+    "SECUENCIA": 210,
     "ID_PARADA": 13910,
-    "NKM_ORIGEN": 6.793,
+    "NKM_ORIGEN": 6.913,
     "SUBE_BAJA": 1
   },
   {
@@ -582,9 +610,9 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 340,
     "ID_TRAYECTO": 2,
-    "SECUENCIA": 210,
+    "SECUENCIA": 215,
     "ID_PARADA": 13911,
-    "NKM_ORIGEN": 7.077,
+    "NKM_ORIGEN": 7.197,
     "SUBE_BAJA": 1
   }
 ]

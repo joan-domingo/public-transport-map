@@ -3267,6 +3267,7 @@
       "334",
       "343",
       "344",
+      "362",
       "388",
       "389"
     ],
@@ -4769,9 +4770,10 @@
     "lat": 41.459121706824,
     "lon": 2.0660087557795,
     "buses": [
-      "24"
+      "24",
+      "296"
     ],
-    "lineId": 24,
+    "lineId": 296,
     "zoneId": 0
   },
   {
@@ -5289,10 +5291,9 @@
     "lon": 2.0662922954288,
     "buses": [
       "26",
-      "28",
-      "29"
+      "28"
     ],
-    "lineId": 29,
+    "lineId": 28,
     "zoneId": 0
   },
   {
@@ -5431,6 +5432,7 @@
       "259",
       "343",
       "344",
+      "362",
       "375"
     ],
     "lineId": 375,
@@ -5647,10 +5649,10 @@
     "zoneId": 0
   },
   {
-    "id": 9193,
-    "name": "CRTA VALLVIDRERA / CAN BALASCH",
-    "lat": 41.430477134802,
-    "lon": 2.0837975793637,
+    "id": 9187,
+    "name": "NTRA. SRA. DE L'ESTRADA / ST. IGNASI DE LOIOLA",
+    "lat": 41.43472,
+    "lon": 2.08932,
     "buses": [
       "29"
     ],
@@ -5658,10 +5660,10 @@
     "zoneId": 0
   },
   {
-    "id": 9194,
-    "name": "PL. M. ANTÒNIA",
-    "lat": 41.433745807041,
-    "lon": 2.0882040859018,
+    "id": 9186,
+    "name": "NTRA. SRA. DE L'ESTRADA",
+    "lat": 41.433373700445,
+    "lon": 2.0889872744701,
     "buses": [
       "29"
     ],
@@ -5713,28 +5715,6 @@
     "zoneId": 0
   },
   {
-    "id": 9186,
-    "name": "NTRA. SRA. DE L'ESTRADA",
-    "lat": 41.433373700445,
-    "lon": 2.0889872744701,
-    "buses": [
-      "29"
-    ],
-    "lineId": 29,
-    "zoneId": 0
-  },
-  {
-    "id": 9187,
-    "name": "NTRA. SRA. DE L'ESTRADA / ST. IGNASI DE LOIOLA",
-    "lat": 41.43472,
-    "lon": 2.08932,
-    "buses": [
-      "29"
-    ],
-    "lineId": 29,
-    "zoneId": 0
-  },
-  {
     "id": 12055,
     "name": "MIRALLUNY / CALVARI",
     "lat": 41.433724355231,
@@ -5772,39 +5752,6 @@
     "name": "DR. MODREGO",
     "lat": 41.432709,
     "lon": 2.09266,
-    "buses": [
-      "29"
-    ],
-    "lineId": 29,
-    "zoneId": 0
-  },
-  {
-    "id": 9189,
-    "name": "PL. M. ANTÒNIA",
-    "lat": 41.433899010955,
-    "lon": 2.0882139108737,
-    "buses": [
-      "29"
-    ],
-    "lineId": 29,
-    "zoneId": 0
-  },
-  {
-    "id": 9191,
-    "name": "CTRA. VALLVIDRERA / CAN BALASCH",
-    "lat": 41.43048814239,
-    "lon": 2.0840487611426,
-    "buses": [
-      "29"
-    ],
-    "lineId": 29,
-    "zoneId": 0
-  },
-  {
-    "id": 9192,
-    "name": "CTRA. VALLVIDRERA A SANT CUGAT, 325",
-    "lat": 41.432484405349,
-    "lon": 2.0781287301306,
     "buses": [
       "29"
     ],
@@ -7434,9 +7381,10 @@
       "175",
       "259",
       "343",
-      "344"
+      "344",
+      "362"
     ],
-    "lineId": 344,
+    "lineId": 362,
     "zoneId": 0
   },
   {
@@ -7448,9 +7396,10 @@
       "37",
       "175",
       "343",
-      "344"
+      "344",
+      "362"
     ],
-    "lineId": 344,
+    "lineId": 362,
     "zoneId": 0
   },
   {
@@ -7746,6 +7695,7 @@
       "175",
       "343",
       "344",
+      "362",
       "375"
     ],
     "lineId": 375,
@@ -8700,16 +8650,26 @@
     "zoneId": 0
   },
   {
-    "id": 7015,
-    "name": "ILLA FANTASIA",
-    "lat": 41.50189678243,
-    "lon": 2.3593029307758,
+    "id": 21174,
+    "name": "GRAN VIA DE LES CORTS CATALANES / PG. DE GRÀCIA",
+    "lat": 41.390291,
+    "lon": 2.169574,
     "buses": [
       "49",
-      "59",
-      "70"
+      "335"
     ],
-    "lineId": 70,
+    "lineId": 335,
+    "zoneId": 0
+  },
+  {
+    "id": 21173,
+    "name": "PLAÇA DR. FERRAN / TORRENT DE LA FONT SANA",
+    "lat": 41.495311,
+    "lon": 2.363853,
+    "buses": [
+      "49"
+    ],
+    "lineId": 49,
     "zoneId": 0
   },
   {
@@ -8726,41 +8686,6 @@
     "zoneId": 0
   },
   {
-    "id": 7020,
-    "name": "GRAN VÍA-CTRA VILASSAR DE DALT",
-    "lat": 41.494255306827,
-    "lon": 2.3619659701928,
-    "buses": [
-      "49"
-    ],
-    "lineId": 49,
-    "zoneId": 0
-  },
-  {
-    "id": 21173,
-    "name": "PLAÇA DR. FERRAN / TORRENT DE LA FONT SANA",
-    "lat": 41.495311,
-    "lon": 2.363853,
-    "buses": [
-      "49"
-    ],
-    "lineId": 49,
-    "zoneId": 0
-  },
-  {
-    "id": 7006,
-    "name": "CTRA. VILASSAR DE DALT/C. VALÈNCIA (BARRI COTET)",
-    "lat": 41.49812,
-    "lon": 2.35957,
-    "buses": [
-      "49",
-      "59",
-      "64"
-    ],
-    "lineId": 64,
-    "zoneId": 0
-  },
-  {
     "id": 7007,
     "name": "ROTONDA DE LES FLORS (ILLA FANTASIA)",
     "lat": 41.501980913265,
@@ -8772,18 +8697,6 @@
       "627"
     ],
     "lineId": 627,
-    "zoneId": 0
-  },
-  {
-    "id": 21174,
-    "name": "GRAN VIA DE LES CORTS CATALANES / PG. DE GRÀCIA",
-    "lat": 41.390291,
-    "lon": 2.169574,
-    "buses": [
-      "49",
-      "335"
-    ],
-    "lineId": 335,
     "zoneId": 0
   },
   {
@@ -8823,6 +8736,42 @@
       "335"
     ],
     "lineId": 335,
+    "zoneId": 0
+  },
+  {
+    "id": 7119,
+    "name": "CTRA D´ENLLAÇ/CAMÍ SOT DEL PI (RTDA.  FONT BLAVA)",
+    "lat": 41.505070012571,
+    "lon": 2.3485475534622,
+    "buses": [
+      "49",
+      "64"
+    ],
+    "lineId": 64,
+    "zoneId": 0
+  },
+  {
+    "id": 7015,
+    "name": "ILLA FANTASIA",
+    "lat": 41.50189678243,
+    "lon": 2.3593029307758,
+    "buses": [
+      "49",
+      "59",
+      "70"
+    ],
+    "lineId": 70,
+    "zoneId": 0
+  },
+  {
+    "id": 7020,
+    "name": "GRAN VÍA-CTRA VILASSAR DE DALT",
+    "lat": 41.494255306827,
+    "lon": 2.3619659701928,
+    "buses": [
+      "49"
+    ],
+    "lineId": 49,
     "zoneId": 0
   },
   {
@@ -10946,6 +10895,18 @@
     "zoneId": 0
   },
   {
+    "id": 7006,
+    "name": "CTRA. VILASSAR DE DALT/C. VALÈNCIA (BARRI COTET)",
+    "lat": 41.49812,
+    "lon": 2.35957,
+    "buses": [
+      "59",
+      "64"
+    ],
+    "lineId": 64,
+    "zoneId": 0
+  },
+  {
     "id": 10421,
     "name": "C. DE LA MERCÈ 63",
     "lat": 41.49626,
@@ -11366,17 +11327,6 @@
     "name": "CTRA. D´ENLLAÇ / C. DE LA DOLÇA DE PROVENÇA",
     "lat": 41.50302,
     "lon": 2.35228,
-    "buses": [
-      "64"
-    ],
-    "lineId": 64,
-    "zoneId": 0
-  },
-  {
-    "id": 7119,
-    "name": "CTRA D´ENLLAÇ/CAMÍ SOT DEL PI (RTDA.  FONT BLAVA)",
-    "lat": 41.505070012571,
-    "lon": 2.3485475534622,
     "buses": [
       "64"
     ],
@@ -11887,10 +11837,251 @@
     "zoneId": 0
   },
   {
-    "id": 12562,
-    "name": "BARCELONA, AEROPORT BARCELONA T2",
-    "lat": 41.304370679071,
-    "lon": 2.0795351298515,
+    "id": 7395,
+    "name": "L'ESCALA, PLAÇA DE LES ESCOLES",
+    "lat": 42.122624343202,
+    "lon": 3.1317456431508,
+    "buses": [
+      "73",
+      "82",
+      "83"
+    ],
+    "lineId": 83,
+    "zoneId": 0
+  },
+  {
+    "id": 7394,
+    "name": "BELLCAIRE (DIR. PALAFRUGELL)",
+    "lat": 42.078203469543,
+    "lon": 3.0985255246137,
+    "buses": [
+      "73",
+      "82"
+    ],
+    "lineId": 82,
+    "zoneId": 0
+  },
+  {
+    "id": 10635,
+    "name": "ULLA, (DIR. TORROELLA)",
+    "lat": 42.049503286716,
+    "lon": 3.1058144334149,
+    "buses": [
+      "73",
+      "82"
+    ],
+    "lineId": 82,
+    "zoneId": 0
+  },
+  {
+    "id": 7393,
+    "name": "TORROELLA DE MONTGRI, ESTACIO AUTOBUS",
+    "lat": 42.041919660738,
+    "lon": 3.130766243004,
+    "buses": [
+      "73",
+      "82",
+      "188",
+      "189",
+      "190"
+    ],
+    "lineId": 190,
+    "zoneId": 0
+  },
+  {
+    "id": 7387,
+    "name": "PALS, MARQUESINA",
+    "lat": 41.969688085539,
+    "lon": 3.1465559886681,
+    "buses": [
+      "73",
+      "80",
+      "187",
+      "190"
+    ],
+    "lineId": 190,
+    "zoneId": 0
+  },
+  {
+    "id": 11890,
+    "name": "PALS, REGENCOS MAS PATOXAS (DIR. PALAFRUGELL)",
+    "lat": 41.955172538899,
+    "lon": 3.1574002582246,
+    "buses": [
+      "73",
+      "187",
+      "190"
+    ],
+    "lineId": 190,
+    "zoneId": 0
+  },
+  {
+    "id": 12025,
+    "name": "REGENCOS, GASOLINERA (DIR. PALAFRUGELL)",
+    "lat": 41.95126131947,
+    "lon": 3.1669254234734,
+    "buses": [
+      "73"
+    ],
+    "lineId": 73,
+    "zoneId": 0
+  },
+  {
+    "id": 13543,
+    "name": "BEGUR, PLAÇA FORGAS (DIR. PALAFRUGELL)",
+    "lat": 41.95253097468,
+    "lon": 3.2061967850223,
+    "buses": [
+      "73",
+      "80",
+      "190",
+      "677"
+    ],
+    "lineId": 677,
+    "zoneId": 0
+  },
+  {
+    "id": 7373,
+    "name": "PALAFRUGELL, ESTACIO D'AUTOBUSOS",
+    "lat": 41.915939320498,
+    "lon": 3.1574001666604,
+    "buses": [
+      "73",
+      "77",
+      "80",
+      "87",
+      "90",
+      "91",
+      "94",
+      "187",
+      "190",
+      "268",
+      "269",
+      "310",
+      "342"
+    ],
+    "lineId": 342,
+    "zoneId": 0
+  },
+  {
+    "id": 7445,
+    "name": "MONT-RAS, (DIR. PALAMOS)",
+    "lat": 41.90695304283,
+    "lon": 3.1467454923973,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "190",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 25277,
+    "name": "PALAMOS ESTACIO",
+    "lat": 41.854847659141,
+    "lon": 3.1268786147499,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "165",
+      "190",
+      "268",
+      "269",
+      "342"
+    ],
+    "lineId": 342,
+    "zoneId": 0
+  },
+  {
+    "id": 12002,
+    "name": "SANT ANTONI CALONGE,OFICINA TURISME (D.PLATJA ARO)",
+    "lat": 41.846658648816,
+    "lon": 3.0994634077895,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "94",
+      "269",
+      "342"
+    ],
+    "lineId": 342,
+    "zoneId": 0
+  },
+  {
+    "id": 7369,
+    "name": "PLATJA D'ARO, SARFA ESTACIÓ",
+    "lat": 41.812556876906,
+    "lon": 3.0600897719816,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "94",
+      "268",
+      "269",
+      "342"
+    ],
+    "lineId": 342,
+    "zoneId": 0
+  },
+  {
+    "id": 13528,
+    "name": "PLATJA D'ARO, S'AGARO (DIR. GIRONA)",
+    "lat": 41.793806478059,
+    "lon": 3.0473577082239,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
+    "id": 7368,
+    "name": "SANT FELIU DE GUIXOLS, ESTACIO AUTOBUS",
+    "lat": 41.780996581754,
+    "lon": 3.022196573729,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "94",
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 13529,
+    "name": "SANTA CRISTINA D'ARO, CENTRE (DIR. GIRONA)",
+    "lat": 41.813857579013,
+    "lon": 2.9944283366285,
+    "buses": [
+      "73",
+      "77",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 7411,
+    "name": "BARCELONA, ESTACIO DEL NORD",
+    "lat": 41.395013929934,
+    "lon": 2.1830290425678,
     "buses": [
       "73",
       "74",
@@ -11913,16 +12104,189 @@
     "zoneId": 0
   },
   {
-    "id": 7411,
-    "name": "BARCELONA, ESTACIO DEL NORD",
-    "lat": 41.395013929934,
-    "lon": 2.1830290425678,
+    "id": 12562,
+    "name": "BARCELONA, AEROPORT BARCELONA T2",
+    "lat": 41.304370679071,
+    "lon": 2.0795351298515,
     "buses": [
       "73",
       "74",
       "75"
     ],
     "lineId": 75,
+    "zoneId": 0
+  },
+  {
+    "id": 21587,
+    "name": "LA BISBAL D'EMPORDA ESTACIO BUS",
+    "lat": 41.962709835931,
+    "lon": 3.0339416134224,
+    "buses": [
+      "73",
+      "77",
+      "80",
+      "87",
+      "146",
+      "187",
+      "188",
+      "189",
+      "268",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 7366,
+    "name": "LLAGOSTERA, CENTRE C/MARINA (DIR. GIRONA)",
+    "lat": 41.829256878029,
+    "lon": 2.8940525388548,
+    "buses": [
+      "73",
+      "76",
+      "77",
+      "94",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 7441,
+    "name": "LLAGOSTERA, CAN CARBONELL (DIR. BARCELONA)",
+    "lat": 41.803690361973,
+    "lon": 2.8467646995091,
+    "buses": [
+      "73",
+      "91"
+    ],
+    "lineId": 91,
+    "zoneId": 0
+  },
+  {
+    "id": 11916,
+    "name": "VIDRERES, (DIR. BARCELONA)",
+    "lat": 41.790266092162,
+    "lon": 2.7781424571592,
+    "buses": [
+      "73"
+    ],
+    "lineId": 73,
+    "zoneId": 0
+  },
+  {
+    "id": 10727,
+    "name": "PALAFRUGELL, CAP",
+    "lat": 41.912027787771,
+    "lon": 3.1644496085845,
+    "buses": [
+      "73",
+      "80",
+      "190"
+    ],
+    "lineId": 190,
+    "zoneId": 0
+  },
+  {
+    "id": 13535,
+    "name": "SANTA CRISTINA D'ARO, CENTRE (DIR. PALAMOS)",
+    "lat": 41.812871967918,
+    "lon": 2.9964768108325,
+    "buses": [
+      "73",
+      "77",
+      "94",
+      "168",
+      "268"
+    ],
+    "lineId": 268,
+    "zoneId": 0
+  },
+  {
+    "id": 7470,
+    "name": "S'AGARO INTERURBA (DIR. PALAMOS)",
+    "lat": 41.794194926305,
+    "lon": 3.0476434254663,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
+    "id": 7405,
+    "name": "SANT ANTONI CALONGE,OFICINA TURISME (DIR. PALAMOS)",
+    "lat": 41.846839789312,
+    "lon": 3.1001919599748,
+    "buses": [
+      "73",
+      "77",
+      "90",
+      "91",
+      "94",
+      "268",
+      "342"
+    ],
+    "lineId": 342,
+    "zoneId": 0
+  },
+  {
+    "id": 7386,
+    "name": "BEGUR, PLAÇA FORGAS (DIR. REGENCOS)",
+    "lat": 41.952737596068,
+    "lon": 3.2060909640742,
+    "buses": [
+      "73",
+      "80",
+      "187",
+      "190",
+      "677"
+    ],
+    "lineId": 677,
+    "zoneId": 0
+  },
+  {
+    "id": 12026,
+    "name": "REGENCOS, MARQUESINA (DIR. L'ESCALA)",
+    "lat": 41.951055730079,
+    "lon": 3.1700094120361,
+    "buses": [
+      "73",
+      "80",
+      "187",
+      "190"
+    ],
+    "lineId": 190,
+    "zoneId": 0
+  },
+  {
+    "id": 7446,
+    "name": "REGENCOS, MAS PATOXAS (DIR. L'ESCALA)",
+    "lat": 41.955064599724,
+    "lon": 3.1577374338253,
+    "buses": [
+      "73",
+      "80",
+      "187",
+      "190"
+    ],
+    "lineId": 190,
+    "zoneId": 0
+  },
+  {
+    "id": 13542,
+    "name": "BELLCAIRE D'EMPORDA (DIR. L'ESCALA)",
+    "lat": 42.07816369642,
+    "lon": 3.098680973053,
+    "buses": [
+      "73",
+      "82"
+    ],
+    "lineId": 82,
     "zoneId": 0
   },
   {
@@ -11964,268 +12328,6 @@
     "zoneId": 0
   },
   {
-    "id": 13535,
-    "name": "SANTA CRISTINA D'ARO, CENTRE (DIR. PALAMOS)",
-    "lat": 41.812871967918,
-    "lon": 2.9964768108325,
-    "buses": [
-      "73",
-      "77",
-      "94",
-      "168",
-      "268"
-    ],
-    "lineId": 268,
-    "zoneId": 0
-  },
-  {
-    "id": 7368,
-    "name": "SANT FELIU DE GUIXOLS, ESTACIO AUTOBUS",
-    "lat": 41.780996581754,
-    "lon": 3.022196573729,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "94",
-      "168"
-    ],
-    "lineId": 168,
-    "zoneId": 0
-  },
-  {
-    "id": 7470,
-    "name": "S'AGARO INTERURBA (DIR. PALAMOS)",
-    "lat": 41.794194926305,
-    "lon": 3.0476434254663,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 7369,
-    "name": "PLATJA D'ARO, SARFA ESTACIÓ",
-    "lat": 41.812556876906,
-    "lon": 3.0600897719816,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "94",
-      "268",
-      "269",
-      "342"
-    ],
-    "lineId": 342,
-    "zoneId": 0
-  },
-  {
-    "id": 13980,
-    "name": "CALONGE, CAMPING CALA GOGO (DIR. PALAMOS)",
-    "lat": 41.830603450943,
-    "lon": 3.0840135256317,
-    "buses": [
-      "73"
-    ],
-    "lineId": 73,
-    "zoneId": 0
-  },
-  {
-    "id": 12522,
-    "name": "CALONGE, CAMPING INTERNACIONAL (DIR. PALAMOS)",
-    "lat": 41.830776501503,
-    "lon": 3.0840361118317,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 7405,
-    "name": "SANT ANTONI CALONGE,OFICINA TURISME (DIR. PALAMOS)",
-    "lat": 41.846839789312,
-    "lon": 3.1001919599748,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "94",
-      "268",
-      "342"
-    ],
-    "lineId": 342,
-    "zoneId": 0
-  },
-  {
-    "id": 7371,
-    "name": "PALAMOS, SARFA",
-    "lat": 41.848366960312,
-    "lon": 3.1274029079464,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "190",
-      "268",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 7445,
-    "name": "MONT-RAS, (DIR. PALAMOS)",
-    "lat": 41.90695304283,
-    "lon": 3.1467454923973,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "190",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 7373,
-    "name": "PALAFRUGELL, ESTACIO D'AUTOBUSOS",
-    "lat": 41.915939320498,
-    "lon": 3.1574001666604,
-    "buses": [
-      "73",
-      "77",
-      "80",
-      "87",
-      "90",
-      "91",
-      "94",
-      "187",
-      "190",
-      "268",
-      "269",
-      "310",
-      "342"
-    ],
-    "lineId": 342,
-    "zoneId": 0
-  },
-  {
-    "id": 13528,
-    "name": "PLATJA D'ARO, S'AGARO (DIR. GIRONA)",
-    "lat": 41.793806478059,
-    "lon": 3.0473577082239,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 13529,
-    "name": "SANTA CRISTINA D'ARO, CENTRE (DIR. GIRONA)",
-    "lat": 41.813857579013,
-    "lon": 2.9944283366285,
-    "buses": [
-      "73",
-      "77",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 7366,
-    "name": "LLAGOSTERA, CENTRE C/MARINA (DIR. GIRONA)",
-    "lat": 41.829256878029,
-    "lon": 2.8940525388548,
-    "buses": [
-      "73",
-      "76",
-      "77",
-      "94",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 7441,
-    "name": "LLAGOSTERA, CAN CARBONELL (DIR. BARCELONA)",
-    "lat": 41.803690361973,
-    "lon": 2.8467646995091,
-    "buses": [
-      "73",
-      "91"
-    ],
-    "lineId": 91,
-    "zoneId": 0
-  },
-  {
-    "id": 7409,
-    "name": "VIDRERES, (DIR. BARCELONA)",
-    "lat": 41.790239943951,
-    "lon": 2.7781608730104,
-    "buses": [
-      "73"
-    ],
-    "lineId": 73,
-    "zoneId": 0
-  },
-  {
-    "id": 7370,
-    "name": "CALONGE",
-    "lat": 41.858225152736,
-    "lon": 3.079840203816,
-    "buses": [
-      "73",
-      "77",
-      "94",
-      "268",
-      "269",
-      "342"
-    ],
-    "lineId": 342,
-    "zoneId": 0
-  },
-  {
-    "id": 25277,
-    "name": "PALAMOS ESTACIO",
-    "lat": 41.854847659141,
-    "lon": 3.1268786147499,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "165",
-      "190",
-      "268",
-      "269",
-      "342"
-    ],
-    "lineId": 342,
-    "zoneId": 0
-  },
-  {
     "id": 13541,
     "name": "MONT-RAS, (DIR. PALAFRUGELL)",
     "lat": 41.906913947738,
@@ -12241,276 +12343,6 @@
     "zoneId": 0
   },
   {
-    "id": 21587,
-    "name": "LA BISBAL D'EMPORDA ESTACIO BUS",
-    "lat": 41.962709835931,
-    "lon": 3.0339416134224,
-    "buses": [
-      "73",
-      "77",
-      "80",
-      "87",
-      "146",
-      "187",
-      "188",
-      "189",
-      "268",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12002,
-    "name": "SANT ANTONI CALONGE,OFICINA TURISME (D.PLATJA ARO)",
-    "lat": 41.846658648816,
-    "lon": 3.0994634077895,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "91",
-      "94",
-      "269",
-      "342"
-    ],
-    "lineId": 342,
-    "zoneId": 0
-  },
-  {
-    "id": 7367,
-    "name": "SANTA CRISTINA D'ARO",
-    "lat": 41.812716848762,
-    "lon": 2.9967962937531,
-    "buses": [
-      "73",
-      "90",
-      "91",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 7386,
-    "name": "BEGUR, PLAÇA FORGAS (DIR. REGENCOS)",
-    "lat": 41.952737596068,
-    "lon": 3.2060909640742,
-    "buses": [
-      "73",
-      "80",
-      "187",
-      "190",
-      "677"
-    ],
-    "lineId": 677,
-    "zoneId": 0
-  },
-  {
-    "id": 7385,
-    "name": "REGENCOS, MARQUESINA  (DIR.BEGUR)",
-    "lat": 41.950929930883,
-    "lon": 3.1697726886543,
-    "buses": [
-      "73",
-      "80",
-      "187",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 7446,
-    "name": "REGENCOS, MAS PATOXAS (DIR. L'ESCALA)",
-    "lat": 41.955064599724,
-    "lon": 3.1577374338253,
-    "buses": [
-      "73",
-      "80",
-      "187",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 7387,
-    "name": "PALS, MARQUESINA",
-    "lat": 41.969688085539,
-    "lon": 3.1465559886681,
-    "buses": [
-      "73",
-      "80",
-      "187",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 11890,
-    "name": "PALS, REGENCOS MAS PATOXAS (DIR. PALAFRUGELL)",
-    "lat": 41.955172538899,
-    "lon": 3.1574002582246,
-    "buses": [
-      "73",
-      "187",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 13543,
-    "name": "BEGUR, PLAÇA FORGAS (DIR. PALAFRUGELL)",
-    "lat": 41.95253097468,
-    "lon": 3.2061967850223,
-    "buses": [
-      "73",
-      "80",
-      "190",
-      "677"
-    ],
-    "lineId": 677,
-    "zoneId": 0
-  },
-  {
-    "id": 7395,
-    "name": "L'ESCALA, PLAÇA DE LES ESCOLES",
-    "lat": 42.122624343202,
-    "lon": 3.1317456431508,
-    "buses": [
-      "73",
-      "82",
-      "83"
-    ],
-    "lineId": 83,
-    "zoneId": 0
-  },
-  {
-    "id": 7393,
-    "name": "TORROELLA DE MONTGRI, ESTACIO AUTOBUS",
-    "lat": 42.041919660738,
-    "lon": 3.130766243004,
-    "buses": [
-      "73",
-      "82",
-      "188",
-      "189",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 13104,
-    "name": "L'ESTARTIT PASSEIG",
-    "lat": 42.053734753849,
-    "lon": 3.1998566760121,
-    "buses": [
-      "73"
-    ],
-    "lineId": 73,
-    "zoneId": 0
-  },
-  {
-    "id": 10634,
-    "name": "PALAMOS, HOSPITAL",
-    "lat": 41.85235,
-    "lon": 3.13084,
-    "buses": [
-      "73",
-      "77",
-      "90",
-      "94",
-      "165",
-      "190",
-      "268",
-      "269",
-      "605"
-    ],
-    "lineId": 605,
-    "zoneId": 0
-  },
-  {
-    "id": 12026,
-    "name": "REGENCOS, MARQUESINA (DIR. L'ESCALA)",
-    "lat": 41.951055730079,
-    "lon": 3.1700094120361,
-    "buses": [
-      "73",
-      "80",
-      "187",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 12635,
-    "name": "CALONGE , CAMPING INTERNACIONAL (DIR. GIRONA)",
-    "lat": 41.830704553236,
-    "lon": 3.0839610099792,
-    "buses": [
-      "73",
-      "77",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 12905,
-    "name": "CALONGE,CAMPING CALA GOGO DIREC.PLATJA D'ARO",
-    "lat": 41.830063182102,
-    "lon": 3.0837844649163,
-    "buses": [
-      "73",
-      "77",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 14014,
-    "name": "PALAMOS, HOSPITAL  (DIR. PALAFRUGELL)",
-    "lat": 41.8525,
-    "lon": 3.13046,
-    "buses": [
-      "73",
-      "77",
-      "94",
-      "190",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 7415,
-    "name": "L'ESTARTIT AV. GRECIA",
-    "lat": 42.051069809516,
-    "lon": 3.1939792248122,
-    "buses": [
-      "73"
-    ],
-    "lineId": 73,
-    "zoneId": 0
-  },
-  {
-    "id": 25095,
-    "name": "ESTARTIT,CAMPING CASTELL MONTGRI DIREC.TORROELLA",
-    "lat": 42.050438,
-    "lon": 3.183624,
-    "buses": [
-      "73"
-    ],
-    "lineId": 73,
-    "zoneId": 0
-  },
-  {
     "id": 13652,
     "name": "ULLA (DIR. L'ESCALA)",
     "lat": 42.049640990354,
@@ -12523,52 +12355,26 @@
     "zoneId": 0
   },
   {
-    "id": 7394,
-    "name": "BELLCAIRE (DIR. PALAFRUGELL)",
-    "lat": 42.078203469543,
-    "lon": 3.0985255246137,
-    "buses": [
-      "73",
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 13562,
-    "name": "SANT ANTONI DE CALONGE NORD (DIR. PALAMOS)",
-    "lat": 41.848716769347,
-    "lon": 3.1060321031691,
-    "buses": [
-      "73",
-      "77",
-      "94",
-      "268"
-    ],
-    "lineId": 268,
-    "zoneId": 0
-  },
-  {
-    "id": 10635,
-    "name": "ULLA, (DIR. TORROELLA)",
-    "lat": 42.049503286716,
-    "lon": 3.1058144334149,
-    "buses": [
-      "73",
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25094,
-    "name": "ESTARTIT,CAMPING CASTELL MONTGRI DIREC.ESTARTIT",
-    "lat": 42.05033,
-    "lon": 3.183603,
+    "id": 12024,
+    "name": "REGENCOS, GASOLINERA (DIR. L'ESCALA)",
+    "lat": 41.951321010978,
+    "lon": 3.1677363610223,
     "buses": [
       "73"
     ],
     "lineId": 73,
+    "zoneId": 0
+  },
+  {
+    "id": 7375,
+    "name": "LA BISBAL D'EMPORDA, (DIR. GIRONA)",
+    "lat": 41.961025461048,
+    "lon": 3.0387642908585,
+    "buses": [
+      "73",
+      "146"
+    ],
+    "lineId": 146,
     "zoneId": 0
   },
   {
@@ -12636,17 +12442,6 @@
     "name": "LLORET DE MAR, FENALS (DIR. BLANES)",
     "lat": 41.69949186204,
     "lon": 2.8305824453855,
-    "buses": [
-      "74"
-    ],
-    "lineId": 74,
-    "zoneId": 0
-  },
-  {
-    "id": 7474,
-    "name": "BARCELONA, RDA. SANT PERE",
-    "lat": 41.389573801252,
-    "lon": 2.1741627239019,
     "buses": [
       "74"
     ],
@@ -12753,32 +12548,6 @@
     "zoneId": 0
   },
   {
-    "id": 7421,
-    "name": "EL PORT DE LA SELVA",
-    "lat": 42.334747763574,
-    "lon": 3.2029627827983,
-    "buses": [
-      "75",
-      "337",
-      "384"
-    ],
-    "lineId": 384,
-    "zoneId": 0
-  },
-  {
-    "id": 7420,
-    "name": "LLANÇA, AJUNTAMENT (DIR. PORT SELVA)",
-    "lat": 42.365772230246,
-    "lon": 3.1545861802442,
-    "buses": [
-      "75",
-      "337",
-      "384"
-    ],
-    "lineId": 384,
-    "zoneId": 0
-  },
-  {
     "id": 21948,
     "name": "ROSES.AV.PAU CASALS DIRC.ROSES",
     "lat": 42.26687,
@@ -12847,19 +12616,6 @@
     "zoneId": 0
   },
   {
-    "id": 7382,
-    "name": "CASSA DE LA SELVA, CENTRE  (DIR. GIRONA)",
-    "lat": 41.889796916274,
-    "lon": 2.8731903397361,
-    "buses": [
-      "76",
-      "94",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
     "id": 7381,
     "name": "GIRONA, ESTACIO D'AUTOBUSOS",
     "lat": 41.976272494247,
@@ -12876,19 +12632,6 @@
       "342"
     ],
     "lineId": 342,
-    "zoneId": 0
-  },
-  {
-    "id": 13594,
-    "name": "CASSA DE LA SELVA, CENTRE (DIR. PALAMOS)",
-    "lat": 41.88970872988,
-    "lon": 2.8769327943888,
-    "buses": [
-      "76",
-      "94",
-      "268"
-    ],
-    "lineId": 268,
     "zoneId": 0
   },
   {
@@ -12997,10 +12740,9 @@
     "lat": 42.227926833764,
     "lon": 3.0858639694331,
     "buses": [
-      "76",
-      "82"
+      "76"
     ],
-    "lineId": 82,
+    "lineId": 76,
     "zoneId": 0
   },
   {
@@ -13066,18 +12808,6 @@
     "zoneId": 0
   },
   {
-    "id": 13926,
-    "name": "L'ARMENTERA (DIR. L'ESCALA)",
-    "lat": 42.171995595453,
-    "lon": 3.0728191137314,
-    "buses": [
-      "76",
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
     "id": 10640,
     "name": "GIRONA, HOSPITAL TRUETA (DIR. CENTRE)",
     "lat": 41.996583973282,
@@ -13107,329 +12837,6 @@
       "268"
     ],
     "lineId": 268,
-    "zoneId": 0
-  },
-  {
-    "id": 11912,
-    "name": "VALL-LLOBREGA, PONT D'EN MIQUES (DIR. PALAMOS)",
-    "lat": 41.891169831809,
-    "lon": 3.1430075652236,
-    "buses": [
-      "77",
-      "90",
-      "190",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 7372,
-    "name": "VALL-LLOBREGA, (DIR. PALAMOS)",
-    "lat": 41.873340101767,
-    "lon": 3.1360364415802,
-    "buses": [
-      "77",
-      "90",
-      "94",
-      "190",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12009,
-    "name": "SANT JOAN DE PALAMOS (DIR. PALAMOS)",
-    "lat": 41.85885271805,
-    "lon": 3.1316296720599,
-    "buses": [
-      "77",
-      "90",
-      "190",
-      "268",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12008,
-    "name": "SANT JOAN DE PALAMOS (DIR. PALAFRUGELL)",
-    "lat": 41.858910639302,
-    "lon": 3.1317596151903,
-    "buses": [
-      "77",
-      "90",
-      "190",
-      "268",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12001,
-    "name": "SANT ANTONI DE CALONGE, NORD (DIR. GIRONA)",
-    "lat": 41.849453630004,
-    "lon": 3.1079631765441,
-    "buses": [
-      "77",
-      "90",
-      "94",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 13567,
-    "name": "CALONGE, COMPTAT SANT JORDI (DIR. GIRONA)",
-    "lat": 41.827151581265,
-    "lon": 3.0818592310607,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 11999,
-    "name": "PLATJA D'ARO, POLITU (DIR. GIRONA)",
-    "lat": 41.824178274149,
-    "lon": 3.0744663043936,
-    "buses": [
-      "77",
-      "90",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 23749,
-    "name": "PLATJA D'ARO,PARC D'ARO DIREC.SANT FELIU",
-    "lat": 41.80693,
-    "lon": 3.05656,
-    "buses": [
-      "77",
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 13566,
-    "name": "SANT FELIU DE GUIXOLS, H. DEL SOL (DIR. GIRONA)",
-    "lat": 41.7860085833,
-    "lon": 3.0396782137445,
-    "buses": [
-      "77",
-      "94",
-      "168"
-    ],
-    "lineId": 168,
-    "zoneId": 0
-  },
-  {
-    "id": 7467,
-    "name": "SANT FELIU DE GUIXOLS, VILARTAGUES DIRE.SANTA CRIS",
-    "lat": 41.790267959709,
-    "lon": 3.0217924646049,
-    "buses": [
-      "77",
-      "90",
-      "168"
-    ],
-    "lineId": 168,
-    "zoneId": 0
-  },
-  {
-    "id": 11938,
-    "name": "SANTA CRISTINA D'ARO, FONT PICANT (DIR. GIRONA)",
-    "lat": 41.8218843883,
-    "lon": 2.9808202167858,
-    "buses": [
-      "77",
-      "90",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12524,
-    "name": "LLAGOSTERA, RESIDENCIAL (DIR. GIRONA)",
-    "lat": 41.829914394778,
-    "lon": 2.9108078913295,
-    "buses": [
-      "77",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 13559,
-    "name": "LLAGOSTERA, CITROEN (DIR. GIRONA)",
-    "lat": 41.829441448265,
-    "lon": 2.9057845473289,
-    "buses": [
-      "77",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12671,
-    "name": "CALDES DE MALAVELLA, LA CANYERA (DIR. GIRONA)",
-    "lat": 41.831830115364,
-    "lon": 2.870297014595,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 12670,
-    "name": "CALDES DE MALAVELLA, AIGUES BONES (DIR. GIRONA)",
-    "lat": 41.838594796606,
-    "lon": 2.8264791258343,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 13553,
-    "name": "CALDES DE MALAVELLA, SANT JORDI (DIR. GIRONA)",
-    "lat": 41.840881511985,
-    "lon": 2.8164272904723,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 18034,
-    "name": "CALDES DE MALAVELLA CENTRE  ( DIR.GIRONA )",
-    "lat": 41.83998,
-    "lon": 2.809123,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 12669,
-    "name": "CALDES DE MALAVELLA, ESTACIO",
-    "lat": 41.840522668299,
-    "lon": 2.8010116525377,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 7447,
-    "name": "VILOBI D'ONYAR, AEROPORT GIRONA",
-    "lat": 41.896834572492,
-    "lon": 2.7661848843737,
-    "buses": [
-      "77",
-      "94",
-      "98"
-    ],
-    "lineId": 98,
-    "zoneId": 0
-  },
-  {
-    "id": 21589,
-    "name": "LA BISBAL D'EMPORDA, PERE LLOBERES (DIR.PALAMOS)",
-    "lat": 41.95622,
-    "lon": 3.042368,
-    "buses": [
-      "77",
-      "80",
-      "87",
-      "187",
-      "188",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12034,
-    "name": "FORALLAC, VULPELLAC (DIR. PALAMOS)",
-    "lat": 41.957887549152,
-    "lon": 3.0554275392215,
-    "buses": [
-      "77",
-      "80",
-      "87",
-      "187",
-      "188",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 12028,
-    "name": "SANT CLIMENT DE PERALTA, (DIR. PALAMOS)",
-    "lat": 41.951580879092,
-    "lon": 3.0899309318592,
-    "buses": [
-      "77",
-      "87",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 14032,
-    "name": "TORRENT, CRUILLA (DIR. PALAMOS)",
-    "lat": 41.943505411361,
-    "lon": 3.1245793167496,
-    "buses": [
-      "77",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 11983,
-    "name": "LLOFRIU, LA BARCELONETA (DIR. PALAMOS)",
-    "lat": 41.938341000983,
-    "lon": 3.1306526267861,
-    "buses": [
-      "77",
-      "87",
-      "269"
-    ],
-    "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 11981,
-    "name": "LLOFRIU (DIR. PALAMOS)",
-    "lat": 41.932383430165,
-    "lon": 3.137484380345,
-    "buses": [
-      "77",
-      "87",
-      "269"
-    ],
-    "lineId": 269,
     "zoneId": 0
   },
   {
@@ -13490,9 +12897,101 @@
     "buses": [
       "77",
       "90",
-      "94"
+      "94",
+      "697"
     ],
-    "lineId": 94,
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 12522,
+    "name": "CALONGE, CAMPING INTERNACIONAL (DIR. PALAMOS)",
+    "lat": 41.830776501503,
+    "lon": 3.0840361118317,
+    "buses": [
+      "77",
+      "90",
+      "94",
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 7370,
+    "name": "CALONGE",
+    "lat": 41.858225152736,
+    "lon": 3.079840203816,
+    "buses": [
+      "77",
+      "94",
+      "268",
+      "269",
+      "342"
+    ],
+    "lineId": 342,
+    "zoneId": 0
+  },
+  {
+    "id": 13562,
+    "name": "SANT ANTONI DE CALONGE NORD (DIR. PALAMOS)",
+    "lat": 41.848716769347,
+    "lon": 3.1060321031691,
+    "buses": [
+      "77",
+      "94",
+      "268",
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 12009,
+    "name": "SANT JOAN DE PALAMOS (DIR. PALAMOS)",
+    "lat": 41.85885271805,
+    "lon": 3.1316296720599,
+    "buses": [
+      "77",
+      "90",
+      "190",
+      "268",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 10634,
+    "name": "PALAMOS, HOSPITAL",
+    "lat": 41.85235,
+    "lon": 3.13084,
+    "buses": [
+      "77",
+      "90",
+      "94",
+      "165",
+      "190",
+      "268",
+      "269",
+      "605"
+    ],
+    "lineId": 605,
+    "zoneId": 0
+  },
+  {
+    "id": 12008,
+    "name": "SANT JOAN DE PALAMOS (DIR. PALAFRUGELL)",
+    "lat": 41.858910639302,
+    "lon": 3.1317596151903,
+    "buses": [
+      "77",
+      "90",
+      "190",
+      "268",
+      "269"
+    ],
+    "lineId": 269,
     "zoneId": 0
   },
   {
@@ -13602,6 +13101,85 @@
       "87",
       "187",
       "188",
+      "268"
+    ],
+    "lineId": 268,
+    "zoneId": 0
+  },
+  {
+    "id": 12669,
+    "name": "CALDES DE MALAVELLA, ESTACIO",
+    "lat": 41.840522668299,
+    "lon": 2.8010116525377,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 13552,
+    "name": "CALDES DE MALAVELLA, CENTRE(DIR.PALAFRUGELL)",
+    "lat": 41.839228644385,
+    "lon": 2.8111970846557,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 18036,
+    "name": "CALDES DE MALAVELLA,SANT JORDI(DIR.PALAFRUGELL)",
+    "lat": 41.8403449004,
+    "lon": 2.8151607513428,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 13555,
+    "name": "CALDES DE MALAVELLA, AIGUES BONES(DIR.PALAFRUGELL)",
+    "lat": 41.838546438352,
+    "lon": 2.826372385025,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 13556,
+    "name": "CALDES DE MALAVELLA, LA CANYERA (DIR. PALAFRUGELL)",
+    "lat": 41.831796932654,
+    "lon": 2.8701146359908,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 13558,
+    "name": "LLAGOSTERA, CITROEN (DIR. PALAMOS)",
+    "lat": 41.82937749292,
+    "lon": 2.906387507719,
+    "buses": [
+      "77",
+      "268"
+    ],
+    "lineId": 268,
+    "zoneId": 0
+  },
+  {
+    "id": 13561,
+    "name": "STA CRISTINA D´ARO, FONT PICANT (DIR. PALAFRUGELL)",
+    "lat": 41.821750359915,
+    "lon": 2.9808139801025,
+    "buses": [
+      "77",
       "268"
     ],
     "lineId": 268,
@@ -13810,6 +13388,233 @@
     "zoneId": 0
   },
   {
+    "id": 21589,
+    "name": "LA BISBAL D'EMPORDA, PERE LLOBERES (DIR.PALAMOS)",
+    "lat": 41.95622,
+    "lon": 3.042368,
+    "buses": [
+      "77",
+      "80",
+      "87",
+      "187",
+      "188",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 12034,
+    "name": "FORALLAC, VULPELLAC (DIR. PALAMOS)",
+    "lat": 41.957887549152,
+    "lon": 3.0554275392215,
+    "buses": [
+      "77",
+      "80",
+      "87",
+      "187",
+      "188",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 12028,
+    "name": "SANT CLIMENT DE PERALTA, (DIR. PALAMOS)",
+    "lat": 41.951580879092,
+    "lon": 3.0899309318592,
+    "buses": [
+      "77",
+      "87",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 14032,
+    "name": "TORRENT, CRUILLA (DIR. PALAMOS)",
+    "lat": 41.943505411361,
+    "lon": 3.1245793167496,
+    "buses": [
+      "77",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 11983,
+    "name": "LLOFRIU, LA BARCELONETA (DIR. PALAMOS)",
+    "lat": 41.938341000983,
+    "lon": 3.1306526267861,
+    "buses": [
+      "77",
+      "87",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 11981,
+    "name": "LLOFRIU (DIR. PALAMOS)",
+    "lat": 41.932383430165,
+    "lon": 3.137484380345,
+    "buses": [
+      "77",
+      "87",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 11912,
+    "name": "VALL-LLOBREGA, PONT D'EN MIQUES (DIR. PALAMOS)",
+    "lat": 41.891169831809,
+    "lon": 3.1430075652236,
+    "buses": [
+      "77",
+      "90",
+      "190",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 7372,
+    "name": "VALL-LLOBREGA, (DIR. PALAMOS)",
+    "lat": 41.873340101767,
+    "lon": 3.1360364415802,
+    "buses": [
+      "77",
+      "90",
+      "94",
+      "190",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 12001,
+    "name": "SANT ANTONI DE CALONGE, NORD (DIR. GIRONA)",
+    "lat": 41.849453630004,
+    "lon": 3.1079631765441,
+    "buses": [
+      "77",
+      "90",
+      "94",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 12635,
+    "name": "CALONGE , CAMPING INTERNACIONAL (DIR. GIRONA)",
+    "lat": 41.830704553236,
+    "lon": 3.0839610099792,
+    "buses": [
+      "77",
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
+    "id": 12905,
+    "name": "CALONGE,CAMPING CALA GOGO DIREC.PLATJA D'ARO",
+    "lat": 41.830063182102,
+    "lon": 3.0837844649163,
+    "buses": [
+      "77",
+      "90",
+      "94",
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 13567,
+    "name": "CALONGE, COMPTAT SANT JORDI (DIR. GIRONA)",
+    "lat": 41.827151581265,
+    "lon": 3.0818592310607,
+    "buses": [
+      "77",
+      "90"
+    ],
+    "lineId": 90,
+    "zoneId": 0
+  },
+  {
+    "id": 11999,
+    "name": "PLATJA D'ARO, POLITU (DIR. GIRONA)",
+    "lat": 41.824178274149,
+    "lon": 3.0744663043936,
+    "buses": [
+      "77",
+      "90",
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
+    "id": 23749,
+    "name": "PLATJA D'ARO,PARC D'ARO DIREC.SANT FELIU",
+    "lat": 41.80693,
+    "lon": 3.05656,
+    "buses": [
+      "77",
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
+    "id": 13566,
+    "name": "SANT FELIU DE GUIXOLS, H. DEL SOL (DIR. GIRONA)",
+    "lat": 41.7860085833,
+    "lon": 3.0396782137445,
+    "buses": [
+      "77",
+      "94",
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 7467,
+    "name": "SANT FELIU DE GUIXOLS, VILARTAGUES DIRE.SANTA CRIS",
+    "lat": 41.790267959709,
+    "lon": 3.0217924646049,
+    "buses": [
+      "77",
+      "90",
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 13645,
+    "name": "SANT FELIU DE GUIXOLS, CRTA. PALAMOS ALCAREZ / CAP",
+    "lat": 41.78386286441,
+    "lon": 3.037295788597,
+    "buses": [
+      "77",
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
     "id": 21457,
     "name": "GIRONA,SALESIANS DIR.PALAMOS",
     "lat": 42.00359,
@@ -14013,71 +13818,84 @@
     "zoneId": 0
   },
   {
-    "id": 13552,
-    "name": "CALDES DE MALAVELLA, CENTRE(DIR.PALAFRUGELL)",
-    "lat": 41.839228644385,
-    "lon": 2.8111970846557,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 18036,
-    "name": "CALDES DE MALAVELLA,SANT JORDI(DIR.PALAFRUGELL)",
-    "lat": 41.8403449004,
-    "lon": 2.8151607513428,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 13555,
-    "name": "CALDES DE MALAVELLA, AIGUES BONES(DIR.PALAFRUGELL)",
-    "lat": 41.838546438352,
-    "lon": 2.826372385025,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 13556,
-    "name": "CALDES DE MALAVELLA, LA CANYERA (DIR. PALAFRUGELL)",
-    "lat": 41.831796932654,
-    "lon": 2.8701146359908,
-    "buses": [
-      "77"
-    ],
-    "lineId": 77,
-    "zoneId": 0
-  },
-  {
-    "id": 13558,
-    "name": "LLAGOSTERA, CITROEN (DIR. PALAMOS)",
-    "lat": 41.82937749292,
-    "lon": 2.906387507719,
+    "id": 11938,
+    "name": "SANTA CRISTINA D'ARO, FONT PICANT (DIR. GIRONA)",
+    "lat": 41.8218843883,
+    "lon": 2.9808202167858,
     "buses": [
       "77",
-      "268"
+      "90",
+      "269"
     ],
-    "lineId": 268,
+    "lineId": 269,
     "zoneId": 0
   },
   {
-    "id": 13561,
-    "name": "STA CRISTINA D´ARO, FONT PICANT (DIR. PALAFRUGELL)",
-    "lat": 41.821750359915,
-    "lon": 2.9808139801025,
+    "id": 12524,
+    "name": "LLAGOSTERA, RESIDENCIAL (DIR. GIRONA)",
+    "lat": 41.829914394778,
+    "lon": 2.9108078913295,
     "buses": [
       "77",
-      "268"
+      "269"
     ],
-    "lineId": 268,
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 13559,
+    "name": "LLAGOSTERA, CITROEN (DIR. GIRONA)",
+    "lat": 41.829441448265,
+    "lon": 2.9057845473289,
+    "buses": [
+      "77",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 12671,
+    "name": "CALDES DE MALAVELLA, LA CANYERA (DIR. GIRONA)",
+    "lat": 41.831830115364,
+    "lon": 2.870297014595,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 12670,
+    "name": "CALDES DE MALAVELLA, AIGUES BONES (DIR. GIRONA)",
+    "lat": 41.838594796606,
+    "lon": 2.8264791258343,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 13553,
+    "name": "CALDES DE MALAVELLA, SANT JORDI (DIR. GIRONA)",
+    "lat": 41.840881511985,
+    "lon": 2.8164272904723,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
+    "zoneId": 0
+  },
+  {
+    "id": 18034,
+    "name": "CALDES DE MALAVELLA CENTRE  ( DIR.GIRONA )",
+    "lat": 41.83998,
+    "lon": 2.809123,
+    "buses": [
+      "77"
+    ],
+    "lineId": 77,
     "zoneId": 0
   },
   {
@@ -14087,7 +13905,6 @@
     "lon": 3.1679464352443,
     "buses": [
       "79",
-      "80",
       "310"
     ],
     "lineId": 310,
@@ -14111,22 +13928,22 @@
     "lon": 3.206512,
     "buses": [
       "79",
-      "80",
       "310"
     ],
     "lineId": 310,
     "zoneId": 0
   },
   {
-    "id": 11882,
-    "name": "PALAFRUGELL, ONZE DE SETEMBRE",
-    "lat": 41.918396363128,
-    "lon": 3.1639112290874,
+    "id": 13231,
+    "name": "CALELLA DE PALAFRUGELL, ROTONDA DR. TRUETA",
+    "lat": 41.893141190797,
+    "lon": 3.1887817382812,
     "buses": [
       "80",
-      "310"
+      "310",
+      "698"
     ],
-    "lineId": 310,
+    "lineId": 698,
     "zoneId": 0
   },
   {
@@ -14141,10 +13958,10 @@
     "zoneId": 0
   },
   {
-    "id": 12675,
-    "name": "CALELLA DE PALAFRUGELL, CAMPINGS (DIR. CALELLA)",
-    "lat": 41.897912301229,
-    "lon": 3.1835793427292,
+    "id": 13236,
+    "name": "PALAFRUGELL, AVDA ESPANYA",
+    "lat": 41.91169420731,
+    "lon": 3.1547770245386,
     "buses": [
       "80"
     ],
@@ -14152,117 +13969,53 @@
     "zoneId": 0
   },
   {
-    "id": 7383,
-    "name": "PALAFRUGELL, CALELLA COSTA BLANCA",
-    "lat": 41.892672991327,
-    "lon": 3.1876221520652,
+    "id": 13568,
+    "name": "BEGUR, ESCLANYA (DIR. TORROELLA)",
+    "lat": 41.926420057633,
+    "lon": 3.1719160079956,
     "buses": [
       "80",
-      "310"
+      "187",
+      "190",
+      "677"
     ],
-    "lineId": 310,
+    "lineId": 677,
     "zoneId": 0
   },
   {
-    "id": 12035,
-    "name": "CALELLA DE PALAFRUGELL, HOTEL ALGA (DIR. CALELLA)",
-    "lat": 41.891750881275,
-    "lon": 3.1839496804766,
+    "id": 25120,
+    "name": "BEGUR,RESIDENCIAL BEGUR DIREC.BEGUR",
+    "lat": 41.93698,
+    "lon": 3.196788,
+    "buses": [
+      "80"
+    ],
+    "lineId": 80,
+    "zoneId": 0
+  },
+  {
+    "id": 13569,
+    "name": "BEGUR, CAMPING (DIR. TORROELLA)",
+    "lat": 41.939890349055,
+    "lon": 3.2005029917582,
     "buses": [
       "80",
-      "310"
+      "187",
+      "190"
     ],
-    "lineId": 310,
+    "lineId": 190,
     "zoneId": 0
   },
   {
-    "id": 14034,
-    "name": "CALELLA DE PALAFRUGELL, CRUILLA CHOPITEA",
-    "lat": 41.889514191645,
-    "lon": 3.1839845104605,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 12037,
-    "name": "CALELLA DE PALAFRUGELL, PORT PELEGRI",
-    "lat": 41.88876319734,
-    "lon": 3.1809891537463,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 12036,
-    "name": "CALELLA DE PALAFRUGELL, H. ALGA (DIR. PALAFRUGELL)",
-    "lat": 41.891681002381,
-    "lon": 3.1839617052432,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 13231,
-    "name": "CALELLA DE PALAFRUGELL, ROTONDA DR. TRUETA",
-    "lat": 41.893141190797,
-    "lon": 3.1887817382812,
+    "id": 10738,
+    "name": "BEGUR, POLIGON IND. RIERA D'ESCLAYNA",
+    "lat": 41.932877189196,
+    "lon": 3.1574306885389,
     "buses": [
       "80",
-      "310"
+      "190"
     ],
-    "lineId": 310,
-    "zoneId": 0
-  },
-  {
-    "id": 12680,
-    "name": "CALELLA DE PALAFRUGELL, CAMPINGS (DIR. PALAFRU.)",
-    "lat": 41.897695418595,
-    "lon": 3.1839305722563,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 11885,
-    "name": "PALAFRUGELL, PLAÇA D'EUROPA  - BUS 30",
-    "lat": 41.911913284594,
-    "lon": 3.1677956569683,
-    "buses": [
-      "80",
-      "310"
-    ],
-    "lineId": 310,
-    "zoneId": 0
-  },
-  {
-    "id": 12681,
-    "name": "PALAFRUGELL, BARRIS I BUIXO",
-    "lat": 41.914196203014,
-    "lon": 3.168151426546,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 11886,
-    "name": "PALAFRUGELL, LA SAULEDA, C/CARRILET",
-    "lat": 41.913131335248,
-    "lon": 3.1565365536524,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
+    "lineId": 190,
     "zoneId": 0
   },
   {
@@ -14326,6 +14079,19 @@
     "zoneId": 0
   },
   {
+    "id": 7385,
+    "name": "REGENCOS, MARQUESINA  (DIR.BEGUR)",
+    "lat": 41.950929930883,
+    "lon": 3.1697726886543,
+    "buses": [
+      "80",
+      "187",
+      "190"
+    ],
+    "lineId": 190,
+    "zoneId": 0
+  },
+  {
     "id": 10734,
     "name": "BEGUR, CAMPING (DIR. PALAFRUGELL)",
     "lat": 41.939909790471,
@@ -14350,33 +14116,6 @@
       "677"
     ],
     "lineId": 677,
-    "zoneId": 0
-  },
-  {
-    "id": 13568,
-    "name": "BEGUR, ESCLANYA (DIR. TORROELLA)",
-    "lat": 41.926420057633,
-    "lon": 3.1719160079956,
-    "buses": [
-      "80",
-      "187",
-      "190",
-      "677"
-    ],
-    "lineId": 677,
-    "zoneId": 0
-  },
-  {
-    "id": 13569,
-    "name": "BEGUR, CAMPING (DIR. TORROELLA)",
-    "lat": 41.939890349055,
-    "lon": 3.2005029917582,
-    "buses": [
-      "80",
-      "187",
-      "190"
-    ],
-    "lineId": 190,
     "zoneId": 0
   },
   {
@@ -14452,73 +14191,6 @@
     "zoneId": 0
   },
   {
-    "id": 25115,
-    "name": "PALAFRUGELL,BRUGUEROL DIREC.TAMARIU",
-    "lat": 41.91467,
-    "lon": 3.17382,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 25116,
-    "name": "PALAFRUGELL,BRUGUEROL DIREC.PALAFRUGELL",
-    "lat": 41.91464,
-    "lon": 3.17403,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 13280,
-    "name": "PALAFRUGELL, CAMP D'EN PRATS",
-    "lat": 41.916304604391,
-    "lon": 3.1684191743695,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 13236,
-    "name": "PALAFRUGELL, AVDA ESPANYA",
-    "lat": 41.91169420731,
-    "lon": 3.1547770245386,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 25120,
-    "name": "BEGUR,RESIDENCIAL BEGUR DIREC.BEGUR",
-    "lat": 41.93698,
-    "lon": 3.196788,
-    "buses": [
-      "80"
-    ],
-    "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 10738,
-    "name": "BEGUR, POLIGON IND. RIERA D'ESCLAYNA",
-    "lat": 41.932877189196,
-    "lon": 3.1574306885389,
-    "buses": [
-      "80",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
     "id": 25119,
     "name": "BEGUR,RESIDENCIAL BEGUR DIREC.PALAFRUGELL",
     "lat": 41.93758,
@@ -14527,130 +14199,6 @@
       "80"
     ],
     "lineId": 80,
-    "zoneId": 0
-  },
-  {
-    "id": 10727,
-    "name": "PALAFRUGELL, CAP",
-    "lat": 41.912027787771,
-    "lon": 3.1644496085845,
-    "buses": [
-      "80",
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 12021,
-    "name": "TORROELLA DE MONTGRI, LA ROQUETA (DIR. L'ESCALA)",
-    "lat": 42.045086674709,
-    "lon": 3.1184648908798,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 13542,
-    "name": "BELLCAIRE D'EMPORDA (DIR. L'ESCALA)",
-    "lat": 42.07816369642,
-    "lon": 3.098680973053,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 12031,
-    "name": "L'ESCALA, POBLA SEC ( DIRC.ESCALA CENTRE)",
-    "lat": 42.117763885092,
-    "lon": 3.1293174835714,
-    "buses": [
-      "82",
-      "83"
-    ],
-    "lineId": 83,
-    "zoneId": 0
-  },
-  {
-    "id": 11949,
-    "name": "RUINES D'EMPURIES CRUILLA (DIR. FIGUERES)",
-    "lat": 42.124440127745,
-    "lon": 3.1204102773307,
-    "buses": [
-      "82",
-      "83"
-    ],
-    "lineId": 83,
-    "zoneId": 0
-  },
-  {
-    "id": 25118,
-    "name": "L'ESCALA,SAN MARTI D'EMPUIRES",
-    "lat": 42.1391784,
-    "lon": 3.1165765,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25096,
-    "name": "SANT PERE PESCADOR, C.BALLENA ALEGRE DIREC.FIGUERE",
-    "lat": 42.153137,
-    "lon": 3.111592,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25102,
-    "name": "SANT PERE PESCADOR,C.LES DUNES,DIREC.FIGUERES",
-    "lat": 42.160744,
-    "lon": 3.107822,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25098,
-    "name": "SAN PERE PESCADOR,C.AMFORA DIREC.FIGUERES",
-    "lat": 42.181611,
-    "lon": 3.093778,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25104,
-    "name": "SANT PERE PESCADOR,OFICINA DE TURISMEDIREC.FIGUERE",
-    "lat": 42.187159,
-    "lon": 3.08737,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25108,
-    "name": "SANT PERE PESCADOR.C.PROVENÇA DIRE.FIGUERES",
-    "lat": 42.191647,
-    "lon": 3.083713,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
     "zoneId": 0
   },
   {
@@ -14751,6 +14299,17 @@
     "zoneId": 0
   },
   {
+    "id": 13926,
+    "name": "L'ARMENTERA (DIR. L'ESCALA)",
+    "lat": 42.171995595453,
+    "lon": 3.0728191137314,
+    "buses": [
+      "82"
+    ],
+    "lineId": 82,
+    "zoneId": 0
+  },
+  {
     "id": 11996,
     "name": "MONTIRO (DIR. L'ESCALA)",
     "lat": 42.155813113594,
@@ -14817,6 +14376,41 @@
       "82"
     ],
     "lineId": 82,
+    "zoneId": 0
+  },
+  {
+    "id": 12021,
+    "name": "TORROELLA DE MONTGRI, LA ROQUETA (DIR. L'ESCALA)",
+    "lat": 42.045086674709,
+    "lon": 3.1184648908798,
+    "buses": [
+      "82"
+    ],
+    "lineId": 82,
+    "zoneId": 0
+  },
+  {
+    "id": 12031,
+    "name": "L'ESCALA, POBLA SEC ( DIRC.ESCALA CENTRE)",
+    "lat": 42.117763885092,
+    "lon": 3.1293174835714,
+    "buses": [
+      "82",
+      "83"
+    ],
+    "lineId": 83,
+    "zoneId": 0
+  },
+  {
+    "id": 11949,
+    "name": "RUINES D'EMPURIES CRUILLA (DIR. FIGUERES)",
+    "lat": 42.124440127745,
+    "lon": 3.1204102773307,
+    "buses": [
+      "82",
+      "83"
+    ],
+    "lineId": 83,
     "zoneId": 0
   },
   {
@@ -14927,72 +14521,6 @@
     "name": "FAR D'EMPORDA, (DIR. FIGUIERES)",
     "lat": 42.251145568057,
     "lon": 2.9950223702218,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25125,
-    "name": "CASTELLO D'EMPURIES,AIGUAMOLLS DIREC.SANT PERE",
-    "lat": 42.228163,
-    "lon": 3.085536,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25107,
-    "name": "SANT PERE PESCADOR.C.SANT SEBASTIA DIREC.ESCALA",
-    "lat": 42.190584,
-    "lon": 3.082108,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25105,
-    "name": "SANT PERE PESCADOR,OFICINA DE TURISME DIREC.ESCALA",
-    "lat": 42.186696,
-    "lon": 3.087114,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25100,
-    "name": "SAN PERE PESCADOR,C.ANFORA DIREC.ESCALA",
-    "lat": 42.180586,
-    "lon": 3.094328,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25103,
-    "name": "SANT PERE PESCADOR,C.LES DUNES DIREC.ESCALA",
-    "lat": 42.160724,
-    "lon": 3.107583,
-    "buses": [
-      "82"
-    ],
-    "lineId": 82,
-    "zoneId": 0
-  },
-  {
-    "id": 25097,
-    "name": "SANT PERE PESCADOR, C.BALLENA ALEGRE DIREC.ESCALA",
-    "lat": 42.153083,
-    "lon": 3.11147,
     "buses": [
       "82"
     ],
@@ -15206,10 +14734,9 @@
     "lat": 42.26928396794,
     "lon": 3.1677728011156,
     "buses": [
-      "84",
-      "337"
+      "84"
     ],
-    "lineId": 337,
+    "lineId": 84,
     "zoneId": 0
   },
   {
@@ -15278,9 +14805,10 @@
     "lat": 42.278585825621,
     "lon": 3.1579591333866,
     "buses": [
-      "84"
+      "84",
+      "337"
     ],
-    "lineId": 84,
+    "lineId": 337,
     "zoneId": 0
   },
   {
@@ -15381,6 +14909,18 @@
     "zoneId": 0
   },
   {
+    "id": 11899,
+    "name": "ROSES, MAS MATES (DIR. FIGUERES)",
+    "lat": 42.269214117172,
+    "lon": 3.1675984809959,
+    "buses": [
+      "84",
+      "337"
+    ],
+    "lineId": 337,
+    "zoneId": 0
+  },
+  {
     "id": 12829,
     "name": "CASTLLO D'EMPURIES, EMPURIABRAVA  AERÒDROM ENTRADA",
     "lat": 42.256818681209,
@@ -15401,18 +14941,6 @@
       "84"
     ],
     "lineId": 84,
-    "zoneId": 0
-  },
-  {
-    "id": 11899,
-    "name": "ROSES, MAS MATES (DIR. FIGUERES)",
-    "lat": 42.269214117172,
-    "lon": 3.1675984809959,
-    "buses": [
-      "84",
-      "337"
-    ],
-    "lineId": 337,
     "zoneId": 0
   },
   {
@@ -15749,37 +15277,16 @@
     "zoneId": 0
   },
   {
-    "id": 12521,
-    "name": "PLATJA D'ARO  AV.CAVALL BERNAT66 (DIRE.SANT.FELIU)",
-    "lat": 41.819529602446,
-    "lon": 3.0680727294475,
-    "buses": [
-      "90"
-    ],
-    "lineId": 90,
-    "zoneId": 0
-  },
-  {
-    "id": 12907,
-    "name": "PALAMOS,CÀMPING INTERNACIONAL",
-    "lat": 41.857558629288,
-    "lon": 3.1385868787766,
+    "id": 7367,
+    "name": "SANTA CRISTINA D'ARO",
+    "lat": 41.812716848762,
+    "lon": 2.9967962937531,
     "buses": [
       "90",
-      "165"
+      "91",
+      "94"
     ],
-    "lineId": 165,
-    "zoneId": 0
-  },
-  {
-    "id": 11998,
-    "name": "PLATJA D'ARO  AV.CAVALL BERNAT 50 (DIR. PALAMOS)",
-    "lat": 41.819574568652,
-    "lon": 3.0681343560143,
-    "buses": [
-      "90"
-    ],
-    "lineId": 90,
+    "lineId": 94,
     "zoneId": 0
   },
   {
@@ -15827,13 +15334,95 @@
     "zoneId": 0
   },
   {
-    "id": 7462,
-    "name": "GIRONA, LA CREUETA (DIR. PALAFRUGELL)",
-    "lat": 41.963275577862,
-    "lon": 2.8427645619527,
+    "id": 10545,
+    "name": "PALAMOS, PASSEIG DEL MAR (OFIÇINA DE TURISME)",
+    "lat": 41.84774518974,
+    "lon": 3.1266843770778,
     "buses": [
       "94",
-      "268",
+      "165",
+      "605"
+    ],
+    "lineId": 605,
+    "zoneId": 0
+  },
+  {
+    "id": 14014,
+    "name": "PALAMOS, HOSPITAL  (DIR. PALAFRUGELL)",
+    "lat": 41.8525,
+    "lon": 3.13046,
+    "buses": [
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
+    "id": 12944,
+    "name": "PALAMOS, LLAR D'INFANS - GENT GRAN",
+    "lat": 41.852490277433,
+    "lon": 3.1230603500149,
+    "buses": [
+      "94",
+      "165"
+    ],
+    "lineId": 165,
+    "zoneId": 0
+  },
+  {
+    "id": 12923,
+    "name": "SANT ANTONI DE CALONGE, PARC AUMELL",
+    "lat": 41.849503718471,
+    "lon": 3.0897543791514,
+    "buses": [
+      "94",
+      "165"
+    ],
+    "lineId": 165,
+    "zoneId": 0
+  },
+  {
+    "id": 23897,
+    "name": "PLATJA D'ARO,RONTONDA AV.PLATJA D'ARO DIREC.S.FELI",
+    "lat": 41.799956,
+    "lon": 3.050508,
+    "buses": [
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
+    "id": 13628,
+    "name": "SANT FELIU,PSG.DEL MAR/RAMBLA PORTALET",
+    "lat": 41.781496643639,
+    "lon": 3.0321414816228,
+    "buses": [
+      "94",
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 7382,
+    "name": "CASSA DE LA SELVA, CENTRE  (DIR. GIRONA)",
+    "lat": 41.889796916274,
+    "lon": 2.8731903397361,
+    "buses": [
+      "94",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 7463,
+    "name": "LLAMBILLES, (DIR. GIRONA)",
+    "lat": 41.920897454685,
+    "lon": 2.8506629494218,
+    "buses": [
+      "94",
       "269"
     ],
     "lineId": 269,
@@ -15852,6 +15441,30 @@
     "zoneId": 0
   },
   {
+    "id": 7462,
+    "name": "GIRONA, LA CREUETA (DIR. PALAFRUGELL)",
+    "lat": 41.963275577862,
+    "lon": 2.8427645619527,
+    "buses": [
+      "94",
+      "268",
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
+    "id": 7438,
+    "name": "SALT, (MARQUESINA)",
+    "lat": 41.967301199945,
+    "lon": 2.7809808863118,
+    "buses": [
+      "94"
+    ],
+    "lineId": 94,
+    "zoneId": 0
+  },
+  {
     "id": 13592,
     "name": "LLAMBILLES, (DIR. PALAMOS)",
     "lat": 41.921025926897,
@@ -15864,15 +15477,15 @@
     "zoneId": 0
   },
   {
-    "id": 13628,
-    "name": "SANT FELIU,PSG.DEL MAR/RAMBLA PORTALET",
-    "lat": 41.781496643639,
-    "lon": 3.0321414816228,
+    "id": 13594,
+    "name": "CASSA DE LA SELVA, CENTRE (DIR. PALAMOS)",
+    "lat": 41.88970872988,
+    "lon": 2.8769327943888,
     "buses": [
       "94",
-      "168"
+      "268"
     ],
-    "lineId": 168,
+    "lineId": 268,
     "zoneId": 0
   },
   {
@@ -15904,113 +15517,21 @@
     "lon": 3.0945773106671,
     "buses": [
       "94",
-      "165"
-    ],
-    "lineId": 165,
-    "zoneId": 0
-  },
-  {
-    "id": 12944,
-    "name": "PALAMOS, LLAR D'INFANS - GENT GRAN",
-    "lat": 41.852490277433,
-    "lon": 3.1230603500149,
-    "buses": [
-      "94",
-      "165"
-    ],
-    "lineId": 165,
-    "zoneId": 0
-  },
-  {
-    "id": 10545,
-    "name": "PALAMOS, PASSEIG DEL MAR (OFIÇINA DE TURISME)",
-    "lat": 41.84774518974,
-    "lon": 3.1266843770778,
-    "buses": [
-      "94",
       "165",
-      "605"
+      "697"
     ],
-    "lineId": 605,
+    "lineId": 697,
     "zoneId": 0
   },
   {
-    "id": 12923,
-    "name": "SANT ANTONI DE CALONGE, PARC AUMELL",
-    "lat": 41.849503718471,
-    "lon": 3.0897543791514,
+    "id": 7447,
+    "name": "VILOBI D'ONYAR, AEROPORT GIRONA",
+    "lat": 41.896834572492,
+    "lon": 2.7661848843737,
     "buses": [
-      "94",
-      "165"
+      "98"
     ],
-    "lineId": 165,
-    "zoneId": 0
-  },
-  {
-    "id": 23897,
-    "name": "PLATJA D'ARO,RONTONDA AV.PLATJA D'ARO DIREC.S.FELI",
-    "lat": 41.799956,
-    "lon": 3.050508,
-    "buses": [
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 14046,
-    "name": "CAMPLLONCH (DIR. AERO. GIRONA)",
-    "lat": 41.896750966096,
-    "lon": 2.8303098678589,
-    "buses": [
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 13120,
-    "name": "RIUDELLOTS DE LA SELVA, (DIR. AERO. GIRONA)",
-    "lat": 41.89630374837,
-    "lon": 2.810515165329,
-    "buses": [
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 14048,
-    "name": "RIUDELLOTS DE LA SELVA, (DIR. CASSA)",
-    "lat": 41.896431525183,
-    "lon": 2.8106546401978,
-    "buses": [
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 14050,
-    "name": "CAMPLLONCH (DIR. CASSA DE LA SELVA)",
-    "lat": 41.896750966095,
-    "lon": 2.8304386138916,
-    "buses": [
-      "94"
-    ],
-    "lineId": 94,
-    "zoneId": 0
-  },
-  {
-    "id": 7463,
-    "name": "LLAMBILLES, (DIR. GIRONA)",
-    "lat": 41.920897454685,
-    "lon": 2.8506629494218,
-    "buses": [
-      "94",
-      "269"
-    ],
-    "lineId": 269,
+    "lineId": 98,
     "zoneId": 0
   },
   {
@@ -16602,10 +16123,11 @@
   {
     "id": 10242,
     "name": "ESTACIÒ D'AUTOBUSOS",
-    "lat": 41.610864361395,
-    "lon": 0.62269993257132,
+    "lat": 41.61090045882,
+    "lon": 0.62279917430489,
     "buses": [
       "129",
+      "134",
       "135",
       "138",
       "332",
@@ -16690,8 +16212,8 @@
   {
     "id": 12873,
     "name": "AMBULATORI/GUÀRDIA URBANA",
-    "lat": 41.621196792483,
-    "lon": 0.62512701711194,
+    "lat": 41.621206817941,
+    "lon": 0.62512969932094,
     "buses": [
       "129"
     ],
@@ -16712,8 +16234,8 @@
   {
     "id": 13506,
     "name": "PONT PRINCEP DE VIANA",
-    "lat": 41.61962164443,
-    "lon": 0.63362851280772,
+    "lat": 41.61981012739,
+    "lon": 0.63302233357034,
     "buses": [
       "129",
       "138"
@@ -16724,8 +16246,8 @@
   {
     "id": 10321,
     "name": "PASSAREL·LA CAMPS ELISIS",
-    "lat": 41.616931900943,
-    "lon": 0.63259801075196,
+    "lat": 41.616853697143,
+    "lon": 0.63260605737903,
     "buses": [
       "129",
       "130",
@@ -16739,8 +16261,8 @@
   {
     "id": 10315,
     "name": "PONT VELL/FRANCESC MACIA",
-    "lat": 41.61636910241,
-    "lon": 0.62863301261632,
+    "lat": 41.616367097168,
+    "lon": 0.62863837703435,
     "buses": [
       "129",
       "130",
@@ -16753,8 +16275,8 @@
   {
     "id": 10327,
     "name": "PONT VELL/PAERIA",
-    "lat": 41.614820158731,
-    "lon": 0.62715708465578,
+    "lat": 41.614757994708,
+    "lon": 0.62717854232791,
     "buses": [
       "129",
       "135",
@@ -17042,15 +16564,14 @@
   {
     "id": 10198,
     "name": "CAMPS ELISIS 2",
-    "lat": 41.613645944475,
-    "lon": 0.62990200081242,
+    "lat": 41.613694072296,
+    "lon": 0.63004147568118,
     "buses": [
       "130",
       "133",
-      "135",
-      "628"
+      "135"
     ],
-    "lineId": 628,
+    "lineId": 135,
     "zoneId": 0
   },
   {
@@ -17080,8 +16601,8 @@
   {
     "id": 10336,
     "name": "DRA. CASTELLS/ESTUDI GENERAL",
-    "lat": 41.608429659606,
-    "lon": 0.62729578849644,
+    "lat": 41.608437681561,
+    "lon": 0.62720459338994,
     "buses": [
       "130",
       "137"
@@ -17101,6 +16622,18 @@
       "137"
     ],
     "lineId": 137,
+    "zoneId": 0
+  },
+  {
+    "id": 13062,
+    "name": "INSTITUTS/CAMI DE RUFEA",
+    "lat": 41.606308846319,
+    "lon": 0.61420546916314,
+    "buses": [
+      "130",
+      "131"
+    ],
+    "lineId": 131,
     "zoneId": 0
   },
   {
@@ -17167,7 +16700,6 @@
     "buses": [
       "131",
       "135",
-      "162",
       "628"
     ],
     "lineId": 628,
@@ -17786,10 +17318,9 @@
     "lat": 41.612137553826,
     "lon": 0.63188552856445,
     "buses": [
-      "133",
-      "628"
+      "133"
     ],
-    "lineId": 628,
+    "lineId": 133,
     "zoneId": 0
   },
   {
@@ -17844,6 +17375,7 @@
     "lon": 0.62281760522546,
     "buses": [
       "133",
+      "134",
       "135",
       "136",
       "138",
@@ -17861,10 +17393,9 @@
       "133",
       "135",
       "136",
-      "138",
-      "628"
+      "138"
     ],
-    "lineId": 628,
+    "lineId": 138,
     "zoneId": 0
   },
   {
@@ -18253,6 +17784,17 @@
     "zoneId": 0
   },
   {
+    "id": 10299,
+    "name": "PISTES D'ATLESTISME",
+    "lat": 41.6468017,
+    "lon": 0.57196996,
+    "buses": [
+      "134"
+    ],
+    "lineId": 134,
+    "zoneId": 0
+  },
+  {
     "id": 10161,
     "name": "AGRÒNOMS",
     "lat": 41.628228245847,
@@ -18376,8 +17918,8 @@
   {
     "id": 10351,
     "name": "LOCAL SOCIAL SECÀ 2",
-    "lat": 41.636703469229,
-    "lon": 0.62885941755917,
+    "lat": 41.635388431915,
+    "lon": 0.62940658819819,
     "buses": [
       "135"
     ],
@@ -18387,8 +17929,8 @@
   {
     "id": 10239,
     "name": "ESCOLA  TERRES DE PONENT",
-    "lat": 41.638281065664,
-    "lon": 0.62812898423545,
+    "lat": 41.637733356321,
+    "lon": 0.6283884514803,
     "buses": [
       "135"
     ],
@@ -18398,8 +17940,8 @@
   {
     "id": 10275,
     "name": "LA LLUM",
-    "lat": 41.63824760264,
-    "lon": 0.6267278807436,
+    "lat": 41.638802626517,
+    "lon": 0.62786435650876,
     "buses": [
       "135"
     ],
@@ -18469,10 +18011,9 @@
     "buses": [
       "135",
       "136",
-      "138",
-      "628"
+      "138"
     ],
-    "lineId": 628,
+    "lineId": 138,
     "zoneId": 0
   },
   {
@@ -18481,10 +18022,9 @@
     "lat": 41.611890732408,
     "lon": 0.6314915641758,
     "buses": [
-      "135",
-      "628"
+      "135"
     ],
-    "lineId": 628,
+    "lineId": 135,
     "zoneId": 0
   },
   {
@@ -18493,10 +18033,9 @@
     "lat": 41.610100918314,
     "lon": 0.63338648867408,
     "buses": [
-      "135",
-      "628"
+      "135"
     ],
-    "lineId": 628,
+    "lineId": 135,
     "zoneId": 0
   },
   {
@@ -18752,10 +18291,9 @@
     "lon": 0.63346549265599,
     "buses": [
       "135",
-      "137",
-      "628"
+      "137"
     ],
-    "lineId": 628,
+    "lineId": 137,
     "zoneId": 0
   },
   {
@@ -18765,10 +18303,9 @@
     "lon": 0.63179507106836,
     "buses": [
       "135",
-      "137",
-      "628"
+      "137"
     ],
-    "lineId": 628,
+    "lineId": 137,
     "zoneId": 0
   },
   {
@@ -19660,17 +19197,6 @@
     "zoneId": 0
   },
   {
-    "id": 7375,
-    "name": "LA BISBAL D'EMPORDA, (DIR. GIRONA)",
-    "lat": 41.961025461048,
-    "lon": 3.0387642908585,
-    "buses": [
-      "146"
-    ],
-    "lineId": 146,
-    "zoneId": 0
-  },
-  {
     "id": 13772,
     "name": "ESTACIO",
     "lat": 41.238666700085,
@@ -20298,10 +19824,10 @@
     "zoneId": 0
   },
   {
-    "id": 13995,
-    "name": "SEU VELLA / MERCAT DEL PLA 2",
-    "lat": 41.616534586912,
-    "lon": 0.62434498413087,
+    "id": 13504,
+    "name": "SEU VELLA / MERCAT DEL PLA",
+    "lat": 41.616352151323,
+    "lon": 0.62378590246851,
     "buses": [
       "162"
     ],
@@ -20309,9 +19835,9 @@
     "zoneId": 0
   },
   {
-    "id": 13994,
-    "name": "CASTELL DE GARDENY",
-    "lat": 41.60875,
+    "id": 25362,
+    "name": "CASTELL TEMPLERS_GARDENY",
+    "lat": 41.60876,
     "lon": 0.61334,
     "buses": [
       "162"
@@ -20552,10 +20078,10 @@
     "zoneId": 0
   },
   {
-    "id": 12906,
-    "name": "CAMPING KINGS",
-    "lat": 41.862483312538,
-    "lon": 3.1426226859113,
+    "id": 13599,
+    "name": "PALAMOS, GASPAR MATAS",
+    "lat": 41.865111241933,
+    "lon": 3.1272240541921,
     "buses": [
       "165"
     ],
@@ -20563,10 +20089,10 @@
     "zoneId": 0
   },
   {
-    "id": 12634,
-    "name": "PALAMOS, EDIFICI LA PROA",
-    "lat": 41.859474707311,
-    "lon": 3.1428690138682,
+    "id": 13602,
+    "name": "PALAMOS, ARNAU SA BRUGUERA",
+    "lat": 41.861886305931,
+    "lon": 3.1300255636963,
     "buses": [
       "165"
     ],
@@ -20613,16 +20139,17 @@
     "lon": 3.1177081512037,
     "buses": [
       "165",
-      "605"
+      "605",
+      "697"
     ],
-    "lineId": 605,
+    "lineId": 697,
     "zoneId": 0
   },
   {
-    "id": 13599,
-    "name": "PALAMOS, GASPAR MATAS",
-    "lat": 41.865111241933,
-    "lon": 3.1272240541921,
+    "id": 12906,
+    "name": "CAMPING KINGS",
+    "lat": 41.862483312538,
+    "lon": 3.1426226859113,
     "buses": [
       "165"
     ],
@@ -20630,10 +20157,21 @@
     "zoneId": 0
   },
   {
-    "id": 13602,
-    "name": "PALAMOS, ARNAU SA BRUGUERA",
-    "lat": 41.861886305931,
-    "lon": 3.1300255636963,
+    "id": 12634,
+    "name": "PALAMOS, EDIFICI LA PROA",
+    "lat": 41.859474707311,
+    "lon": 3.1428690138682,
+    "buses": [
+      "165"
+    ],
+    "lineId": 165,
+    "zoneId": 0
+  },
+  {
+    "id": 12907,
+    "name": "PALAMOS,CÀMPING INTERNACIONAL",
+    "lat": 41.857558629288,
+    "lon": 3.1385868787766,
     "buses": [
       "165"
     ],
@@ -20785,6 +20323,149 @@
     "zoneId": 0
   },
   {
+    "id": 13644,
+    "name": "SANT FELIU DE GUIXOLS, CRTA. PALAMOS CREU ROJA",
+    "lat": 41.78875694696,
+    "lon": 3.040863275528,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 18060,
+    "name": "S.FELIU DE GUIXOLS INDUSTRIA/BOURGE PEAGE DIR.S.EL",
+    "lat": 41.784157,
+    "lon": 3.034197,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 18056,
+    "name": "S.FELIU DE G.ENRIC HEINZ/R.GENERALITATDIRST.ELM",
+    "lat": 41.786746,
+    "lon": 3.031803,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 18050,
+    "name": "S.FELIU DE GUIXOLS,ADA.CANARIAS/RUFO DIR.SANT ELM",
+    "lat": 41.787704,
+    "lon": 3.031076,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 18061,
+    "name": "S.FELIU DE GUIXOLS PLAÇA ALABRIC DIR.SANT ELM",
+    "lat": 41.787491,
+    "lon": 3.028547,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 12943,
+    "name": "S.FELIU DE GUIXOLS,AVDA.CATALUNYA/C.TARRAGONA",
+    "lat": 41.789905494228,
+    "lon": 3.0242121251249,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 13614,
+    "name": "SANT FELIU DE GUIXOLS, CANIGO / MOSSOS",
+    "lat": 41.793712750579,
+    "lon": 3.0213056883865,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 18057,
+    "name": "S.FELIU DE G.GIRONA/JOAN BORDAS DIRS.ELM",
+    "lat": 41.788935,
+    "lon": 3.023008,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 13612,
+    "name": "SANT FELIU DE GUIXOLS, CRTA. GIRONA / JAUME GRAS",
+    "lat": 41.783646067231,
+    "lon": 3.0264893174171,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 13611,
+    "name": "SANT FELIU DE GUIXOLS, CRTA. GIRONA / SANT ADOLF",
+    "lat": 41.78584406544,
+    "lon": 3.0250932276249,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 13610,
+    "name": "SANT FELIU DE GUIXOLS, CRTA. GIRONA / LLIBERTAT",
+    "lat": 41.787433017218,
+    "lon": 3.0240350961685,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 13609,
+    "name": "SANT FELIU DE GUIXOLS, MONESTIR",
+    "lat": 41.780627946932,
+    "lon": 3.0269131064415,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
+    "id": 18063,
+    "name": "SANT FELIU DE GUIXOLS,SANT ELM",
+    "lat": 41.775231,
+    "lon": 3.029808,
+    "buses": [
+      "168"
+    ],
+    "lineId": 168,
+    "zoneId": 0
+  },
+  {
     "id": 10562,
     "name": "SANT FELIU DE GUIXOLS, ESTACIO AUTOBUSOS",
     "lat": 41.781057585241,
@@ -20844,28 +20525,6 @@
     "name": "SANT FELIU DE GUIXOLS, CRTA. PALAMOS / BORDAS",
     "lat": 41.78885057624,
     "lon": 3.023578102423,
-    "buses": [
-      "168"
-    ],
-    "lineId": 168,
-    "zoneId": 0
-  },
-  {
-    "id": 12943,
-    "name": "S.FELIU DE GUIXOLS,AVDA.CATALUNYA/C.TARRAGONA",
-    "lat": 41.789905494228,
-    "lon": 3.0242121251249,
-    "buses": [
-      "168"
-    ],
-    "lineId": 168,
-    "zoneId": 0
-  },
-  {
-    "id": 13614,
-    "name": "SANT FELIU DE GUIXOLS, CANIGO / MOSSOS",
-    "lat": 41.793712750579,
-    "lon": 3.0213056883865,
     "buses": [
       "168"
     ],
@@ -21005,17 +20664,6 @@
     "zoneId": 0
   },
   {
-    "id": 13609,
-    "name": "SANT FELIU DE GUIXOLS, MONESTIR",
-    "lat": 41.780627946932,
-    "lon": 3.0269131064415,
-    "buses": [
-      "168"
-    ],
-    "lineId": 168,
-    "zoneId": 0
-  },
-  {
     "id": 13630,
     "name": "SANT FELIU DE GUIXOLS, PASSEIG DEL MAR/ RONXADORS",
     "lat": 41.78068495052,
@@ -21109,29 +20757,6 @@
     "lat": 41.814538125964,
     "lon": 3.0324733257294,
     "buses": [
-      "168",
-      "268"
-    ],
-    "lineId": 268,
-    "zoneId": 0
-  },
-  {
-    "id": 13644,
-    "name": "SANT FELIU DE GUIXOLS, CRTA. PALAMOS CREU ROJA",
-    "lat": 41.78875694696,
-    "lon": 3.040863275528,
-    "buses": [
-      "168"
-    ],
-    "lineId": 168,
-    "zoneId": 0
-  },
-  {
-    "id": 13645,
-    "name": "SANT FELIU DE GUIXOLS, CRTA. PALAMOS ALCAREZ / CAP",
-    "lat": 41.78386286441,
-    "lon": 3.037295788597,
-    "buses": [
       "168"
     ],
     "lineId": 168,
@@ -21190,9 +20815,10 @@
       "175",
       "259",
       "343",
-      "344"
+      "344",
+      "362"
     ],
-    "lineId": 344,
+    "lineId": 362,
     "zoneId": 0
   },
   {
@@ -21203,9 +20829,10 @@
     "buses": [
       "175",
       "343",
-      "344"
+      "344",
+      "362"
     ],
-    "lineId": 344,
+    "lineId": 362,
     "zoneId": 0
   },
   {
@@ -21229,6 +20856,7 @@
     "buses": [
       "175",
       "259",
+      "296",
       "343",
       "344",
       "388"
@@ -21371,9 +20999,10 @@
     "buses": [
       "175",
       "343",
-      "344"
+      "344",
+      "362"
     ],
-    "lineId": 344,
+    "lineId": 362,
     "zoneId": 0
   },
   {
@@ -21729,6 +21358,17 @@
     "zoneId": 0
   },
   {
+    "id": 7388,
+    "name": "SANT FELIU DE BOADA",
+    "lat": 41.974318406743,
+    "lon": 3.1241654580966,
+    "buses": [
+      "187"
+    ],
+    "lineId": 187,
+    "zoneId": 0
+  },
+  {
     "id": 11889,
     "name": "PALAU SATOR",
     "lat": 41.988733065233,
@@ -21755,17 +21395,6 @@
     "name": "SANT JULIA DE BOADA, CRUILLA (DIR. PALAFRUGELL)",
     "lat": 41.9844463638,
     "lon": 3.1209784839368,
-    "buses": [
-      "187"
-    ],
-    "lineId": 187,
-    "zoneId": 0
-  },
-  {
-    "id": 7388,
-    "name": "SANT FELIU DE BOADA",
-    "lat": 41.974318406743,
-    "lon": 3.1241654580966,
     "buses": [
       "187"
     ],
@@ -21888,39 +21517,6 @@
     "name": "PALS,MASSOS(DIR.PLAJA PALS)",
     "lat": 41.979106495343,
     "lon": 3.1613468474452,
-    "buses": [
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 19121,
-    "name": "PALS,GOLF BEACH",
-    "lat": 41.993296526958,
-    "lon": 3.1923115253448,
-    "buses": [
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 10733,
-    "name": "PALS, CAMPING CYPSELA (DIR. PALAFRUGELL)",
-    "lat": 41.985363060037,
-    "lon": 3.180470088465,
-    "buses": [
-      "190"
-    ],
-    "lineId": 190,
-    "zoneId": 0
-  },
-  {
-    "id": 10735,
-    "name": "PALS, MASSOS ( DIREC.PALS)",
-    "lat": 41.979487333705,
-    "lon": 3.1611188596789,
     "buses": [
       "190"
     ],
@@ -22082,9 +21678,10 @@
     "lat": 42.804882699912,
     "lon": -1.6600751545837,
     "buses": [
-      "197"
+      "197",
+      "702"
     ],
-    "lineId": 197,
+    "lineId": 702,
     "zoneId": 0
   },
   {
@@ -22093,9 +21690,10 @@
     "lat": 42.802054659566,
     "lon": -1.6628577000799,
     "buses": [
-      "197"
+      "197",
+      "702"
     ],
-    "lineId": 197,
+    "lineId": 702,
     "zoneId": 0
   },
   {
@@ -22104,9 +21702,10 @@
     "lat": 42.800243,
     "lon": -1.665541,
     "buses": [
-      "197"
+      "197",
+      "702"
     ],
-    "lineId": 197,
+    "lineId": 702,
     "zoneId": 0
   },
   {
@@ -22134,14 +21733,69 @@
     "zoneId": 0
   },
   {
+    "id": 21796,
+    "name": "c/ Cataluña (c/ Sadar)",
+    "lat": 42.7992,
+    "lon": -1.64,
+    "buses": [
+      "197",
+      "202"
+    ],
+    "lineId": 202,
+    "zoneId": 0
+  },
+  {
+    "id": 13129,
+    "name": "Rot. c/ Tajonar (c/ Cataluña)",
+    "lat": 42.803441633725,
+    "lon": -1.6341056432559,
+    "buses": [
+      "197",
+      "202",
+      "205",
+      "701"
+    ],
+    "lineId": 701,
+    "zoneId": 0
+  },
+  {
+    "id": 14373,
+    "name": "c/ Tajonar nº 3",
+    "lat": 42.806416804926,
+    "lon": -1.6354330931085,
+    "buses": [
+      "197",
+      "202",
+      "205",
+      "701"
+    ],
+    "lineId": 701,
+    "zoneId": 0
+  },
+  {
+    "id": 10840,
+    "name": "c/ Aoiz, nº 37",
+    "lat": 42.808627081641,
+    "lon": -1.6361338526554,
+    "buses": [
+      "197",
+      "202",
+      "205",
+      "701"
+    ],
+    "lineId": 701,
+    "zoneId": 0
+  },
+  {
     "id": 11236,
     "name": "Cizur Menor, Irunbidea, nº 2A",
     "lat": 42.78797166117,
     "lon": -1.6757230800247,
     "buses": [
-      "197"
+      "197",
+      "702"
     ],
-    "lineId": 197,
+    "lineId": 702,
     "zoneId": 0
   },
   {
@@ -22150,9 +21804,10 @@
     "lat": 42.8,
     "lon": -1.6655,
     "buses": [
-      "197"
+      "197",
+      "702"
     ],
-    "lineId": 197,
+    "lineId": 702,
     "zoneId": 0
   },
   {
@@ -22161,9 +21816,10 @@
     "lat": 42.801739557754,
     "lon": -1.6631682871275,
     "buses": [
-      "197"
+      "197",
+      "702"
     ],
-    "lineId": 197,
+    "lineId": 702,
     "zoneId": 0
   },
   {
@@ -22172,9 +21828,10 @@
     "lat": 42.805054665336,
     "lon": -1.6598166574808,
     "buses": [
-      "197"
+      "197",
+      "702"
     ],
-    "lineId": 197,
+    "lineId": 702,
     "zoneId": 0
   },
   {
@@ -22243,7 +21900,6 @@
       "207",
       "219",
       "223",
-      "386",
       "414",
       "702"
     ],
@@ -22297,6 +21953,187 @@
       "701"
     ],
     "lineId": 701,
+    "zoneId": 0
+  },
+  {
+    "id": 10835,
+    "name": "c/ Tajonar, nº 2",
+    "lat": 42.807270318776,
+    "lon": -1.63591708222,
+    "buses": [
+      "197",
+      "205",
+      "701"
+    ],
+    "lineId": 701,
+    "zoneId": 0
+  },
+  {
+    "id": 10836,
+    "name": "c/ Tajonar (frente nº 31)",
+    "lat": 42.804030337244,
+    "lon": -1.6347165386079,
+    "buses": [
+      "197",
+      "205",
+      "701"
+    ],
+    "lineId": 701,
+    "zoneId": 0
+  },
+  {
+    "id": 10863,
+    "name": "Etxabakoitz (Grupo Urdánoz)",
+    "lat": 42.800229960261,
+    "lon": -1.67609759194,
+    "buses": [
+      "198",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10864,
+    "name": "Etxabakoitz, c/ Etxabakoitz, nº 3",
+    "lat": 42.798949087521,
+    "lon": -1.6756844088837,
+    "buses": [
+      "198",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10865,
+    "name": "Avda. Aróstegui (Inquinasa)",
+    "lat": 42.798807596444,
+    "lon": -1.6729206924225,
+    "buses": [
+      "198",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10866,
+    "name": "Avda. Aróstegui, nº 7",
+    "lat": 42.800665644165,
+    "lon": -1.6698298272809,
+    "buses": [
+      "198",
+      "211",
+      "214",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10824,
+    "name": "Avda. Pío XII (frente Clínica Universidad de Nav.)",
+    "lat": 42.805194753772,
+    "lon": -1.6627004583227,
+    "buses": [
+      "198",
+      "200",
+      "211",
+      "214",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10825,
+    "name": "Avda. Pío XII, nº 41",
+    "lat": 42.80691238394,
+    "lon": -1.6607730205251,
+    "buses": [
+      "198",
+      "200",
+      "211",
+      "214",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10867,
+    "name": "c/ Iturrama (Avda. Pío XII)",
+    "lat": 42.807888745581,
+    "lon": -1.6588670896413,
+    "buses": [
+      "198",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10868,
+    "name": "c/ Iturrama (c/ Fuente del Hierro)",
+    "lat": 42.806415753871,
+    "lon": -1.6567702172857,
+    "buses": [
+      "198",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10869,
+    "name": "c/ Iturrama (Pza. Félix Huarte)",
+    "lat": 42.804773396168,
+    "lon": -1.6530453341933,
+    "buses": [
+      "198",
+      "215",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10870,
+    "name": "c/ Esquíroz, nº 31",
+    "lat": 42.804570571235,
+    "lon": -1.6509160977346,
+    "buses": [
+      "198",
+      "219",
+      "221",
+      "414"
+    ],
+    "lineId": 414,
+    "zoneId": 0
+  },
+  {
+    "id": 10871,
+    "name": "c/ Serafín Olave, nº 11",
+    "lat": 42.806068422206,
+    "lon": -1.6496136535526,
+    "buses": [
+      "198",
+      "221"
+    ],
+    "lineId": 221,
+    "zoneId": 0
+  },
+  {
+    "id": 10872,
+    "name": "c/ Serafín Olave (c/ Abejeras)",
+    "lat": 42.804925814124,
+    "lon": -1.64687140352,
+    "buses": [
+      "198",
+      "221"
+    ],
+    "lineId": 221,
     "zoneId": 0
   },
   {
@@ -22399,10 +22236,9 @@
     "lon": -1.6588320878569,
     "buses": [
       "198",
-      "221",
-      "702"
+      "221"
     ],
-    "lineId": 702,
+    "lineId": 221,
     "zoneId": 0
   },
   {
@@ -22430,10 +22266,9 @@
       "200",
       "211",
       "214",
-      "221",
-      "702"
+      "221"
     ],
-    "lineId": 702,
+    "lineId": 221,
     "zoneId": 0
   },
   {
@@ -22445,10 +22280,9 @@
       "198",
       "211",
       "214",
-      "221",
-      "702"
+      "221"
     ],
-    "lineId": 702,
+    "lineId": 221,
     "zoneId": 0
   },
   {
@@ -22456,164 +22290,6 @@
     "name": "Avda. Aróstegui (frente Inquinasa)",
     "lat": 42.799242717068,
     "lon": -1.6730215580228,
-    "buses": [
-      "198",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10863,
-    "name": "Etxabakoitz (Grupo Urdánoz)",
-    "lat": 42.800229960261,
-    "lon": -1.67609759194,
-    "buses": [
-      "198",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10864,
-    "name": "Etxabakoitz, c/ Etxabakoitz, nº 3",
-    "lat": 42.798949087521,
-    "lon": -1.6756844088837,
-    "buses": [
-      "198",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10865,
-    "name": "Avda. Aróstegui (Inquinasa)",
-    "lat": 42.798807596444,
-    "lon": -1.6729206924225,
-    "buses": [
-      "198",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10866,
-    "name": "Avda. Aróstegui, nº 7",
-    "lat": 42.800665644165,
-    "lon": -1.6698298272809,
-    "buses": [
-      "198",
-      "211",
-      "214",
-      "221",
-      "702"
-    ],
-    "lineId": 702,
-    "zoneId": 0
-  },
-  {
-    "id": 10824,
-    "name": "Avda. Pío XII (frente Clínica Universidad de Nav.)",
-    "lat": 42.805194753772,
-    "lon": -1.6627004583227,
-    "buses": [
-      "198",
-      "200",
-      "211",
-      "214",
-      "221",
-      "702"
-    ],
-    "lineId": 702,
-    "zoneId": 0
-  },
-  {
-    "id": 10825,
-    "name": "Avda. Pío XII, nº 41",
-    "lat": 42.80691238394,
-    "lon": -1.6607730205251,
-    "buses": [
-      "198",
-      "200",
-      "211",
-      "214",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10867,
-    "name": "c/ Iturrama (Avda. Pío XII)",
-    "lat": 42.807888745581,
-    "lon": -1.6588670896413,
-    "buses": [
-      "198",
-      "221",
-      "702"
-    ],
-    "lineId": 702,
-    "zoneId": 0
-  },
-  {
-    "id": 10868,
-    "name": "c/ Iturrama (c/ Fuente del Hierro)",
-    "lat": 42.806415753871,
-    "lon": -1.6567702172857,
-    "buses": [
-      "198",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10869,
-    "name": "c/ Iturrama (Pza. Félix Huarte)",
-    "lat": 42.804773396168,
-    "lon": -1.6530453341933,
-    "buses": [
-      "198",
-      "215",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10870,
-    "name": "c/ Esquíroz, nº 31",
-    "lat": 42.804570571235,
-    "lon": -1.6509160977346,
-    "buses": [
-      "198",
-      "219",
-      "221",
-      "414"
-    ],
-    "lineId": 414,
-    "zoneId": 0
-  },
-  {
-    "id": 10871,
-    "name": "c/ Serafín Olave, nº 11",
-    "lat": 42.806068422206,
-    "lon": -1.6496136535526,
-    "buses": [
-      "198",
-      "221"
-    ],
-    "lineId": 221,
-    "zoneId": 0
-  },
-  {
-    "id": 10872,
-    "name": "c/ Serafín Olave (c/ Abejeras)",
-    "lat": 42.804925814124,
-    "lon": -1.64687140352,
     "buses": [
       "198",
       "221"
@@ -23792,10 +23468,9 @@
       "201",
       "207",
       "212",
-      "223",
-      "386"
+      "223"
     ],
-    "lineId": 386,
+    "lineId": 223,
     "zoneId": 0
   },
   {
@@ -23807,10 +23482,9 @@
       "201",
       "207",
       "212",
-      "223",
-      "386"
+      "223"
     ],
-    "lineId": 386,
+    "lineId": 223,
     "zoneId": 0
   },
   {
@@ -23822,10 +23496,9 @@
       "201",
       "207",
       "212",
-      "223",
-      "386"
+      "223"
     ],
-    "lineId": 386,
+    "lineId": 223,
     "zoneId": 0
   },
   {
@@ -24031,125 +23704,6 @@
     "zoneId": 0
   },
   {
-    "id": 13129,
-    "name": "Rot. c/ Tajonar (c/ Cataluña)",
-    "lat": 42.803441633725,
-    "lon": -1.6341056432559,
-    "buses": [
-      "202",
-      "205",
-      "701"
-    ],
-    "lineId": 701,
-    "zoneId": 0
-  },
-  {
-    "id": 14373,
-    "name": "c/ Tajonar nº 3",
-    "lat": 42.806416804926,
-    "lon": -1.6354330931085,
-    "buses": [
-      "202",
-      "205",
-      "701"
-    ],
-    "lineId": 701,
-    "zoneId": 0
-  },
-  {
-    "id": 10840,
-    "name": "c/ Aoiz, nº 37",
-    "lat": 42.808627081641,
-    "lon": -1.6361338526554,
-    "buses": [
-      "202",
-      "205",
-      "701"
-    ],
-    "lineId": 701,
-    "zoneId": 0
-  },
-  {
-    "id": 10987,
-    "name": "Puente del Vergel",
-    "lat": 42.822763608687,
-    "lon": -1.6427778774789,
-    "buses": [
-      "202",
-      "705"
-    ],
-    "lineId": 705,
-    "zoneId": 0
-  },
-  {
-    "id": 10988,
-    "name": "c/ Río Arga (Pza. Pompeyo)",
-    "lat": 42.82237069273,
-    "lon": -1.6462576439515,
-    "buses": [
-      "202",
-      "210"
-    ],
-    "lineId": 210,
-    "zoneId": 0
-  },
-  {
-    "id": 10976,
-    "name": "c/ Río Arga (c/ Bernardino Tirapu)",
-    "lat": 42.821529107064,
-    "lon": -1.6486026093602,
-    "buses": [
-      "202",
-      "210"
-    ],
-    "lineId": 210,
-    "zoneId": 0
-  },
-  {
-    "id": 11134,
-    "name": "c/ Bernardino Tirapu (Paseo Anelier, nº 30)",
-    "lat": 42.822418226966,
-    "lon": -1.6497265214329,
-    "buses": [
-      "202"
-    ],
-    "lineId": 202,
-    "zoneId": 0
-  },
-  {
-    "id": 11196,
-    "name": "c/ Bernardino Tirapu, nº 28",
-    "lat": 42.824570994889,
-    "lon": -1.6511344167006,
-    "buses": [
-      "202"
-    ],
-    "lineId": 202,
-    "zoneId": 0
-  },
-  {
-    "id": 10980,
-    "name": "c/ Bernardino Tirapu (frente nº 3)",
-    "lat": 42.82703971756,
-    "lon": -1.6527300943191,
-    "buses": [
-      "202"
-    ],
-    "lineId": 202,
-    "zoneId": 0
-  },
-  {
-    "id": 10992,
-    "name": "c/ Bernardino Tirapu (Pza. J. M. de Barandiarán)",
-    "lat": 42.829573147111,
-    "lon": -1.6544070472478,
-    "buses": [
-      "202"
-    ],
-    "lineId": 202,
-    "zoneId": 0
-  },
-  {
     "id": 10973,
     "name": "c/ Bernardino Tirapu, nº 77",
     "lat": 42.829075034527,
@@ -24289,6 +23843,86 @@
     "name": "Universidad Pública de Navarra",
     "lat": 42.800521512004,
     "lon": -1.6368645337296,
+    "buses": [
+      "202"
+    ],
+    "lineId": 202,
+    "zoneId": 0
+  },
+  {
+    "id": 10987,
+    "name": "Puente del Vergel",
+    "lat": 42.822763608687,
+    "lon": -1.6427778774789,
+    "buses": [
+      "202",
+      "705"
+    ],
+    "lineId": 705,
+    "zoneId": 0
+  },
+  {
+    "id": 10988,
+    "name": "c/ Río Arga (Pza. Pompeyo)",
+    "lat": 42.82237069273,
+    "lon": -1.6462576439515,
+    "buses": [
+      "202",
+      "210"
+    ],
+    "lineId": 210,
+    "zoneId": 0
+  },
+  {
+    "id": 10976,
+    "name": "c/ Río Arga (c/ Bernardino Tirapu)",
+    "lat": 42.821529107064,
+    "lon": -1.6486026093602,
+    "buses": [
+      "202",
+      "210"
+    ],
+    "lineId": 210,
+    "zoneId": 0
+  },
+  {
+    "id": 11134,
+    "name": "c/ Bernardino Tirapu (Paseo Anelier, nº 30)",
+    "lat": 42.822418226966,
+    "lon": -1.6497265214329,
+    "buses": [
+      "202"
+    ],
+    "lineId": 202,
+    "zoneId": 0
+  },
+  {
+    "id": 11196,
+    "name": "c/ Bernardino Tirapu, nº 28",
+    "lat": 42.824570994889,
+    "lon": -1.6511344167006,
+    "buses": [
+      "202"
+    ],
+    "lineId": 202,
+    "zoneId": 0
+  },
+  {
+    "id": 10980,
+    "name": "c/ Bernardino Tirapu (frente nº 3)",
+    "lat": 42.82703971756,
+    "lon": -1.6527300943191,
+    "buses": [
+      "202"
+    ],
+    "lineId": 202,
+    "zoneId": 0
+  },
+  {
+    "id": 10992,
+    "name": "c/ Bernardino Tirapu (Pza. J. M. de Barandiarán)",
+    "lat": 42.829573147111,
+    "lon": -1.6544070472478,
     "buses": [
       "202"
     ],
@@ -25049,30 +24683,6 @@
     "zoneId": 0
   },
   {
-    "id": 10835,
-    "name": "c/ Tajonar, nº 2",
-    "lat": 42.807270318776,
-    "lon": -1.63591708222,
-    "buses": [
-      "205",
-      "701"
-    ],
-    "lineId": 701,
-    "zoneId": 0
-  },
-  {
-    "id": 10836,
-    "name": "c/ Tajonar (frente nº 31)",
-    "lat": 42.804030337244,
-    "lon": -1.6347165386079,
-    "buses": [
-      "205",
-      "701"
-    ],
-    "lineId": 701,
-    "zoneId": 0
-  },
-  {
     "id": 10837,
     "name": "Universidad Pública de Navarra",
     "lat": 42.800694712023,
@@ -25510,10 +25120,9 @@
     "lat": 42.798004039808,
     "lon": -1.6382258181883,
     "buses": [
-      "207",
-      "386"
+      "207"
     ],
-    "lineId": 386,
+    "lineId": 207,
     "zoneId": 0
   },
   {
@@ -25522,10 +25131,9 @@
     "lat": 42.798899290684,
     "lon": -1.6418543294843,
     "buses": [
-      "207",
-      "386"
+      "207"
     ],
-    "lineId": 386,
+    "lineId": 207,
     "zoneId": 0
   },
   {
@@ -25536,10 +25144,9 @@
     "buses": [
       "207",
       "212",
-      "223",
-      "386"
+      "223"
     ],
-    "lineId": 386,
+    "lineId": 223,
     "zoneId": 0
   },
   {
@@ -27413,7 +27020,6 @@
       "214",
       "222",
       "227",
-      "386",
       "702",
       "705"
     ],
@@ -29518,6 +29124,30 @@
     "zoneId": 0
   },
   {
+    "id": 10638,
+    "name": "GIRONA, INTERNA UDG (PARADA UNICA)",
+    "lat": 41.962399936607,
+    "lon": 2.8274923510062,
+    "buses": [
+      "268",
+      "269",
+      "342"
+    ],
+    "lineId": 342,
+    "zoneId": 0
+  },
+  {
+    "id": 13591,
+    "name": "GIRONA, PARC TECNOLOGIC (DIR. PALAMOS)",
+    "lat": 41.967128722329,
+    "lon": 2.8388017416,
+    "buses": [
+      "268"
+    ],
+    "lineId": 268,
+    "zoneId": 0
+  },
+  {
     "id": 13593,
     "name": "CASSA DE LA SELVA, NORD BP (DIR. PALAMOS)",
     "lat": 41.891425247335,
@@ -29552,26 +29182,25 @@
     "zoneId": 0
   },
   {
+    "id": 7473,
+    "name": "PLATJA D'ARO, CASTELL D'ARO",
+    "lat": 41.814601422736,
+    "lon": 3.032473308035,
+    "buses": [
+      "268"
+    ],
+    "lineId": 268,
+    "zoneId": 0
+  },
+  {
     "id": 12520,
     "name": "CASTELL D'ARO (DIR. GIRONA)",
     "lat": 41.814616841133,
     "lon": 3.0329068390707,
     "buses": [
-      "268",
       "269"
     ],
     "lineId": 269,
-    "zoneId": 0
-  },
-  {
-    "id": 13591,
-    "name": "GIRONA, PARC TECNOLOGIC (DIR. PALAMOS)",
-    "lat": 41.967128722329,
-    "lon": 2.8388017416,
-    "buses": [
-      "268"
-    ],
-    "lineId": 268,
     "zoneId": 0
   },
   {
@@ -29608,6 +29237,17 @@
     "zoneId": 0
   },
   {
+    "id": 10645,
+    "name": "GIRONA, PARC TECNOLOGIC I CIENTIFICI (DIR. GIRONA)",
+    "lat": 41.967275206233,
+    "lon": 2.8387885043002,
+    "buses": [
+      "269"
+    ],
+    "lineId": 269,
+    "zoneId": 0
+  },
+  {
     "id": 10639,
     "name": "GIRONA, EMIL GRAHIT (DIR. GIRONA)",
     "lat": 41.974292647638,
@@ -29617,17 +29257,6 @@
       "342"
     ],
     "lineId": 342,
-    "zoneId": 0
-  },
-  {
-    "id": 10645,
-    "name": "GIRONA, PARC TECNOLOGIC I CIENTIFICI (DIR. GIRONA)",
-    "lat": 41.967275206233,
-    "lon": 2.8387885043002,
-    "buses": [
-      "269"
-    ],
-    "lineId": 269,
     "zoneId": 0
   },
   {
@@ -29935,6 +29564,17 @@
     "zoneId": 0
   },
   {
+    "id": 11882,
+    "name": "PALAFRUGELL, ONZE DE SETEMBRE",
+    "lat": 41.918396363128,
+    "lon": 3.1639112290874,
+    "buses": [
+      "310"
+    ],
+    "lineId": 310,
+    "zoneId": 0
+  },
+  {
     "id": 23887,
     "name": "LLAFRANCH EL FAR",
     "lat": 41.896148,
@@ -29950,6 +29590,28 @@
     "name": "LLAFRANCH,CENTRE",
     "lat": 41.894206,
     "lon": 3.193627,
+    "buses": [
+      "310"
+    ],
+    "lineId": 310,
+    "zoneId": 0
+  },
+  {
+    "id": 7383,
+    "name": "PALAFRUGELL, CALELLA COSTA BLANCA",
+    "lat": 41.892672991327,
+    "lon": 3.1876221520652,
+    "buses": [
+      "310"
+    ],
+    "lineId": 310,
+    "zoneId": 0
+  },
+  {
+    "id": 12035,
+    "name": "CALELLA DE PALAFRUGELL, HOTEL ALGA (DIR. CALELLA)",
+    "lat": 41.891750881275,
+    "lon": 3.1839496804766,
     "buses": [
       "310"
     ],
@@ -30031,6 +29693,18 @@
       "310"
     ],
     "lineId": 310,
+    "zoneId": 0
+  },
+  {
+    "id": 11885,
+    "name": "PALAFRUGELL, PLAÇA D'EUROPA  - BUS 30",
+    "lat": 41.911913284594,
+    "lon": 3.1677956569683,
+    "buses": [
+      "310",
+      "698"
+    ],
+    "lineId": 698,
     "zoneId": 0
   },
   {
@@ -30289,6 +29963,18 @@
     "zoneId": 0
   },
   {
+    "id": 7420,
+    "name": "LLANÇA, AJUNTAMENT (DIR. PORT SELVA)",
+    "lat": 42.365772230246,
+    "lon": 3.1545861802442,
+    "buses": [
+      "337",
+      "384"
+    ],
+    "lineId": 384,
+    "zoneId": 0
+  },
+  {
     "id": 11977,
     "name": "LLANÇA, LA FARELLA",
     "lat": 42.366938848885,
@@ -30365,6 +30051,18 @@
     "name": "SELVA DE MAR (DIR. FIGUERES)",
     "lat": 42.324729838413,
     "lon": 3.1893825531006,
+    "buses": [
+      "337",
+      "384"
+    ],
+    "lineId": 384,
+    "zoneId": 0
+  },
+  {
+    "id": 7421,
+    "name": "EL PORT DE LA SELVA",
+    "lat": 42.334747763574,
+    "lon": 3.2029627827983,
     "buses": [
       "337",
       "384"
@@ -30454,17 +30152,6 @@
       "384"
     ],
     "lineId": 384,
-    "zoneId": 0
-  },
-  {
-    "id": 11895,
-    "name": "ROSES, AQUABRAVA (DIR. ROSES)",
-    "lat": 42.278338752431,
-    "lon": 3.1581991910934,
-    "buses": [
-      "337"
-    ],
-    "lineId": 337,
     "zoneId": 0
   },
   {
@@ -30591,8 +30278,8 @@
   {
     "id": 13891,
     "name": "(LLUÍS COMPANYS) BERGUEDÀ / JOAN XXIII",
-    "lat": 41.486143490923,
-    "lon": 2.3098164796829,
+    "lat": 41.486120384135,
+    "lon": 2.3095965385437,
     "buses": [
       "340"
     ],
@@ -30623,9 +30310,9 @@
   },
   {
     "id": 13907,
-    "name": "(JOAN XXIII) JOAN XXIII / FRANCESC MACIÀ",
-    "lat": 41.48064,
-    "lon": 2.31255,
+    "name": "(JOAN XXIII) JOAN XXIII / ITÀLIA",
+    "lat": 41.48141,
+    "lon": 2.31222,
     "buses": [
       "340"
     ],
@@ -30634,9 +30321,20 @@
   },
   {
     "id": 13894,
-    "name": "(ROGER DE FLOR) NAVARRA / ROGER DE FLOR",
-    "lat": 41.48137,
-    "lon": 2.31731,
+    "name": "(PLAÇA NOVA) ITÀLIA / ROGER DE FLOR",
+    "lat": 41.48245,
+    "lon": 2.31702,
+    "buses": [
+      "340"
+    ],
+    "lineId": 340,
+    "zoneId": 0
+  },
+  {
+    "id": 25357,
+    "name": "(PINTOR DOMÈNECH) PINTOR DOMÈNECH / FLOS I CALCAT",
+    "lat": 41.48236,
+    "lon": 2.31897,
     "buses": [
       "340"
     ],
@@ -31008,9 +30706,9 @@
   },
   {
     "id": 25064,
-    "name": "CONCILI EGÀRENC",
-    "lat": 41.55342,
-    "lon": 2.00868,
+    "name": "6578 CONCILI EGARENC",
+    "lat": 41.5533464,
+    "lon": 2.008663,
     "buses": [
       "360"
     ],
@@ -31224,6 +30922,17 @@
       "361"
     ],
     "lineId": 361,
+    "zoneId": 0
+  },
+  {
+    "id": 16997,
+    "name": "LA GUINARDERA",
+    "lat": 41.48445,
+    "lon": 2.05909,
+    "buses": [
+      "362"
+    ],
+    "lineId": 362,
     "zoneId": 0
   },
   {
@@ -31444,17 +31153,6 @@
       "385"
     ],
     "lineId": 385,
-    "zoneId": 0
-  },
-  {
-    "id": 18199,
-    "name": "c/ Sadar (frente Plaza Góngora)",
-    "lat": 42.796783,
-    "lon": -1.635024,
-    "buses": [
-      "386"
-    ],
-    "lineId": 386,
     "zoneId": 0
   },
   {
@@ -31998,10 +31696,9 @@
     "buses": [
       "430",
       "433",
-      "439",
-      "670"
+      "439"
     ],
-    "lineId": 670,
+    "lineId": 439,
     "zoneId": 0
   },
   {
@@ -32359,10 +32056,9 @@
     "lon": 2.784693,
     "buses": [
       "433",
-      "439",
-      "670"
+      "439"
     ],
-    "lineId": 670,
+    "lineId": 439,
     "zoneId": 0
   },
   {
@@ -32485,6 +32181,442 @@
       "433"
     ],
     "lineId": 433,
+    "zoneId": 0
+  },
+  {
+    "id": 19373,
+    "name": "MALGRAT DE MAR",
+    "lat": 41.64693,
+    "lon": 2.7409,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19377,
+    "name": "AV. MEDITERRANEA - CAPORAL FRADERA",
+    "lat": 41.64731,
+    "lon": 2.7465,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19378,
+    "name": "ELM - ABAT OLIBA",
+    "lat": 41.64418,
+    "lon": 2.74708,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19379,
+    "name": "SANT ESTEVE - MAR",
+    "lat": 41.64326,
+    "lon": 2.74413,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19365,
+    "name": "ESCOLES - SANT ESTEVE",
+    "lat": 41.642,
+    "lon": 2.74041,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19413,
+    "name": "PL. ANCORA",
+    "lat": 41.640913,
+    "lon": 2.737995,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 25364,
+    "name": "PASSEIG MARÍTIM 50 MALGRAT",
+    "lat": 41.6384147,
+    "lon": 2.7322038,
+    "buses": [
+      "436"
+    ],
+    "lineId": 436,
+    "zoneId": 0
+  },
+  {
+    "id": 24541,
+    "name": "PG. MARÍTIM - RAMON LLULL",
+    "lat": 41.63745,
+    "lon": 2.73007,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24543,
+    "name": "PG. MARÍTIM - AVI XAXU",
+    "lat": 41.63688,
+    "lon": 2.72852,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19414,
+    "name": "PG. MARÍTIM - COLOM",
+    "lat": 41.636289,
+    "lon": 2.726863,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19415,
+    "name": "AV. DEL MAR - CAN GELAT (M-SS)",
+    "lat": 41.63525459,
+    "lon": 2.724505561,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24978,
+    "name": "(SSS) HOTEL AQUAMARINA",
+    "lat": 41.63346,
+    "lon": 2.72186,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19418,
+    "name": "RENFE STA. SUSANNA",
+    "lat": 41.63042,
+    "lon": 2.716908,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24977,
+    "name": "AV. DEL MAR - CAMPING BON REPÒS",
+    "lat": 41.63326,
+    "lon": 2.72173,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19420,
+    "name": "AV. DEL MAR - TORRENTÓ DE CAN GELAT",
+    "lat": 41.63519161,
+    "lon": 2.724584742,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19424,
+    "name": "AV. BARCELONA - AUSIÀS MARCH",
+    "lat": 41.63913,
+    "lon": 2.730631,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19372,
+    "name": "AV. TARRAGONA - CAN FELICIANO",
+    "lat": 41.64555,
+    "lon": 2.73739,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24545,
+    "name": "POMAREDA - MAS BAGÉS",
+    "lat": 41.64706,
+    "lon": 2.76451,
+    "buses": [
+      "436"
+    ],
+    "lineId": 436,
+    "zoneId": 0
+  },
+  {
+    "id": 19444,
+    "name": "C/GIRONA - JOSEP RAGULL I VILARÓ (P-M)",
+    "lat": 41.650767,
+    "lon": 2.746536,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19432,
+    "name": "C/GIRONA - JOSEP RAGULL I VILARÓ (M-P)",
+    "lat": 41.650623,
+    "lon": 2.746425,
+    "buses": [
+      "436",
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19397,
+    "name": "AV. DE LES FLORS - URB. CIUTAT JARDÍ",
+    "lat": 41.66008,
+    "lon": 2.71737,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19445,
+    "name": "CTRA. DE ST. GENÍS DE PALAFOLLS - ANTIC SINDICAT",
+    "lat": 41.659931,
+    "lon": 2.721393,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19399,
+    "name": "CTRA. DE ST. GENIS DE PALAFOLLS - CAN GIBERT",
+    "lat": 41.65968,
+    "lon": 2.72606,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19402,
+    "name": "RAMON TURRÓ - SINDICAT",
+    "lat": 41.66725,
+    "lon": 2.75031,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19403,
+    "name": "PALAFOLLS",
+    "lat": 41.66968,
+    "lon": 2.75045,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19404,
+    "name": "PG. DEL MESTRE PAU CASALS - GIRONA",
+    "lat": 41.67252,
+    "lon": 2.74961,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24546,
+    "name": "ESPERANÇA - ROIG I JALPÍ",
+    "lat": 41.67541,
+    "lon": 2.75059,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19438,
+    "name": "PLAÇA XON MONER",
+    "lat": 41.673219,
+    "lon": 2.751554,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24547,
+    "name": "PG. MESTRE PAU CASALS - GIRONA",
+    "lat": 41.6725,
+    "lon": 2.74952,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19439,
+    "name": "PG. MESTRE PAU CASALS - AV. RIBERA DE LA BURGADA",
+    "lat": 41.670377,
+    "lon": 2.749272,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19440,
+    "name": " AV. DE LA COSTA BRAVA - RAMON TURRÓ - PALAUET",
+    "lat": 41.668318,
+    "lon": 2.750302,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19443,
+    "name": "CTRA. DE PALAFOLLS A MALGRAT - MARINELAND (T)",
+    "lat": 41.660796,
+    "lon": 2.752139,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24548,
+    "name": "CTRA. PALAFOLLS A MALGRAT - AV. D'ITACA",
+    "lat": 41.65952,
+    "lon": 2.75139,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 24540,
+    "name": "AV. BARCELONA - AUSIÀS MARCH",
+    "lat": 41.63804,
+    "lon": 2.73161,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19401,
+    "name": "AV. D'ITACA - LA FIGUERASSA",
+    "lat": 41.65889,
+    "lon": 2.74988,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19433,
+    "name": "CTRA. DE PALAFOLLS A MALGRAT - MARINELAND (A)",
+    "lat": 41.660585,
+    "lon": 2.752196,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19434,
+    "name": "CTRA. DE ST. GENIS DE PALAFOLLS - CAN GIBERT",
+    "lat": 41.65974,
+    "lon": 2.726043,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
+    "zoneId": 0
+  },
+  {
+    "id": 19435,
+    "name": "CTRA. DE ST. GENIS DE PALAFOLLS - ANTIC SINDICAT",
+    "lat": 41.659998,
+    "lon": 2.721444,
+    "buses": [
+      "438"
+    ],
+    "lineId": 438,
     "zoneId": 0
   },
   {
@@ -32836,7 +32968,6 @@
     "lon": 2.0415811656761,
     "buses": [
       "442",
-      "443",
       "444"
     ],
     "lineId": 444,
@@ -34428,17 +34559,6 @@
     "zoneId": 0
   },
   {
-    "id": 19775,
-    "name": "C/ ANSELM CLAVE, 50",
-    "lat": 41.67687,
-    "lon": 2.787942,
-    "buses": [
-      "670"
-    ],
-    "lineId": 670,
-    "zoneId": 0
-  },
-  {
     "id": 19456,
     "name": "19 MAS BORINOT (A)",
     "lat": 41.687188216677,
@@ -35391,6 +35511,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35404,6 +35525,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35417,6 +35539,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35430,6 +35553,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35443,6 +35567,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35514,6 +35639,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35527,6 +35653,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35561,6 +35688,7 @@
     "lon": 2.08331511,
     "buses": [
       "678",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35573,6 +35701,7 @@
     "lon": 2.08493611,
     "buses": [
       "678",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35586,6 +35715,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35599,6 +35729,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35670,6 +35801,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35683,6 +35815,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35696,6 +35829,7 @@
     "buses": [
       "678",
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -35708,9 +35842,11 @@
     "lon": 2.10208,
     "buses": [
       "678",
-      "688"
+      "688",
+      "689",
+      "690"
     ],
-    "lineId": 688,
+    "lineId": 690,
     "zoneId": 0
   },
   {
@@ -35720,9 +35856,11 @@
     "lon": 2.10013,
     "buses": [
       "678",
-      "688"
+      "688",
+      "689",
+      "690"
     ],
-    "lineId": 688,
+    "lineId": 690,
     "zoneId": 0
   },
   {
@@ -39007,6 +39145,7 @@
     "lon": 2.09321374,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39019,6 +39158,7 @@
     "lon": 2.09497805,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39031,6 +39171,7 @@
     "lon": 2.10131782,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39043,6 +39184,7 @@
     "lon": 2.09862833,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39055,6 +39197,7 @@
     "lon": 2.09571929,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39067,6 +39210,7 @@
     "lon": 2.09343927,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39079,6 +39223,7 @@
     "lon": 2.09060322,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39179,6 +39324,7 @@
     "lon": 2.09314534,
     "buses": [
       "688",
+      "690",
       "696"
     ],
     "lineId": 696,
@@ -39213,6 +39359,7 @@
     "lon": 2.09351326,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39225,6 +39372,7 @@
     "lon": 2.09657431,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39237,6 +39385,7 @@
     "lon": 2.09858234,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39249,6 +39398,7 @@
     "lon": 2.10104428,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39261,6 +39411,7 @@
     "lon": 2.09492208,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39273,6 +39424,7 @@
     "lon": 2.09220892,
     "buses": [
       "688",
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39317,6 +39469,7 @@
     "lat": 41.33098052,
     "lon": 2.09041195,
     "buses": [
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39328,6 +39481,7 @@
     "lat": 41.32223804,
     "lon": 2.08907922,
     "buses": [
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39339,6 +39493,7 @@
     "lat": 41.32361978,
     "lon": 2.08764337,
     "buses": [
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39350,6 +39505,7 @@
     "lat": 41.32250114,
     "lon": 2.08538665,
     "buses": [
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39361,6 +39517,7 @@
     "lat": 41.32164338,
     "lon": 2.08422367,
     "buses": [
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39372,6 +39529,115 @@
     "lat": 41.32026067,
     "lon": 2.0842753,
     "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24921,
+    "name": "RONDA SUD - AV. REMOLAR",
+    "lat": 41.31628797,
+    "lon": 2.0921669,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24625,
+    "name": "RIU LLOBREGAT - RIU TÚRIA",
+    "lat": 41.31705798,
+    "lon": 2.08491512,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24594,
+    "name": "POLICIA LOCAL",
+    "lat": 41.31759103,
+    "lon": 2.08338511,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24866,
+    "name": "CAMP DE FUTBOL SAGNIER",
+    "lat": 41.32004279,
+    "lon": 2.08454855,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24867,
+    "name": "CEM SAGNIER",
+    "lat": 41.32151154,
+    "lon": 2.08432992,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24868,
+    "name": "PARC DE LA SOLIDARITAT",
+    "lat": 41.32249349,
+    "lon": 2.08575079,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24869,
+    "name": "ESCOLA GALILEO GALILEI",
+    "lat": 41.32336981,
+    "lon": 2.0875179,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24694,
+    "name": "ESCOLA RAMON LLULL",
+    "lat": 41.32241705,
+    "lon": 2.08870721,
+    "buses": [
+      "689",
+      "690"
+    ],
+    "lineId": 690,
+    "zoneId": 0
+  },
+  {
+    "id": 24699,
+    "name": "AV. DEL REMOLAR - PIRINEUS",
+    "lat": 41.32045398,
+    "lon": 2.08986321,
+    "buses": [
+      "689",
       "690"
     ],
     "lineId": 690,
@@ -39509,116 +39775,6 @@
     "zoneId": 0
   },
   {
-    "id": 24921,
-    "name": "RONDA SUD - AV. REMOLAR",
-    "lat": 41.31628797,
-    "lon": 2.0921669,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24625,
-    "name": "RIU LLOBREGAT - RIU TÚRIA",
-    "lat": 41.31705798,
-    "lon": 2.08491512,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24594,
-    "name": "POLICIA LOCAL",
-    "lat": 41.31759103,
-    "lon": 2.08338511,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24866,
-    "name": "CAMP DE FUTBOL SAGNIER",
-    "lat": 41.32004279,
-    "lon": 2.08454855,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24867,
-    "name": "CEM SAGNIER",
-    "lat": 41.32151154,
-    "lon": 2.08432992,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24868,
-    "name": "PARC DE LA SOLIDARITAT",
-    "lat": 41.32249349,
-    "lon": 2.08575079,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24869,
-    "name": "ESCOLA GALILEO GALILEI",
-    "lat": 41.32336981,
-    "lon": 2.0875179,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24694,
-    "name": "ESCOLA RAMON LLULL",
-    "lat": 41.32241705,
-    "lon": 2.08870721,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24699,
-    "name": "AV. DEL REMOLAR - PIRINEUS",
-    "lat": 41.32045398,
-    "lon": 2.08986321,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
-    "id": 24871,
-    "name": "ENRIC BORRÀS - IGNASI IGLÉSIAS",
-    "lat": 41.33181004,
-    "lon": 2.09772575,
-    "buses": [
-      "690"
-    ],
-    "lineId": 690,
-    "zoneId": 0
-  },
-  {
     "id": 23866,
     "name": "CADAQUES,CORRAL D'EN MORELL",
     "lat": 42.298658,
@@ -39685,10 +39841,10 @@
     "zoneId": 0
   },
   {
-    "id": 24953,
+    "id": 24650,
     "name": "CAP RAMONA VIA",
-    "lat": 41.32855105649,
-    "lon": 2.101586399441,
+    "lat": 41.32819784,
+    "lon": 2.100812325,
     "buses": [
       "696"
     ],
@@ -39806,14 +39962,91 @@
     "zoneId": 0
   },
   {
-    "id": 25280,
-    "name": "C/ Esparza Bidea (C/ Camino Esquiroz)",
-    "lat": 42.787648,
-    "lon": -1.676235,
+    "id": 12640,
+    "name": "CALONGE, PAS. J.MUNDET / PL.CATALUNYA SANT. ANTONI",
+    "lat": 41.846131608619,
+    "lon": 3.1040239334106,
     "buses": [
-      "702"
+      "697"
     ],
-    "lineId": 702,
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 12642,
+    "name": "CALONGE, AV. TORRE VALENTINA, SANT ANTONI",
+    "lat": 41.840976,
+    "lon": 3.095512,
+    "buses": [
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 12661,
+    "name": "CALONGE, RACO CALES / CAMI RONDA",
+    "lat": 41.838202726519,
+    "lon": 3.0931663513184,
+    "buses": [
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 25090,
+    "name": "CALONGE,C.RAFAEL CASANOVAS/AVDA.ANDORRA",
+    "lat": 41.837292,
+    "lon": 3.087354,
+    "buses": [
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 25091,
+    "name": "CALONGE,AJUNTAMENT/CAP",
+    "lat": 41.861382,
+    "lon": 3.076169,
+    "buses": [
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 12648,
+    "name": "CALONGE,AV. MEDITERRANIA SANT ANTONI",
+    "lat": 41.84838,
+    "lon": 3.110756,
+    "buses": [
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 23859,
+    "name": "CALONGE,PASSEIG MUNDET 62",
+    "lat": 41.846981,
+    "lon": 3.106216,
+    "buses": [
+      "697"
+    ],
+    "lineId": 697,
+    "zoneId": 0
+  },
+  {
+    "id": 12681,
+    "name": "PALAFRUGELL, BARRIS I BUIXO",
+    "lat": 41.914196203014,
+    "lon": 3.168151426546,
+    "buses": [
+      "698"
+    ],
+    "lineId": 698,
     "zoneId": 0
   },
   {

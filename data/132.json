@@ -8,8 +8,8 @@
     "DESC_REDUCIDA": "BLOCS J.C.-J.PUJADES",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 415,
-    "FIN_TRAYECTO": 1345,
+    "INI_TRAYECTO": 410,
+    "FIN_TRAYECTO": 1370,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -531,7 +531,7 @@
     "PRINCIPAL": "S",
     "SENTIDO": "I",
     "INI_TRAYECTO": 420,
-    "FIN_TRAYECTO": 900,
+    "FIN_TRAYECTO": 941,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -1080,8 +1080,8 @@
     "DESC_REDUCIDA": "J.PUJADES-BLOCS J.C.",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 570,
-    "FIN_TRAYECTO": 1325,
+    "INI_TRAYECTO": 548,
+    "FIN_TRAYECTO": 1347,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {

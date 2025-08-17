@@ -8,8 +8,8 @@
     "DESC_REDUCIDA": "Villava",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 390,
-    "FIN_TRAYECTO": 1375,
+    "INI_TRAYECTO": 405,
+    "FIN_TRAYECTO": 1369,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -753,8 +753,8 @@
     "DESC_REDUCIDA": "Barañain",
     "PRINCIPAL": "N",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 411,
-    "FIN_TRAYECTO": 1365,
+    "INI_TRAYECTO": 477,
+    "FIN_TRAYECTO": 1380,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -1694,8 +1694,8 @@
     "DESC_REDUCIDA": "Oricáin",
     "PRINCIPAL": "N",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 510,
-    "FIN_TRAYECTO": 1158,
+    "INI_TRAYECTO": 504,
+    "FIN_TRAYECTO": 1174,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -2467,8 +2467,8 @@
     "DESC_REDUCIDA": "Barañain",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 385,
-    "FIN_TRAYECTO": 1395,
+    "INI_TRAYECTO": 389,
+    "FIN_TRAYECTO": 1375,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -2721,6 +2721,34 @@
         "SECUENCIA": 90,
         "ID_PARADA": 10911,
         "NKM_ORIGEN": 3.867,
+        "SUBE_BAJA": 1
+      },
+      {
+        "Parada": {
+          "DESC_PARADA": "Pza. de las Merindades, nº 1-2",
+          "COD_PARADA": 276,
+          "ID_GRUPO": 1,
+          "ID_PARADA": 11075,
+          "ID_MUNICIPIO": 443268,
+          "MUNICIPIO": "PAMPLONA/IRUÑA",
+          "EXPLOTADORA": "PAMPLONA",
+          "ID_ZONA": 0,
+          "ZONA": null,
+          "ID_EXPLOTADORA": 7,
+          "UTMX": 120748,
+          "UTMY": 4750738,
+          "LATITUD": 42.813408725926,
+          "LONGITUD": -1.6392607433825,
+          "ID_SUBZONA": null,
+          "SUBZONA": null,
+          "CONCESIONES": null
+        },
+        "ID_GRUPO": 1,
+        "ID_LINEA": 200,
+        "ID_TRAYECTO": 2,
+        "SECUENCIA": 95,
+        "ID_PARADA": 11075,
+        "NKM_ORIGEN": 4.1,
         "SUBE_BAJA": 1
       },
       {
@@ -3324,8 +3352,8 @@
     "DESC_REDUCIDA": "Arre",
     "PRINCIPAL": "N",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 420,
-    "FIN_TRAYECTO": 1311,
+    "INI_TRAYECTO": 435,
+    "FIN_TRAYECTO": 1321,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -4097,8 +4125,8 @@
     "DESC_REDUCIDA": "Barañain",
     "PRINCIPAL": "N",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 558,
-    "FIN_TRAYECTO": 1215,
+    "INI_TRAYECTO": 546,
+    "FIN_TRAYECTO": 1236,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -5039,7 +5067,7 @@
     "PRINCIPAL": "N",
     "SENTIDO": "V",
     "INI_TRAYECTO": 381,
-    "FIN_TRAYECTO": 1380,
+    "FIN_TRAYECTO": 1392,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -6007,8 +6035,8 @@
     "DESC_REDUCIDA": "Huarte",
     "PRINCIPAL": "N",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 405,
-    "FIN_TRAYECTO": 1388,
+    "INI_TRAYECTO": 390,
+    "FIN_TRAYECTO": 1381,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {

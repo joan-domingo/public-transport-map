@@ -8,8 +8,8 @@
     "DESC_REDUCIDA": "Funicular-ST. genis",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 1370,
-    "FIN_TRAYECTO": 1390,
+    "INI_TRAYECTO": 550,
+    "FIN_TRAYECTO": 1270,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -110,7 +110,7 @@
     "PRINCIPAL": "S",
     "SENTIDO": "I",
     "INI_TRAYECTO": 615,
-    "FIN_TRAYECTO": 1380,
+    "FIN_TRAYECTO": 1260,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -283,8 +283,8 @@
     "DESC_REDUCIDA": "D.ANDREU-KENNEDY",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 550,
-    "FIN_TRAYECTO": 1390,
+    "INI_TRAYECTO": 580,
+    "FIN_TRAYECTO": 1270,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {

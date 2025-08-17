@@ -664,7 +664,7 @@
     "TrayectosDet": [
       {
         "Parada": {
-          "DESC_PARADA": "CONCILI EGÀRENC",
+          "DESC_PARADA": "6578 CONCILI EGARENC",
           "COD_PARADA": 6578,
           "ID_GRUPO": 1,
           "ID_PARADA": 25064,
@@ -674,10 +674,10 @@
           "ID_ZONA": 0,
           "ZONA": null,
           "ID_EXPLOTADORA": 1,
-          "UTMX": 417422,
-          "UTMY": 4600870,
-          "LATITUD": 41.55342,
-          "LONGITUD": 2.00868,
+          "UTMX": 417420,
+          "UTMY": 4600862,
+          "LATITUD": 41.5533464,
+          "LONGITUD": 2.008663,
           "ID_SUBZONA": null,
           "SUBZONA": null,
           "CONCESIONES": null
@@ -1073,7 +1073,7 @@
       },
       {
         "Parada": {
-          "DESC_PARADA": "CONCILI EGÀRENC",
+          "DESC_PARADA": "6578 CONCILI EGARENC",
           "COD_PARADA": 6578,
           "ID_GRUPO": 1,
           "ID_PARADA": 25064,
@@ -1083,10 +1083,10 @@
           "ID_ZONA": 0,
           "ZONA": null,
           "ID_EXPLOTADORA": 1,
-          "UTMX": 417422,
-          "UTMY": 4600870,
-          "LATITUD": 41.55342,
-          "LONGITUD": 2.00868,
+          "UTMX": 417420,
+          "UTMY": 4600862,
+          "LATITUD": 41.5533464,
+          "LONGITUD": 2.008663,
           "ID_SUBZONA": null,
           "SUBZONA": null,
           "CONCESIONES": null
