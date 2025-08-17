@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { useShallow } from 'zustand/shallow';
 import { useBusStopSelection } from '../hooks/useBusStopSelection';
 import appStore from '../store/appStore';
+import { BusStopMarkers } from './BusStopMarkers';
 import { UserLocationMarker } from './UserLocationMarker';
-import ClusteredMarkers from './ClusteredMarkers';
 
 interface Props {
 	userLocation: { lat: number; lng: number };
@@ -48,11 +48,11 @@ const Map = ({ userLocation }: Props) => {
 				mapId="public-transport-map"
 				onDragstart={() => setIsDragging(true)}
 			>
-+				<ClusteredMarkers
-					busLineStops={busLineStops}
-					handleOnMarkerClick={handleOnMarkerClick}
-					openedBusStopMarker={openedBusStopMarker}
-					setOpenedBusStopMarker={setOpenedBusStopMarker}
+				<BusStopMarkers
+					stops={busLineStops}
+					selectedStopId={selectedStopId}
+					onStopClick={selectStop}
+					onCloseClick={clearSelection}
 				/>
 				{userLocation && <UserLocationMarker location={userLocation} />}
 			</GoogleMap>
