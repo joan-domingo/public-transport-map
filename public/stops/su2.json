@@ -505,6 +505,34 @@
   },
   {
     "Parada": {
+      "DESC_PARADA": "5010 - L'ESCOLETA (IES PERE CALDERS)",
+      "COD_PARADA": 5010,
+      "ID_GRUPO": 1,
+      "ID_PARADA": 25365,
+      "ID_MUNICIPIO": 447068,
+      "MUNICIPIO": "CERDANYOLA DEL VALLES",
+      "EXPLOTADORA": "SARBUS",
+      "ID_ZONA": 0,
+      "ZONA": null,
+      "ID_EXPLOTADORA": 1,
+      "UTMX": 425216,
+      "UTMY": 4595519,
+      "LATITUD": 41.50599,
+      "LONGITUD": 2.1028,
+      "ID_SUBZONA": null,
+      "SUBZONA": null,
+      "CONCESIONES": null
+    },
+    "ID_GRUPO": 1,
+    "ID_LINEA": 34,
+    "ID_TRAYECTO": 3,
+    "SECUENCIA": 190,
+    "ID_PARADA": 25365,
+    "NKM_ORIGEN": 11,
+    "SUBE_BAJA": 1
+  },
+  {
+    "Parada": {
       "DESC_PARADA": "UAB CIÈNCIES EDUCACIÓ",
       "COD_PARADA": 5554,
       "ID_GRUPO": 1,
@@ -526,7 +554,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 190,
+    "SECUENCIA": 200,
     "ID_PARADA": 5554,
     "NKM_ORIGEN": 11.185,
     "SUBE_BAJA": 1
@@ -554,7 +582,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 200,
+    "SECUENCIA": 210,
     "ID_PARADA": 5765,
     "NKM_ORIGEN": 12.37,
     "SUBE_BAJA": 1
@@ -582,7 +610,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 210,
+    "SECUENCIA": 220,
     "ID_PARADA": 5831,
     "NKM_ORIGEN": 13.09,
     "SUBE_BAJA": 1
@@ -610,7 +638,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 220,
+    "SECUENCIA": 230,
     "ID_PARADA": 5832,
     "NKM_ORIGEN": 13.77,
     "SUBE_BAJA": 1
@@ -638,7 +666,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 230,
+    "SECUENCIA": 240,
     "ID_PARADA": 5833,
     "NKM_ORIGEN": 14.745,
     "SUBE_BAJA": 1
@@ -666,7 +694,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 240,
+    "SECUENCIA": 250,
     "ID_PARADA": 5834,
     "NKM_ORIGEN": 15.625,
     "SUBE_BAJA": 1
@@ -694,7 +722,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 250,
+    "SECUENCIA": 260,
     "ID_PARADA": 5835,
     "NKM_ORIGEN": 16.185,
     "SUBE_BAJA": 1
@@ -722,7 +750,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 260,
+    "SECUENCIA": 270,
     "ID_PARADA": 10750,
     "NKM_ORIGEN": 16.585,
     "SUBE_BAJA": 1
@@ -750,7 +778,7 @@
     "ID_GRUPO": 1,
     "ID_LINEA": 34,
     "ID_TRAYECTO": 3,
-    "SECUENCIA": 270,
+    "SECUENCIA": 280,
     "ID_PARADA": 5836,
     "NKM_ORIGEN": 17.389,
     "SUBE_BAJA": 1

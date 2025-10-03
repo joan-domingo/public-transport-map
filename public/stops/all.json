@@ -1772,83 +1772,6 @@
     "zoneId": 0
   },
   {
-    "id": 6040,
-    "name": "CTRA. DE BARCELONA /C. DE TIANA",
-    "lat": 41.4949,
-    "lon": 2.14609,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 4870,
-    "name": "DR. MORAGAS/RDA. DE L´EST",
-    "lat": 41.513468440878,
-    "lon": 2.1251223710379,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 4860,
-    "name": "C. URGELL/RDA. DE CATALUNYA",
-    "lat": 41.511101742856,
-    "lon": 2.1222207738065,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 4850,
-    "name": "AV. COSTA BRAVA,7",
-    "lat": 41.507106486665,
-    "lon": 2.1188572877415,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 5931,
-    "name": "AV. MEDITERRANI, 30",
-    "lat": 41.506149495086,
-    "lon": 2.1127113371523,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 5400,
-    "name": "C. BÈTICA (CAP)",
-    "lat": 41.507905861601,
-    "lon": 2.1115370194165,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
-    "id": 115,
-    "name": "AV. BURGOS (AJUNTAMENT)",
-    "lat": 41.508990791367,
-    "lon": 2.1143980742787,
-    "buses": [
-      "b4"
-    ],
-    "lineId": 22,
-    "zoneId": 0
-  },
-  {
     "id": 12566,
     "name": "C. DELS INFANTS/C. PORTO",
     "lat": 41.510237827341,
@@ -1919,6 +1842,83 @@
     "name": "CTRA. DE BARCELONA/C. DE SANT QUINTÍ",
     "lat": 41.493997155996,
     "lon": 2.1470444871642,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 6040,
+    "name": "CTRA. DE BARCELONA /C. DE TIANA",
+    "lat": 41.4949,
+    "lon": 2.14609,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4870,
+    "name": "DR. MORAGAS/RDA. DE L´EST",
+    "lat": 41.513468440878,
+    "lon": 2.1251223710379,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4860,
+    "name": "C. URGELL/RDA. DE CATALUNYA",
+    "lat": 41.511101742856,
+    "lon": 2.1222207738065,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 4850,
+    "name": "AV. COSTA BRAVA,7",
+    "lat": 41.507106486665,
+    "lon": 2.1188572877415,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 5931,
+    "name": "AV. MEDITERRANI, 30",
+    "lat": 41.506149495086,
+    "lon": 2.1127113371523,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 5400,
+    "name": "C. BÈTICA (CAP)",
+    "lat": 41.507905861601,
+    "lon": 2.1115370194165,
+    "buses": [
+      "b4"
+    ],
+    "lineId": 22,
+    "zoneId": 0
+  },
+  {
+    "id": 115,
+    "name": "AV. BURGOS (AJUNTAMENT)",
+    "lat": 41.508990791367,
+    "lon": 2.1143980742787,
     "buses": [
       "b4"
     ],
@@ -2873,6 +2873,17 @@
     "name": "VALENCIA/CATALUNYA",
     "lat": 41.480144222302,
     "lon": 2.1350330048686,
+    "buses": [
+      "su2"
+    ],
+    "lineId": 34,
+    "zoneId": 0
+  },
+  {
+    "id": 25365,
+    "name": "5010 - L'ESCOLETA (IES PERE CALDERS)",
+    "lat": 41.50599,
+    "lon": 2.1028,
     "buses": [
       "su2"
     ],
