@@ -35,17 +35,8 @@ export const SimpleBusStopMarkers = ({
 				return;
 			}
 
-			// More generous marker limits based on zoom level
-			const maxMarkers =
-				zoom < 10
-					? 50
-					: zoom < 12
-						? 200
-						: zoom < 14
-							? 500
-							: zoom < 16
-								? 1000
-								: 2000;
+			// Reduced marker limits for better performance
+			const maxMarkers = 200;
 
 			// Expand bounds by 20% to include markers slightly outside viewport
 			const ne = bounds.getNorthEast();
@@ -76,7 +67,68 @@ export const SimpleBusStopMarkers = ({
 				? stops.find((s) => s.id === selectedStopId)
 				: null;
 
-			let filteredStops = stopsInViewport.slice(0, maxMarkers);
+			// Spatial distribution: divide viewport into grid and select stops from each cell
+			const gridSize = Math.max(1, Math.ceil(Math.sqrt(maxMarkers / 4))); // Adjust grid density based on marker limit
+			const latStep = latSpan / gridSize;
+			const lngStep = lngSpan / gridSize;
+
+			const gridCells: BusStop[][] = Array.from(
+				{ length: gridSize * gridSize },
+				() => [],
+			);
+
+			// Distribute stops into grid cells
+			for (const stop of stopsInViewport) {
+				const latIndex = Math.max(
+					0,
+					Math.min(Math.floor((stop.lat - sw.lat()) / latStep), gridSize - 1),
+				);
+				const lngIndex = Math.max(
+					0,
+					Math.min(Math.floor((stop.lon - sw.lng()) / lngStep), gridSize - 1),
+				);
+				const cellIndex = latIndex * gridSize + lngIndex;
+
+				// Additional safety check
+				if (
+					cellIndex >= 0 &&
+					cellIndex < gridCells.length &&
+					gridCells[cellIndex]
+				) {
+					gridCells[cellIndex].push(stop);
+				}
+			}
+
+			// Select stops from each cell to ensure even distribution
+			const maxStopsPerCell = Math.ceil(maxMarkers / (gridSize * gridSize));
+			let filteredStops: BusStop[] = [];
+
+			for (let i = 0; i < gridCells.length; i++) {
+				const cellStops = gridCells[i];
+				if (cellStops.length > 0) {
+					// Sort by distance to cell center for better selection
+					const cellCenterLat =
+						sw.lat() + (Math.floor(i / gridSize) + 0.5) * latStep;
+					const cellCenterLng = sw.lng() + ((i % gridSize) + 0.5) * lngStep;
+
+					const sortedCellStops = cellStops
+						.map((stop) => ({
+							stop,
+							distance: Math.sqrt(
+								(stop.lat - cellCenterLat) ** 2 +
+									(stop.lon - cellCenterLng) ** 2,
+							),
+						}))
+						.sort((a, b) => a.distance - b.distance)
+						.slice(0, maxStopsPerCell)
+						.map((item) => item.stop);
+
+					filteredStops.push(...sortedCellStops);
+				}
+			}
+
+			// Ensure we don't exceed the total limit
+			filteredStops = filteredStops.slice(0, maxMarkers);
 
 			// Ensure selected stop is included
 			if (selectedStop && !filteredStops.includes(selectedStop)) {
@@ -86,13 +138,13 @@ export const SimpleBusStopMarkers = ({
 				];
 			}
 
-			// Fallback: if we have very few markers, show more from the general area
-			if (filteredStops.length < 20 && zoom >= 14) {
+			// Fallback: if we have very few markers, show more from the general area using spatial distribution
+			if (filteredStops.length < Math.min(20, maxMarkers * 0.5) && zoom >= 14) {
 				const center = bounds.getCenter();
 				const centerLat = center.lat();
 				const centerLng = center.lng();
 
-				// Simple distance calculation (Euclidean distance for performance)
+				// Get nearby stops with distance calculation
 				const nearbyStops = stops
 					.map((stop) => ({
 						stop,
@@ -101,17 +153,66 @@ export const SimpleBusStopMarkers = ({
 						),
 					}))
 					.sort((a, b) => a.distance - b.distance)
-					.slice(0, Math.min(100, maxMarkers))
+					.slice(0, Math.min(maxMarkers * 2, 200)) // Get more candidates for better distribution
 					.map((item) => item.stop);
 
-				// Merge with existing, avoiding duplicates
-				const combined = [...filteredStops];
+				// Apply grid distribution to nearby stops as well
+				const fallbackGridSize = Math.max(
+					1,
+					Math.ceil(Math.sqrt(maxMarkers / 2)),
+				);
+				const fallbackLatStep = (latSpan * 2) / fallbackGridSize; // Larger area for fallback
+				const fallbackLngStep = (lngSpan * 2) / fallbackGridSize;
+
+				const fallbackGridCells: BusStop[][] = Array.from(
+					{ length: fallbackGridSize * fallbackGridSize },
+					() => [],
+				);
+
 				for (const stop of nearbyStops) {
-					if (!combined.find((s) => s.id === stop.id)) {
-						combined.push(stop);
-						if (combined.length >= maxMarkers) break;
+					const latIndex = Math.max(
+						0,
+						Math.min(
+							Math.floor((stop.lat - (centerLat - latSpan)) / fallbackLatStep),
+							fallbackGridSize - 1,
+						),
+					);
+					const lngIndex = Math.max(
+						0,
+						Math.min(
+							Math.floor((stop.lon - (centerLng - lngSpan)) / fallbackLngStep),
+							fallbackGridSize - 1,
+						),
+					);
+					const cellIndex = latIndex * fallbackGridSize + lngIndex;
+
+					// Additional safety check
+					if (
+						cellIndex >= 0 &&
+						cellIndex < fallbackGridCells.length &&
+						fallbackGridCells[cellIndex]
+					) {
+						fallbackGridCells[cellIndex].push(stop);
 					}
 				}
+
+				// Merge with existing, avoiding duplicates and maintaining spatial distribution
+				const combined = [...filteredStops];
+				const maxStopsPerFallbackCell = Math.ceil(
+					(maxMarkers - filteredStops.length) /
+						(fallbackGridSize * fallbackGridSize),
+				);
+
+				for (const cellStops of fallbackGridCells) {
+					if (cellStops.length > 0 && combined.length < maxMarkers) {
+						const stopsToAdd = cellStops
+							.slice(0, maxStopsPerFallbackCell)
+							.filter((stop) => !combined.find((s) => s.id === stop.id));
+
+						combined.push(...stopsToAdd.slice(0, maxMarkers - combined.length));
+					}
+				}
+
 				filteredStops = combined;
 			}
 
