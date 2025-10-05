@@ -8,8 +8,8 @@
     "DESC_REDUCIDA": "Orkoien",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 405,
-    "FIN_TRAYECTO": 1350,
+    "INI_TRAYECTO": 395,
+    "FIN_TRAYECTO": 1380,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -641,8 +641,8 @@
     "DESC_REDUCIDA": "Beloso Alto",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 405,
-    "FIN_TRAYECTO": 1350,
+    "INI_TRAYECTO": 390,
+    "FIN_TRAYECTO": 1370,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {

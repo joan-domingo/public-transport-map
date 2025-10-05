@@ -8,8 +8,8 @@
     "DESC_REDUCIDA": "Zizur Mayor",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 383,
-    "FIN_TRAYECTO": 1365,
+    "INI_TRAYECTO": 381,
+    "FIN_TRAYECTO": 1383,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
@@ -809,8 +809,8 @@
     "DESC_REDUCIDA": "Sarrigure",
     "PRINCIPAL": "S",
     "SENTIDO": "I",
-    "INI_TRAYECTO": 390,
-    "FIN_TRAYECTO": 1370,
+    "INI_TRAYECTO": 387,
+    "FIN_TRAYECTO": 1379,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {

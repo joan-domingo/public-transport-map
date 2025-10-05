@@ -8,8 +8,8 @@
     "DESC_REDUCIDA": "San Ignacio",
     "PRINCIPAL": "S",
     "SENTIDO": "V",
-    "INI_TRAYECTO": 400,
-    "FIN_TRAYECTO": 1350,
+    "INI_TRAYECTO": 410,
+    "FIN_TRAYECTO": 1365,
     "ID_TRAYECTO_CONCAT": null,
     "TrayectosDet": [
       {
