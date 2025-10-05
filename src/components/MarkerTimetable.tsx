@@ -1,5 +1,5 @@
 import type { CustomBusLineTimetable } from '../types/customTimetable';
-import { busLineIdColor } from '../utils/lineColor';
+import busLineData from '../utils/busLineData.json';
 
 interface Props {
 	selectedStopTimetable: CustomBusLineTimetable[];
@@ -49,7 +49,12 @@ const MarkerTimetable = ({
 						>
 							<div
 								className="font-bold py-1"
-								style={{ color: busLineIdColor[stop.lineId] }}
+								style={{
+									color:
+										busLineData[
+											stop.lineId.toString() as keyof typeof busLineData
+										]?.color || 'black',
+								}}
 							>
 								{stop.lineName}
 							</div>

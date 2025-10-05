@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useShallow } from 'zustand/shallow';
 import { useBusStopSelection } from '../hooks/useBusStopSelection';
 import appStore from '../store/appStore';
-import { BusStopMarkers } from './BusStopMarkers';
+import { SimpleBusStopMarkers } from './SimpleBusStopMarkers';
 import { UserLocationMarker } from './UserLocationMarker';
 
 interface Props {
@@ -21,6 +21,7 @@ const Map = ({ userLocation }: Props) => {
 
 	const { selectedStopId, selectStop, clearSelection } = useBusStopSelection();
 	const [isDragging, setIsDragging] = useState(false);
+	const [zoom, setZoom] = useState(15);
 
 	useEffect(() => {
 		const handleVisibilityChange = () => {
@@ -43,12 +44,14 @@ const Map = ({ userLocation }: Props) => {
 				defaultCenter={userLocation}
 				center={isDragging ? undefined : userLocation}
 				defaultZoom={15}
+				zoom={zoom}
+				onZoomChanged={(event) => setZoom(event.detail.zoom)}
 				gestureHandling={'greedy'}
 				disableDefaultUI={true}
 				mapId="public-transport-map"
 				onDragstart={() => setIsDragging(true)}
 			>
-				<BusStopMarkers
+				<SimpleBusStopMarkers
 					stops={busLineStops}
 					selectedStopId={selectedStopId}
 					onStopClick={selectStop}
@@ -60,6 +63,7 @@ const Map = ({ userLocation }: Props) => {
 				className="absolute bottom-0 right-0 bg-white border-2 border-gray-400 cursor-pointer flex items-center justify-center m-9 mr-6 p-3 rounded-full"
 				onClick={() => {
 					setIsDragging(false);
+					setZoom(18);
 				}}
 			>
 				<img
