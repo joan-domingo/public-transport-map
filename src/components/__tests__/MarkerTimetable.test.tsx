@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import type { CustomBusLineTimetable } from '../../types/customTimetable';
 import MarkerTimetable from '../MarkerTimetable';
 
@@ -84,7 +84,7 @@ describe('MarkerTimetable', () => {
 	});
 
 	test('shows no buses message when empty timetable', () => {
-		const { getByText } = render(
+		render(
 			<MarkerTimetable
 				selectedStopTimetable={[]}
 				isLoading={false}
@@ -93,11 +93,11 @@ describe('MarkerTimetable', () => {
 			/>,
 		);
 
-		expect(getByText('Cap autobús previst properament.')).toBeVisible();
+		expect(screen.getByText('Cap autobús previst properament.')).toBeVisible();
 	});
 
 	test('renders timetable data correctly', () => {
-		const { getByText, getAllByText, container } = render(
+		render(
 			<MarkerTimetable
 				selectedStopTimetable={mockTimetableData}
 				isLoading={false}
@@ -108,22 +108,22 @@ describe('MarkerTimetable', () => {
 
 		// Check line names are displayed
 		expect(
-			getByText('A4 - A4-SANT CUGAT DEL VALLÈS - BARCELONA'),
+			screen.getByText('A4 - A4-SANT CUGAT DEL VALLÈS - BARCELONA'),
 		).toBeVisible();
-		expect(getByText('B2 - B2-SABADELL - RIPOLLET')).toBeVisible();
+		expect(screen.getByText('B2 - B2-SABADELL - RIPOLLET')).toBeVisible();
 
 		// Check bus times are displayed
-		expect(getByText('14 min 19 seg')).toBeVisible();
-		expect(getByText('25 min 30 seg')).toBeVisible();
-		expect(getByText('06 min 48 seg')).toBeVisible();
+		expect(screen.getByText('14 min 19 seg')).toBeVisible();
+		expect(screen.getByText('25 min 30 seg')).toBeVisible();
+		expect(screen.getByText('06 min 48 seg')).toBeVisible();
 
 		// Check destinations are displayed (there are multiple "Barcelona" destinations)
-		const barcelonaDestinations = getAllByText('- Direcció Barcelona');
+		const barcelonaDestinations = screen.getAllByText('- Direcció Barcelona');
 		expect(barcelonaDestinations).toHaveLength(2);
 		expect(barcelonaDestinations[0]).toBeVisible();
 		expect(barcelonaDestinations[1]).toBeVisible();
 
-		expect(getByText('- Direcció Ripollet pel Taulí')).toBeVisible();
+		expect(screen.getByText('- Direcció Ripollet pel Taulí')).toBeVisible();
 	});
 
 	test('applies alternating background colors', () => {
