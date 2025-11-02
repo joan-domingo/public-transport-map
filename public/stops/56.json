@@ -533,34 +533,6 @@
   },
   {
     "Parada": {
-      "DESC_PARADA": "C. ARTESA DE SEGRE / CTRA. VERGE DE NÚRIA",
-      "COD_PARADA": 3390,
-      "ID_GRUPO": 1,
-      "ID_PARADA": 7035,
-      "ID_MUNICIPIO": 447115,
-      "MUNICIPIO": "MASNOU, EL",
-      "EXPLOTADORA": "CASAS",
-      "ID_ZONA": 0,
-      "ZONA": null,
-      "ID_EXPLOTADORA": 3,
-      "UTMX": 443378,
-      "UTMY": 4593028,
-      "LATITUD": 41.48795,
-      "LONGITUD": 2.32243,
-      "ID_SUBZONA": null,
-      "SUBZONA": null,
-      "CONCESIONES": null
-    },
-    "ID_GRUPO": 1,
-    "ID_LINEA": 56,
-    "ID_TRAYECTO": 5,
-    "SECUENCIA": 200,
-    "ID_PARADA": 7035,
-    "NKM_ORIGEN": 6.561,
-    "SUBE_BAJA": 1
-  },
-  {
-    "Parada": {
       "DESC_PARADA": "LA PLANA",
       "COD_PARADA": 8967,
       "ID_GRUPO": 1,

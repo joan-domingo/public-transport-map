@@ -222,33 +222,5 @@
     "ID_PARADA": 11665,
     "NKM_ORIGEN": 8.4,
     "SUBE_BAJA": 1
-  },
-  {
-    "Parada": {
-      "DESC_PARADA": "SOT DEL CAMP",
-      "COD_PARADA": 3418,
-      "ID_GRUPO": 1,
-      "ID_PARADA": 7235,
-      "ID_MUNICIPIO": 82649,
-      "MUNICIPIO": "SANT VICENÇ DE MONTALT",
-      "EXPLOTADORA": "CASAS",
-      "ID_ZONA": 0,
-      "ZONA": null,
-      "ID_EXPLOTADORA": 3,
-      "UTMX": 459669,
-      "UTMY": 4602284,
-      "LATITUD": 41.5694,
-      "LONGITUD": 2.51515,
-      "ID_SUBZONA": null,
-      "SUBZONA": null,
-      "CONCESIONES": null
-    },
-    "ID_GRUPO": 1,
-    "ID_LINEA": 67,
-    "ID_TRAYECTO": 13,
-    "SECUENCIA": 90,
-    "ID_PARADA": 7235,
-    "NKM_ORIGEN": 8,
-    "SUBE_BAJA": 1
   }
 ]
